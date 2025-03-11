@@ -1,0 +1,425 @@
+"use client";
+import Modal2 from '@/components/ui/bruno/modal2';
+import Map from '@/components/ui/bruno/map'
+import { Button, Card, CardBody, Divider, Tab, Tabs, Image as Img2 } from '@nextui-org/react';
+import dynamic from 'next/dynamic';
+import Image from 'next/image';
+import React, { useState } from "react";
+import { FaHandsHelping, FaRegLightbulb, FaStar, FaUserGraduate, FaUsers, FaUserTie } from 'react-icons/fa';
+import { GiEyeShield, GiTeacher } from "react-icons/gi";
+import { GrDocumentPdf } from 'react-icons/gr';
+import { IoDocumentText, IoDocumentTextSharp, IoMail } from "react-icons/io5";
+import 'aos/dist/aos.css'; // Importa los estilos de AOS
+import AOS from 'aos'; // Importa AOS
+import { useEffect } from 'react';
+import { log } from 'console';
+import Modal3 from '@/components/ui/bruno/modal3';
+import { MdOutlineScreenSearchDesktop } from 'react-icons/md';
+import { FcBusinessman, FcConferenceCall } from 'react-icons/fc';
+import CarruselNosotros from '@/components/ui/bruno/carruselNosotros';
+import CountUp from 'react-countup';
+import { PiStudentFill } from 'react-icons/pi';
+import { LiaCertificateSolid } from 'react-icons/lia';
+
+
+
+
+export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Duración de las animaciones
+      once: true, // Si la animación se ejecuta solo una vez
+      mirror: false, // Si las animaciones se deben volver a ejecutar al hacer scroll hacia arriba
+      // delay: 500,
+      // startEvent: 'load'  
+    });
+  }, []);
+  const [activeContent, setActiveContent] = useState('default');
+  const [showModal, setShowModal] = useState(false);
+  const [selected, setSelected] = useState("photos"); // Define el estado para la pestaña seleccionada
+  const Carrusel = dynamic(() => import('@/components/ui/bruno/carrusel'), {
+    ssr: false,
+  });
+
+  // Define el tipo Key si está disponible
+  type Key = string | number;
+
+  // Función manejadora del cambio de selección
+  const handleSelectionChange = (key: Key) => {
+    setSelected(key.toString());
+  };
+
+  return (
+    <main className="flex flex-col items-center  ">
+      <section className="w-full relative h-[90vh] max-lg:h-[60vh]">
+        {/* Video de fondo */}
+        <div className="absolute inset-0 z-0 block max-md:hidden">
+          <video
+            src="/Multimedia/Video/VIDEO INSTITUCIONAL.mp4"
+            autoPlay
+            muted
+            loop
+            className="w-full h-full object-cover"
+          />
+        </div>
+
+        {/* Imagen CURVA detrás del texto */}
+        <div className="absolute inset-0 z-10">
+          <img src="/Multimedia/Imagen/relleno/CURVA.svg" alt="Curva" className=" max-xl:w-full w-[60%] h-full object-cover block max-md:hidden" />
+        </div>
+
+        {/* Contenedor principal con logo y texto */}
+        <div className="relative z-20 w-[25%] max-lg:w-[35%] max-md:w-full h-full flex flex-col gap-6 justify-center items-start max-md:items-center pl-20 max-xl:p-8" data-aos="fade-right">
+
+          {/* Logo */}
+          <div className="flex flex-col-reverse justify-start items-start max-sm:justify-center gap-4">
+            <img
+              src="/Multimedia/Imagen/logos/CCDLOGOWHITE.png"
+              className="w-[80%] h-[80%] max-2xl:w-[14rem] max-2xl:h-[14rem] rounded-full"
+              alt="CCD Logo"
+            />
+          </div>
+
+          {/* Texto sobre la imagen CURVA */}
+          <p className="text-left max-md:text-center max-sm:text-xl max-xl:text-xl max-2xl:text-2xl text-3xl font-bold text-white pr-6 max-sm:pr-0">
+            Certificación internacional online y asincrónica, avalada por expertos para impulsar tu carrera.
+          </p>
+
+          {/* Sección de países */}
+          <div className="w-full flex flex-col gap-14">
+            <div className="flex flex-col gap-6 justify-center items-center">
+              <h1 className="text-[var(--color-neutral)] text-xl font-bold">
+                Nos prefieren en +7 países
+              </h1>
+              <div className="w-full grid grid-cols-7 max-xl:grid-cols-4 gap-2 items-center justify-center">
+                <Img2
+                  removeWrapper
+                  alt="Bandera de Perú"
+                  className="rounded-none"
+                  height={30}
+                  width={40}
+                  src="/Multimedia/Imagen/banderas/per.svg"
+                />
+                <Img2
+                  removeWrapper
+                  alt="Bandera de Chile"
+                  className="rounded-none"
+                  height={30}
+                  width={40}
+                  src="/Multimedia/Imagen/banderas/chl.svg"
+                />
+                <Img2
+                  removeWrapper
+                  alt="Bandera de Argentina"
+                  className="rounded-none"
+                  height={30}
+                  width={40}
+                  src="/Multimedia/Imagen/banderas/arg.svg"
+                />
+                <Img2
+                  removeWrapper
+                  alt="Bandera de México"
+                  className="rounded-none"
+                  height={30}
+                  width={40}
+                  src="/Multimedia/Imagen/banderas/mex.svg"
+                />
+                <Img2
+                  removeWrapper
+                  alt="Bandera de Venezuela"
+                  className="rounded-none"
+                  height={30}
+                  width={40}
+                  src="/Multimedia/Imagen/banderas/ven.svg"
+                />
+                <Img2
+                  removeWrapper
+                  alt="Bandera de Paraguay"
+                  className="rounded-none"
+                  height={30}
+                  width={40}
+                  src="/Multimedia/Imagen/banderas/pry.svg"
+                />
+                <Img2
+                  removeWrapper
+                  alt="Bandera de Ecuador"
+                  className="rounded-none"
+                  height={30}
+                  width={40}
+                  src="/Multimedia/Imagen/banderas/ecu.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section className="w-full h-full  py-4 pt-12 flex flex-col justify-center gap-8 max-sm:hidden" data-aos="fade-right">
+        <div data-aos="zoom-out-right" className='flex gap-2 justify-center  items-center text-white'>
+        <h1 className='text-center'>
+            <span className=" text-4xl text-white font-extrabold">Nuestro </span>
+            <span className='text-4xl text-white '>Alca</span>
+            <span className='text-4xl underline text-white  decoration-[white] decoration-4 underline-offset-4'>nce</span>
+          </h1>
+        </div>
+        <div className="w-[85%] h-full grid grid-cols-4 max-xl:grid-cols-2  max-xl:gap-4 justify-center items-center mx-auto ">
+          <div className='w-full flex justify-center'>
+            <div className="h-[9rem] w-[16rem] bg-white/20 shadow-xl rounded-2xl   flex justify-center items-center">
+
+
+              <span className="text-white text-xl flex flex-col justify-center items-center gap-1">
+                <CountUp end={5} prefix="+" className="text-white text-2xl font-extrabold" />
+                <Divider />
+                <div className='flex  justify-center items-center gap-2'>
+                  <FaStar className='text-white text-xl' />
+                  <span className='text-xl'>Años</span>
+                </div>
+              </span>
+
+
+            </div>
+          </div>
+
+          <div className='w-full flex justify-center'>
+            <div className="h-[9rem] w-[16rem] b bg-white/20  shadow-xl rounded-2xl   flex justify-center items-center ">
+
+              <span className="text-white text-xl flex flex-col justify-center items-center gap-1">
+                <CountUp end={20000} prefix="+" className="text-white text-2xl font-extrabold" />
+                <Divider />
+                <div className='flex  justify-center items-center gap-2'>
+                  <PiStudentFill className='text-white text-xl' />
+                  <span className='text-xl'>Alumnos</span>
+                </div>
+              </span>
+            </div>
+
+          </div>
+
+          <div className='w-full flex justify-center'>
+            <div className="h-[9rem] w-[16rem] bg-white/20 shadow-xl rounded-2xl   flex justify-center items-center">
+
+              <span className="text-white text-xl flex flex-col justify-center items-center gap-1">
+                <CountUp end={150} prefix="+" className="text-white text-2xl font-extrabold" />
+                <Divider />
+                <div className='flex  justify-center items-center gap-2'>
+                  <LiaCertificateSolid className='text-white text-xl' />
+                  <span className='text-[1rem]'>Certificaciones</span>
+                </div>
+              </span>
+            </div>
+
+          </div>
+
+          <div className='w-full flex justify-center'>
+            <div className="h-[9rem] w-[16rem] bg-white/20 shadow-xl rounded-2xl   flex justify-center items-center">
+
+              <span className="text-black text-xl flex flex-col justify-center items-center gap-1">
+                <CountUp end={200} prefix="+" className="text-white text-2xl font-extrabold" />
+                <Divider />
+                <div className='flex  justify-center items-center gap-2'>
+                  <GiTeacher className='text-white text-xl' />
+                  <span className='text-xl text-white'>Docentes</span>
+                </div>
+              </span>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+      <section className="w-full h-full py-8 text-white">
+        <div className="w-[90%] lg:w-[80%] mx-auto grid grid-cols-2 max-2xl:grid-cols-1 gap-10 justify-center items-center px-[1rem] max-sm:h-full">
+          <div className="w-full  h-[20rem] flex justify-center">
+            <div className="bg-white/20 flex flex-col justify-center gap-4 w-full h-auto p-10 max-sm:p-4 rounded-2xl" data-aos="fade-right">
+              <div className="flex gap- justify-center lg:justify-normal items-center">
+                <span className="text-2xl sm:text-3xl lg:text-4xl font-bold">
+                  Sobre <span className="text-2xl sm:text-3xl lg:text-4xl font-bold">Nosotros</span>
+                </span>
+              </div>
+              <p className='text-lg'>
+               <b className='text-xl'> Centro de Capacitación y Desarrollo (CCD)</b>, somos la institución líder
+                en capacitación en Perú. Contamos con docentes y profesionales de
+                alto nivel, comprometidos con la excelencia y el trabajo. Ofrecemos
+                cursos y diplomas especializados, con programas In-house para
+                empresas, respaldados por certificaciones nacionales e internacionales,
+                para brindar capacitación de alta calidad.
+              </p>
+            </div>
+          </div>
+
+          <div className='flex justify-center'>
+            <div className="w-full  h-[20rem] flex  max-sm:hidden" data-aos="fade-left">
+              <video
+                autoPlay
+                loop
+                controls
+                muted
+                className='rounded-2xl w-full h-full object-cover '
+              >
+                <source src="/Multimedia/Video/cddnosotros.mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+
+
+
+      </section>
+
+
+
+      <section className="w-full py-6 ">
+        <div className='w-[70%] h-full flex justify-center items-center py-6 mx-auto'>
+          <h1 className='text-center'>
+            <span className=" text-4xl text-white font-extrabold">Nuestro </span>
+            <span className='text-4xl text-white '> Compromiso y Propós</span>
+            <span className='text-4xl underline text-white  decoration-[white] decoration-4 underline-offset-4'>ito</span>
+          </h1>
+        </div>
+        <div className="w-[70%] max-xl:w-[80%] max-sm:w-[95%] mx-auto grid grid-cols-1 px-[1rem]">
+          <div data-aos="zoom-in" className=" w-full ">
+            <Tabs
+              aria-label="Options"
+              selectedKey={selected}
+              onSelectionChange={handleSelectionChange}
+              // className='flex justify-center '
+              color='secondary'
+              variant='bordered'
+              classNames={{
+                "base": " flex justify-center items-center text-red-500 !bg-transparent",
+                "cursor": "bg-white/20 text-white ",
+                "tabContent": "!text-white !bg-transparent",
+                "tab": "!text-blue-900 !bg-transparent",
+                "wrapper": "text-blue-500 !bg-transparent",
+                "panel": "text-yellow-500 !bg-transparent",
+                "tabList": "text-green-500 !bg-transparent",
+
+              }}
+            >
+              <Tab key="photos" className='p-6 '
+
+                title={<div className="flex items-center space-x-2">
+                  <GiEyeShield />
+                  <span>VISIÓN</span>
+                </div>}>
+                <Card className='bg-white/20  '>
+                  <CardBody className='flex flex-col lg:flex-row gap-8 justify-center p-10'>
+                    <div className='flex-1 flex flex-col gap-4 justify-center items-center text-white'>
+                      <div className='flex gap-2 items-center'>
+                        <Image src="/Multimedia/Imagen/Iconos/eye.svg" className='h-10 w-10 text-[#027FE8]' alt='' width={300} height={0} />
+                        <h1 className='font-bold text-4xl max-xl:text-5xl py-2 max-sm:text-2xl'>VISIÓN</h1>
+                      </div>
+                      <p className='max-sm:text-xs text-2xl text-center'>
+                        Ser la institución académica líder de educación continua que contribuye en la formación de los profesionales de primer nivel que permite satisfacer los requerimientos del mercado laboral competitivo.                      </p>
+                    </div>
+
+                    <div className=''>
+                      <img
+                        src="/Multimedia/Imagen/VISION.jpg"
+                        alt=""
+                        className='w-full h-full rounded-2xl object-cover transition duration-300 ease-in-out transform hover:scale-105'
+                      />
+                    </div>
+                  </CardBody>
+                </Card>
+              </Tab>
+              <Tab key="music" className='p-6'
+                title={<div className="flex items-center space-x-2">
+                  <FaRegLightbulb />
+                  <span>MISIÓN</span>
+                </div>}>
+                <Card className='  bg-white/20  '>
+                  <CardBody className='flex flex-col-reverse lg:flex-row-reverse gap-8 justify-center p-10'>
+                    <div className='flex-1 flex flex-col gap-4 justify-center items-center text-white'>
+                      <div className='flex gap-2 items-center'>
+                        <Image src="/Multimedia/Imagen/Iconos/light-bulb.svg" className='h-[2rem] w-[2rem] text-[#027FE8] ' alt='' width={300} height={0} />
+                        <h1 className='font-bold text-3xl max-sm:text-2xl lg:text-4xl'>MISIÓN</h1>
+                      </div>
+                      <p className='max-sm:text-xs text-2xl text-center'>Formar profesionales líderes , brindando un aprendizaje de calidad que promueva el desarrollo de las personas  y las organizaciones , adaptándonos a sus necesidades y cooperando para alcanzar sus metas profesionales.
+                      </p>
+                    </div>
+                    <div className=''>
+                      <Image src="/Multimedia/Imagen/MISION.jpg"
+                        alt=""
+                        className='w-full h-full rounded-2xl object-cover transition duration-300 ease-in-out transform hover:scale-105'
+                        width={400}
+                        height={0}
+                      />
+                    </div>
+                  </CardBody>
+                </Card>
+              </Tab>
+            </Tabs>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="w-full h-full max-md:h-full py-6 px-10 flex flex-col gap-10 " >
+        <div className="w-full h-full  mx-auto flex flex-col gap-2  justify-center items-center px-[1rem]" data-aos="flip-left" >
+          <div data-aos="fade-right" className='flex gap-2 justify-center  items-center text-white'>
+
+            <h1 className='text-center'>
+              <span className=" text-4xl text-white font-extrabold">Familia </span>
+              <span className='text-4xl underline text-white  decoration-[white] decoration-4 underline-offset-4'>CCD</span>
+            </h1>
+          </div>
+
+
+        </div>
+        <CarruselNosotros />
+      </section>
+
+
+      <section className="w-full h-full    py-16  text-black  ">
+        <div className="w-[90%] h-full  lg:w-[70%] mx-auto flex flex-col gap-14 items-center px-2 lg:flex-row ">
+          <div className='  lg:py-10 w-full h-full ' data-aos="fade-up"   >
+            <Map />
+          </div>
+
+          <div className=" h-[400px] flex flex-col max-sm:p-6 py-10 px-4 bg-white  rounded-xl gap-4 w-full  lg:w-[50%] text-[#2F84F6]" data-aos="zoom-in">
+            <div className='flex gap-2 '>
+
+              <span className="text-3xl sm:text-4xl lg:text-4xl font-extrabold">Contáctanos</span>
+            </div>
+            <div className='flex gap-2 items-center'>
+              <img src='/Multimedia/Imagen/Iconos/CONTACTOS/INSCRIPCCIÓN.png' className='w-14 h-14' />
+              <div className='flex flex-col'>
+                <p className='text-[#000040] text-base   font-bold'>Inscripciones - Matrícula</p>
+                <p className='text-xs text-[#000040]'>(+51) 908 841 254</p>
+              </div>
+            </div>
+            <div className='flex gap-2 items-center'>
+              <img src='/Multimedia/Imagen/Iconos/CONTACTOS/ACADÉMICO.png' className='w-14 h-14' />
+              <div className='flex flex-col'>
+                <p className='text-[#000040] text-base  font-bold'>Dirección Académica</p>
+                <p className='text-xs text-[#000040]'>(+51) 908 826 878</p>
+              </div>
+            </div>
+            <div className='flex gap-2 items-center'>
+              <img src='/Multimedia/Imagen/Iconos/CONTACTOS/CORREO.png' className='w-14 h-14' />
+              <div className='flex flex-col'>
+                <p className='text-[#000040] text-base  font-bold'>Correo Electrónico</p>
+                <p className='text-xs text-[#000040]'>informes@ccdcapacitacion.edu.pe</p>
+              </div>
+            </div>
+            <div className='flex gap-2 items-center'>
+              <img src='/Multimedia/Imagen/Iconos/CONTACTOS/UBICACIÓN.png' className='w-14 h-14' />
+              <div className='flex flex-col'>
+                <p className='text-[#000040]  text-base  font-bold'>Ubicacion</p>
+                <p className='text-xs text-[#000040]'>AV.Rivera Navarrete 762, San isidro, Lima / Oficina 1001 </p>
+                <p className='text-xs text-[#000040]'><b>Referencia</b> Torre Andina </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+  );
+}

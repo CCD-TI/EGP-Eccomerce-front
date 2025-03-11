@@ -1,0 +1,68 @@
+{
+    "Productos": [
+        {
+            "TipoModalidad": "Asincrónico",
+            "IdProducto": 22,
+            "Precio": 399.00,
+            "FechaInicio": null,
+            "Horario": null
+        }
+    ],
+    "Descripcion": "En la actualidad, la gestión documental es esencial en todas las unidades orgánicas, siendo el trámite documentario la pieza clave que inicia el ciclo documental. Este diploma está diseñado para brindarte los conocimientos necesarios sobre la modernización de documentos, los principios fundamentales de la gestión documental y la correcta implementación del trámite documentario a nivel institucional. A través de un enfoque práctico y orientado a resultados, te",
+    "Calificacion": "80",
+    "Seguidores": "100",
+    "Nivel": "3",
+    "MarcasRespaldo": "2",
+    "ExamenParcial": 1,
+    "ExamenFinal": 1,
+    "Profesores": "4,5,6",
+    "Frecuencia": "0",
+    "HorasAcademicas": "280",
+    "Estado_id": "1",
+    "UltimaFechMod": "2025-01-09T21:22:19.159109",
+    "NumeroWhatsapp": "https://wa.link/3x52jk",
+    "Escuela": "Gestión",
+    "Especializacion": "Administración Documentaría y Atención al Ciudadano",
+    "IdCurso": 22,
+    "Curso": "Administración Documentaria y de Archivo en el Sector Público",
+    "TipoCurso": "Diploma",
+    "RutaImagen": [
+        "/Multimedia/Imagen/Cursos/PortadaFinal/22_ADA.png",
+        "/Documentos/Pdf/Cursos/BrochureCursos/22_ADA.pdf"
+    ],
+    "CantidadModulos": 0
+},
+{
+    "Productos": [
+        {
+            "TipoModalidad": "Asincrónico",
+            "IdProducto": 23,
+            "Precio": 399.00,
+            "FechaInicio": null,
+            "Horario": null
+        }
+    ],
+    "Descripcion": "En la actualidad, la gestión documental es esencial en todas las unidades orgánicas, siendo el trámite documentario la pieza clave que inicia el ciclo documental. Este diploma está diseñado para brindarte los conocimientos necesarios sobre la modernización de documentos, los principios fundamentales de la gestión documental y la correcta implementación del trámite documentario a nivel institucional.",
+    "Calificacion": "55",
+    "Seguidores": "85",
+    "Nivel": "3",
+    "MarcasRespaldo": "2",
+    "ExamenParcial": 1,
+    "ExamenFinal": 1,
+    "Profesores": "4,5,6",
+    "Frecuencia": "0",
+    "HorasAcademicas": "280",
+    "Estado_id": "1",
+    "UltimaFechMod": "2025-01-09T21:22:19.159109",
+    "NumeroWhatsapp": "https://wa.link/drnwus",
+    "Escuela": "Gestión",
+    "Especializacion": "Administración Documentaría y Atención al Ciudadano",
+    "IdCurso": 23,
+    "Curso": "Trámite Documentario y Gestión de Archivos en el Sector Público",
+    "TipoCurso": "Diploma",
+    "RutaImagen": [
+        "/Multimedia/Imagen/Cursos/PortadaFinal/23_TEL.png",
+        "/Documentos/Pdf/Cursos/BrochureCursos/23_TEL.pdf"
+    ],
+    "CantidadModulos": 0
+}

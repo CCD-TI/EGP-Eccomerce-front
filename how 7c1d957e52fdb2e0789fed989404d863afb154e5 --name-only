@@ -1,0 +1,5168 @@
+[33mcommit 7c1d957e52fdb2e0789fed989404d863afb154e5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32minfenix[m[33m, [m[1;31morigin/infenix[m[33m)[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Feb 6 18:26:01 2025 -0500
+
+    CARRITO RUTAS DINAMICAS
+
+[33mcommit 481535c3901473de7f344ff407bc6c825b63b27d[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Feb 6 17:37:10 2025 -0500
+
+    fix btnwsp
+
+[33mcommit 1727092c24e52666b04aec15ba8cb051006e9058[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Feb 6 15:49:53 2025 -0500
+
+    fix btn wsp
+
+[33mcommit c8fbd2da2153f0bd1157b8f9ab2d4802be771e83[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Feb 6 15:05:10 2025 -0500
+
+    btn whatsaap
+
+[33mcommit 7e0e65dfb09e16e00219f8c9bce3aa725edd52cb[m
+Merge: a375b8e 619446c
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Feb 6 10:09:47 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit a375b8e65f2a487c4b54415cdc7e00acf89e62d4[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Feb 6 10:09:45 2025 -0500
+
+    btn wsp
+
+[33mcommit 619446c5bd9c7f816f6add530c2d068a964c4fa8[m
+Merge: 025e425 97ae3e2
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Feb 6 09:11:56 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 025e425d6b29e39e82bec5bfa192ee5fc7c47116[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Feb 6 09:11:48 2025 -0500
+
+    update Comprar Ahora Ruta
+
+[33mcommit 97ae3e2722ceb9038a54290f56452ffa52374bf0[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Feb 5 19:19:22 2025 -0500
+
+    fix cursoDetalle
+
+[33mcommit 0c6f1f30d7a9db6d67867a9f87cbb06c87275142[m
+Merge: 852c8e8 319d6b3
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Feb 5 19:18:15 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 852c8e8cde75c9ec983c1065e0982022d4234ffa[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Feb 5 19:18:12 2025 -0500
+
+    responsive rutas
+
+[33mcommit 319d6b37480bf8981c5b239cf648f9313d2befde[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Feb 5 18:56:35 2025 -0500
+
+    Comprar Ahora Ruta Dinamica
+
+[33mcommit 593d581f9482017331177c0851ae93f44c486bd4[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Feb 5 16:59:56 2025 -0500
+
+    Comprar ahora Ruta
+
+[33mcommit 83014ada98754f593f42c16979f0377219d8758a[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Feb 5 13:54:43 2025 -0500
+
+    fix rutas dinamicas
+
+[33mcommit 15a964754f1f3f8a9d6c930bbfce7fa7c0cf7f8a[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Feb 5 13:53:01 2025 -0500
+
+    formulario de libro de rreclamaciones
+
+[33mcommit 080c5bff398546ba31ed8dd2aadddb8e59d65efe[m
+Merge: 0d009d3 b6932d1
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Feb 5 13:43:30 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 0d009d3d792fa80c8d422df599b4ad47463d70a7[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Feb 5 13:43:28 2025 -0500
+
+    rutas
+
+[33mcommit b6932d1e15724123f705480a03893d044df07d1a[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Feb 5 13:29:49 2025 -0500
+
+    Front Rutas dinamicas
+
+[33mcommit f9b59ae40a33af806440ea2b61ccb142fec94af7[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Tue Feb 4 17:24:06 2025 -0500
+
+    add rutas
+
+[33mcommit ef47642781a855ad9db25cb51b77b71d941a0861[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Feb 4 16:38:14 2025 -0500
+
+    fix carrusel escuela
+
+[33mcommit 847e7f75ffa9522004b418e7803b12a7fcd03d8f[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Feb 4 13:30:38 2025 -0500
+
+    navbar filtros
+
+[33mcommit 76bf7c73116a53a297df2ee30e1580a087067e89[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Feb 3 19:37:40 2025 -0500
+
+    navbar filtros
+
+[33mcommit f7ffaace44df50fd6cbfc9870c55de14ae104391[m
+Merge: 502d588 1d7e543
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Feb 3 17:06:13 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 502d588a6fff658c89a838b7c7804b412035bb3b[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Feb 3 17:06:07 2025 -0500
+
+    fix landing , escuelas
+
+[33mcommit 1d7e5436f0abc54c0690fcf5c7a4bc9094c336a6[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Feb 3 12:07:05 2025 -0500
+
+    Rutas Iconos Dinamicos + Cursos
+
+[33mcommit 5e9103ef0550e710d6fc66f36f24d175914f44ac[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Feb 3 10:07:50 2025 -0500
+
+    rutas TipoModalidad
+
+[33mcommit 3e66da23967a32a9a000d0b14406b6e12ebd6b14[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Feb 3 02:00:48 2025 -0500
+
+    add keys
+
+[33mcommit f298b6fa1503dee7a45197e284263d834e8ed63e[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Feb 3 01:28:33 2025 -0500
+
+    Rutas proceso
+
+[33mcommit 6f4ea61f1e967ac6bb5f5b96311e23ac8be755ca[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 31 17:09:39 2025 -0500
+
+    fix modales compra
+
+[33mcommit bee3a7d34b37fd516f684686c3bd641a8c1058de[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 30 19:01:32 2025 -0500
+
+    fix detalle de curso and validacion
+
+[33mcommit 4aaa822664c7842ee159ea96557c1a64196a3d38[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 30 15:37:07 2025 -0500
+
+    fix rutas
+
+[33mcommit 0196c8a543033de51d9cd8261c564e38b13df20a[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 30 15:16:34 2025 -0500
+
+    certificados
+
+[33mcommit e4b04e7bb4d569845515d8e43bcc54ed6b3f483b[m
+Merge: 12ab321 0e42dee
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 29 19:22:54 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 12ab321c6383f898b1f0916ac040310baf2a40ba[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 29 19:22:51 2025 -0500
+
+    fix certificados
+
+[33mcommit 0e42deede2ceefc783f3f5f2a50baf10feffc409[m
+Merge: 30f1d78 e16589b
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 29 18:58:44 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 30f1d78048ec8f06d10c653025559106d3ceb043[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 29 18:58:37 2025 -0500
+
+    Filtro Plan Preofesional
+
+[33mcommit e16589b92d34dbdf757f4df0d408196d6ff0edad[m
+Merge: 8efc6f9 b2b9944
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 29 18:24:04 2025 -0500
+
+    cfix
+
+[33mcommit b2b994493d6fd73566c72cba896777b7c58d943b[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 29 18:23:25 2025 -0500
+
+    Filtros Plan Básico
+
+[33mcommit 8efc6f905edc47444cc47e6c7bb416356d69c997[m
+Merge: 57a1742 96e117e
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 29 18:23:25 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 57a1742f53bcf0373b96ff06ae503551e8020ce9[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 29 18:22:12 2025 -0500
+
+    fix detalle de curso and promociones
+
+[33mcommit 96e117e425997cfd62b51cbf96c37845cd362af7[m
+Merge: 186abcb 4ba02fd
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 29 13:56:23 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 186abcb196be150c8bdfcedee40dd3d2e23b8355[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 29 13:56:15 2025 -0500
+
+    FILTRO PLAN BASICO
+
+[33mcommit 4ba02fd3c333aa9b8fe53b050f16aaa8bf04dea0[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 29 13:46:05 2025 -0500
+
+    nosotros , corpo and validacion
+
+[33mcommit de5b7e73c519ae2f5db85f24944356b5c06e9e8e[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 29 10:27:15 2025 -0500
+
+    cambios inicio and nosotros codigo contercito
+
+[33mcommit b20f7833823acfeb019a409e7926da9c0c6e087c[m
+Merge: 0d2a663 e027f4d
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Jan 28 20:33:00 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 0d2a6630c00053ba6ac08291db25202890bf5f4a[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Jan 28 20:32:36 2025 -0500
+
+    fix landing,nosotros
+
+[33mcommit e027f4d22a9635ce8ff197effef98f3a405cf958[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Tue Jan 28 17:04:05 2025 -0500
+
+    Update Filtro Escuelas
+
+[33mcommit 12886150ccfca58f94bb64d745f0f20987d06119[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Tue Jan 28 13:33:03 2025 -0500
+
+    Filtro Escuelas
+
+[33mcommit 5d11dfd03613794fb2976d9ee1641c8d57d5bdde[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 27 13:05:29 2025 -0500
+
+    Actualizacion de Pixel - Kevin
+
+[33mcommit 230835be1d57ded1b1bf061880ff8f030bff93eb[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 27 12:32:09 2025 -0500
+
+    pixel Aprobado por el CoJefe-Kevin
+
+[33mcommit 769b2a6a32c627b2a5dde8671ff086ce198b4c1b[m
+Merge: c8aa0f9 083549a
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 27 11:32:03 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit c8aa0f9a2200881b1bf666f7728fb3624fbfa0cd[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 27 11:32:00 2025 -0500
+
+    env google
+
+[33mcommit 083549a117b0e231dbda515eacf23787a23bc571[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 27 10:35:58 2025 -0500
+
+    search front
+
+[33mcommit 78511d9364f79b75a14131e74b7dd2dbaa7cc6e0[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 27 09:36:46 2025 -0500
+
+    google env
+
+[33mcommit 82da9d91a80067f810b06c33266d2f46181bd283[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 27 09:32:58 2025 -0500
+
+    google
+
+[33mcommit 1ee2d8698fe0879de2e5cfcda18fef81b9117fa5[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 27 09:19:02 2025 -0500
+
+    fix
+
+[33mcommit 485e0af59eb33a9ad35d1aa9ed936826d6374b79[m
+Merge: b65b87c f31ada4
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 27 09:16:19 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit b65b87ce4a775fbb3b124e11185f577cd6530784[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 27 09:16:14 2025 -0500
+
+    fix google and facebook
+
+[33mcommit f31ada4054e2b98d10290346d09760d6b360adb2[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 27 04:36:28 2025 -0500
+
+    Search Escuelas
+
+[33mcommit db7a535283964e270923cae77ea5e2bae6733719[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sun Jan 26 12:57:14 2025 -0500
+
+    fix validacion planes
+
+[33mcommit 525ebf3a82078271fbc5040f73efe7640f29d322[m
+Merge: 5b53d24 9dd46b5
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sun Jan 26 10:48:44 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 5b53d2438f8d617f46c9c264bac2ffafe1de704b[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sun Jan 26 10:48:35 2025 -0500
+
+    validacion planes
+
+[33mcommit 60e9488dbb91c4aed88b3e04d269a1d5fcc74a22[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sun Jan 26 10:48:04 2025 -0500
+
+    Validacion pack planes
+
+[33mcommit 9dd46b5267ed07ae7578d58e46b2882b0064ddf3[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 24 19:13:46 2025 -0500
+
+    cadic / env
+
+[33mcommit b7a339ed5539a41381aba820939e033061ab3b3a[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 24 17:31:14 2025 -0500
+
+    fix popover carrito
+
+[33mcommit 47158decd93ce977edb2ee35a329ea1933adb387[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 24 16:55:13 2025 -0500
+
+    fix footer
+
+[33mcommit 314bb48de8b1daeb7726237f7ca0c8149b7d19c9[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 24 16:41:46 2025 -0500
+
+    fix?
+
+[33mcommit 09212e76d1f5e013bf40e4047094ce53db5702de[m
+Merge: 862a4f4 b47c6ea
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 24 16:41:32 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 862a4f406a6ed2241dc1db88df62b8bd8d01427f[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 24 16:39:34 2025 -0500
+
+    navbar fix
+
+[33mcommit b47c6ea65691a6301c0681f5dfc246107c161a32[m
+Merge: 19ca692 985f90d
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 24 16:35:55 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 19ca692226ea49644bf73841c950c33e357ee582[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 24 16:35:46 2025 -0500
+
+    otro fix
+
+[33mcommit 985f90d1b830a6538d0fea585cf58ca1c5635da4[m
+Merge: 6735375 bee7c81
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Fri Jan 24 16:35:18 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 6735375bb1720fdb85650e9fb1aef6dbdefa95b0[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Fri Jan 24 16:35:12 2025 -0500
+
+    1
+
+[33mcommit fea46978d026e1a7ca375cb17056ebdc3893596b[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 24 16:35:03 2025 -0500
+
+    fix
+
+[33mcommit bee7c81fd66b9363bb14cf9128b5108758d0c761[m
+Merge: e675346 77de87a
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 24 15:27:10 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit e675346a1dafe508056866e2adc9520f787a2220[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 24 15:23:38 2025 -0500
+
+    update iniciar sesion planes
+
+[33mcommit 77de87a46f956afd87ce02e0459efec8324d8a42[m
+Merge: b8e7646 bf7e0b7
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 24 15:23:03 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit b8e7646a71a838937736efcab2a8c37d53a5bd06[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 24 15:23:00 2025 -0500
+
+    Navbar nuevo
+
+[33mcommit bf7e0b71d9e28a928f8979398ce2daba82a40032[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 24 11:37:49 2025 -0500
+
+    Iniciar Sesión Antes de: Comprar Ahora
+
+[33mcommit 17bee3ad427ab7eef4b4d36876bda41be2f959cb[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 24 09:17:37 2025 -0500
+
+    fix boton comprar ahora preciocarrito
+
+[33mcommit cde1f0278b6541a2c5084193b433061734d39e41[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 23 18:20:07 2025 -0500
+
+    cadic/fix responsive
+
+[33mcommit 4d50d8e504afeab4ce9bff2e2c8212f68e215fbb[m
+Merge: 3eff22c 1bcf49a
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 23 18:03:48 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 3eff22c719412cd1607c7d5f4e95f5b6167c9c48[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 23 18:03:44 2025 -0500
+
+    fix/modals
+
+[33mcommit 1bcf49a275909083632abf9422c2e6bcd368f1c8[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Jan 23 17:07:28 2025 -0500
+
+    Pago Logueado Carrito
+
+[33mcommit 7b6032f2dc6c2f08cba435a387e84e8f934b7ed6[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 23 16:35:27 2025 -0500
+
+    fix/logos
+
+[33mcommit 51cd1cd3e26644eb8712c59a977f8846c9516561[m
+Merge: bd2783b c8140cb
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 23 15:50:44 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit bd2783bcb5103e423a167ce538a24d9519a5cd12[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 23 15:50:36 2025 -0500
+
+    fix/responsive
+
+[33mcommit c8140cb645479065737014403e89997396d8b363[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Jan 23 13:49:02 2025 -0500
+
+    CODIGO COUNTERSITO
+
+[33mcommit b8f3bfe530cd94b2e487350bb22084ebb335a204[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 23 13:39:46 2025 -0500
+
+    deleted logo
+
+[33mcommit a73085b04ed2572245f211d36741fb43f49b5c19[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 23 13:03:03 2025 -0500
+
+    fix/reponsive
+
+[33mcommit c81440cad21f786c5c4ed7be867e784e56794a00[m
+Merge: dce45a8 d84c649
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 23 11:23:09 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit dce45a879c5c6bedf4a256bacd7e30e7c7d8ad0d[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 23 11:23:05 2025 -0500
+
+    cadic/formularios-back
+
+[33mcommit d84c649f3fedafd728c3eec1d7c1926a03d72f57[m
+Merge: 16c801a 9854770
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Wed Jan 22 18:41:11 2025 -0500
+
+    1
+
+[33mcommit 16c801a07dc4bad154b3180658bdb42effe7f372[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Wed Jan 22 18:40:09 2025 -0500
+
+    1
+
+[33mcommit 98547705bc9e7423ee94fcff3b4b263791be97fc[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 22 16:38:20 2025 -0500
+
+    pixel google
+
+[33mcommit 8985a0cb977380d9ead68c3d1e656bd03964bc03[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 22 16:17:14 2025 -0500
+
+    pasarela ok
+
+[33mcommit 603f1bab242c1d997b0e623e5af8e1bfc83dea0d[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 22 12:15:12 2025 -0500
+
+    fix plataforma
+
+[33mcommit e7e8d47b4f955da8cb00e83d77b7bc6f25c8b443[m
+Merge: 0c5bc1f e8a731b
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 22 12:10:47 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 0c5bc1f4075f474857e9d884d913bbbef5ebdca7[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 22 12:10:41 2025 -0500
+
+    cadic/fix
+
+[33mcommit e8a731b130e6d85ce580c8b407f8d3cc239e1ed7[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 22 11:00:19 2025 -0500
+
+    update keys payment
+
+[33mcommit af1802a79a4df42913486ab200cd52c8a4d13148[m
+Merge: e63d391 959a570
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 22 10:34:52 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit e63d391e92863535f64c6987c50941d819f44a23[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 22 10:34:48 2025 -0500
+
+    cadic/responsiveCarrito-enviodeCorreosNosotros
+
+[33mcommit 959a570d1c2be61cb42045eec3033d666df3ade9[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 22 10:32:55 2025 -0500
+
+    update payment keys
+
+[33mcommit a5984da1790181e7468f7a9396d3bb384c5cc854[m
+Merge: 5ec6f23 3c6e0bc
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 22 09:15:42 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 5ec6f23cb191798ae1ea722822ec9c54ae021bf4[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 22 09:15:27 2025 -0500
+
+    Link Schools Section
+
+[33mcommit 3c6e0bcff5b546924433204b913abc9dc30484a2[m
+Merge: 207ff82 505d3dc
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Wed Jan 22 05:04:08 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 207ff82b3a842c8c8973875747e0927889d4a708[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Wed Jan 22 05:04:02 2025 -0500
+
+    1
+
+[33mcommit 505d3dce67e810a0af6c85fd5637285612041323[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 22 02:59:46 2025 -0500
+
+    fix course card
+
+[33mcommit b71512937e4621f77908a7041e65fdcb800c235e[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Tue Jan 21 18:59:14 2025 -0500
+
+    fix
+
+[33mcommit 611797b5c4fac77a89f672f7e8fe71591c262e25[m
+Merge: e6f8291 0d3ba7e
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Tue Jan 21 18:30:50 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit e6f8291a16ebc9d0b3b083b62062204260116e41[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Tue Jan 21 18:30:45 2025 -0500
+
+    update en producción
+
+[33mcommit 0d3ba7e8861a847e722ef729dc08c2e2780d1263[m
+Merge: 89546b4 15e3dda
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Tue Jan 21 12:02:54 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 89546b43edcac520fefb8cc681813bcbf00fcacf[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Tue Jan 21 12:02:48 2025 -0500
+
+    1
+
+[33mcommit 15e3dda55f6b276ccdae9051fc4c09c7966e79eb[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Jan 21 10:19:12 2025 -0500
+
+    cadic/modalpromoresponsive
+
+[33mcommit 2f6a85034d1bbad2b9b5c5fe176971d8c1bd1ed8[m
+Merge: b063076 2f90f4d
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 20 16:27:20 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit b063076b8f4b9d202f27da6e7f8d2865081d7c1c[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 20 16:27:16 2025 -0500
+
+    cadic modal/responsive
+
+[33mcommit 2f90f4dcab4582cedfff21ce3e9de47dcdff0fb9[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 20 16:04:28 2025 -0500
+
+    fix
+
+[33mcommit 491fe59d6aa3762168fa14cec687bb57def166ec[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 20 15:56:53 2025 -0500
+
+    fix
+
+[33mcommit 347d917750a36764f332545c11c9a84b93f7fad5[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 20 15:42:16 2025 -0500
+
+    fix
+
+[33mcommit 68fac166a3f01d1555cdcc93b224a54dc8ecc5e9[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 20 15:32:30 2025 -0500
+
+    fix
+
+[33mcommit eeb7cc64b0acd97427ce5175cd2ee2b2b796f598[m
+Merge: 042d025 a4c9b99
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 20 15:14:51 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 042d0259fdbfd7af19cb0dcaa2763fc7f2608600[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 20 15:14:44 2025 -0500
+
+    Carusel dinamicos Escuelas
+
+[33mcommit a4c9b990b6b06210e77eb6a9eae77ae47a8cf276[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 20 13:42:09 2025 -0500
+
+    cadic
+
+[33mcommit 5fbf03a5f357a765a1795060316d9dc346e75cc9[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 20 13:26:54 2025 -0500
+
+    cadic
+
+[33mcommit d6f87e1e70f7e4d7f755ba9fa4a074b5a7408a19[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 20 12:42:04 2025 -0500
+
+    modalv2
+
+[33mcommit a898030a4ba74cf61d1d0e9102d84a5572601fa7[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 20 12:38:43 2025 -0500
+
+    cadic/modalPromov2
+
+[33mcommit 20d31031df05c89e206f24aa234e50f569d40404[m
+Merge: 1c7ba07 ab9caf1
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 20 11:18:23 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 1c7ba07ace10b53c31e8eb8331c84ebe27650fe9[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 20 11:18:19 2025 -0500
+
+    cadic/modalPromo
+
+[33mcommit ab9caf11036df44c8aeda88a7a6bfbb83fae6596[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 20 10:21:48 2025 -0500
+
+    update navbar
+
+[33mcommit f8c8540b0de1ca2dbeb8d3a14bdbbab2ac9e05db[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sat Jan 18 10:51:48 2025 -0500
+
+    fix boton Aula Virtual
+
+[33mcommit 90dfe4a504b2f78aedca322298fe51390b4ea041[m
+Merge: 3b7700b fa0dcd8
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Sat Jan 18 02:28:19 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 3b7700b12554b954edf6be4dc0ef4ec285779348[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Sat Jan 18 02:28:14 2025 -0500
+
+    1
+
+[33mcommit ef000870ac745ae3fd8cf92f6bb0843b95097275[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Sat Jan 18 02:27:44 2025 -0500
+
+    1
+
+[33mcommit fa0dcd83e08b8a6bddd0c6f826d3e9bb64a34afa[m
+Merge: d2d0f9d 8a41c3f
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sat Jan 18 01:38:34 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit d2d0f9d6fac04f7847362bd940a3f4660e07d95e[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sat Jan 18 01:38:18 2025 -0500
+
+    paul
+
+[33mcommit 8a41c3f02820d5f97832eb849e798f99501351b9[m
+Merge: 1dbc922 2993696
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Sat Jan 18 01:35:41 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 1dbc9225b397c409e25fdb540d50855277d9b19d[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Sat Jan 18 01:35:35 2025 -0500
+
+    1
+
+[33mcommit 29936962cf8fe088ca9ede65a190be46abb107b6[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sat Jan 18 01:06:41 2025 -0500
+
+    fix
+
+[33mcommit fb59f1cb685336bd3b81b97d1cca07c5b93afa9c[m
+Merge: 4d0326a 719ba7d
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sat Jan 18 01:04:22 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 4d0326a84536bed641ecea5289e44e95134eaa89[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sat Jan 18 00:38:50 2025 -0500
+
+    plan profesional
+
+[33mcommit 719ba7dc3ac98476d0057111196ba07058b506df[m
+Merge: 016a7f2 6b499fb
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Sat Jan 18 00:37:37 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 016a7f2967b04b4ef5d206e3e6f4be314dfdaa50[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Sat Jan 18 00:37:32 2025 -0500
+
+    1
+
+[33mcommit 6b499fbf0bb52c0c0f77bfaae320746c9247acb2[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 17 23:05:18 2025 -0500
+
+    fix
+
+[33mcommit dd840597d7854c03b8cc7970a4e9676a90864531[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 17 20:33:49 2025 -0500
+
+    tu viejaperra jhosep
+
+[33mcommit 068a23253285e575ca9ef5a8cfe57d31a337442b[m
+Merge: 2fdef38 04fd7d8
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 17 19:50:39 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 2fdef3865a0a5b361644e91991cce8386636896a[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 17 19:50:11 2025 -0500
+
+    cadic/modalPremiun
+
+[33mcommit 04fd7d88bccf14b17c244c9641f027f8208d2d36[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 17 17:39:32 2025 -0500
+
+    FIX
+
+[33mcommit b128a19afcc6e31f417800a6758de6a6f4196b66[m
+Merge: 6219dac 795f0ea
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 17 17:14:47 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 6219dacf74aa77878dcb2d15ef9420d1b1a615ef[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 17 17:14:08 2025 -0500
+
+    cadic
+
+[33mcommit 795f0ead2b9edee33b864ee6f0b7a9ff8f262fb4[m
+Merge: 7b0198d ab260ca
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 17 17:09:50 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 7b0198d0f06c26c4210430820203013f3d90baea[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 17 17:09:43 2025 -0500
+
+    rov
+
+[33mcommit ce3fc2170e148b55ba286319a956dff82ef850e1[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 17 17:08:14 2025 -0500
+
+    rov
+
+[33mcommit ab260caeefe9b71398bfd93bd859a0a5fb7fdef6[m
+Merge: 75c1ec7 2fae483
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 17 17:06:48 2025 -0500
+
+    cadic
+
+[33mcommit 75c1ec7e7886fe2df54e0c1a26a39ffa59b949a4[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 17 16:59:17 2025 -0500
+
+    cadic
+
+[33mcommit 2fae48306eb686c36a2c6159c9b3ad9f4f9cd872[m
+Merge: cec623d ee3b4a2
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 17 16:57:29 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit cec623d90145d3ff0fc10528b4a1a78e7e32654b[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 17 16:57:21 2025 -0500
+
+    Brochure
+
+[33mcommit ee3b4a289c28ea3d725c8c95e3a1de2cb5779bc2[m
+Merge: d7cffc6 6ef451b
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Fri Jan 17 16:43:04 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit d7cffc619c2cae71cd52404a47f5c093bb9ee033[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Fri Jan 17 16:42:55 2025 -0500
+
+    1
+
+[33mcommit 6ef451bb6ab062cf35cf48c9e82ad4967786ee2f[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 17 16:09:00 2025 -0500
+
+    PLANES
+
+[33mcommit 54e375fb46e9e637a1fbfd6a98aae06d3c623fc0[m
+Merge: 626dbb2 71e30df
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 17 15:44:21 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 626dbb24ff24d7cb524c62bbd212d0e4e9995c83[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 17 15:44:14 2025 -0500
+
+    update
+
+[33mcommit 71e30df964885ca37dacfb904570c322d03a9523[m
+Merge: fec32b2 edc01d8
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 17 15:21:39 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit fec32b25c7fb445d0f2b88f9ecf804b52c0e4fd1[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 17 15:21:34 2025 -0500
+
+    cadic
+
+[33mcommit edc01d8a1dd57b35107df59dc49e1bdfb5b9b1fc[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 17 14:55:21 2025 -0500
+
+    planes
+
+[33mcommit 6a577ababac7a84191e4dc8df1a55f762a92c2ec[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Fri Jan 17 14:44:25 2025 -0500
+
+    update planes
+
+[33mcommit 8e2b53bca9d72e366671457cedebcd8b569271fa[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 17 11:32:12 2025 -0500
+
+    cadic
+
+[33mcommit 48519d28e18e10b5ee94c473482ffefa35828a3d[m
+Merge: c052764 ddb352d
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 17 10:12:44 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit c052764b8d15c31def54066be68b314bc71e4ad9[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 17 10:12:39 2025 -0500
+
+    cadic
+
+[33mcommit ddb352dd707320f15256faafb068fbd3710f26a0[m
+Merge: c2f93ce b9fdee6
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Thu Jan 16 22:12:08 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit c2f93ce16a1f2664034203aaf3e75d4a6e8c902a[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Thu Jan 16 22:12:02 2025 -0500
+
+    1
+
+[33mcommit b9fdee6306f04ae695275d8a9e9be73122a0e4da[m
+Merge: 52d3b59 280dd16
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 16 20:34:43 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 52d3b59ed82da9ddeb2ca8a80c2a8601e40275d3[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 16 20:34:10 2025 -0500
+
+    cadic
+
+[33mcommit 280dd1693d34593cd5aa680447aaa99aba6e2c35[m
+Merge: 6436a3b e13def7
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Jan 16 19:59:07 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 6436a3ba549e13d9858f35a8adb3d4060cfff7b4[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Jan 16 19:59:00 2025 -0500
+
+    funcionalidad planes
+
+[33mcommit e13def7454093a122f0ff03fcdb6842daf4fe477[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 16 18:57:24 2025 -0500
+
+    cadic
+
+[33mcommit 648161b8774bb478ad07fc526b5556662450df3c[m
+Merge: 8ef8333 5e14b42
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 16 18:45:06 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 8ef83333f3fca0a68bf0710de7dcf50182260a04[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 16 18:45:02 2025 -0500
+
+    cadic
+
+[33mcommit 5e14b42a8a1664af47e0fac355a36f1688f3083e[m
+Merge: c95faa2 2a4c29c
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Jan 16 18:44:10 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit c95faa2895af65645c0d6c5495490ab70b41fcf3[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Jan 16 18:43:58 2025 -0500
+
+    update
+
+[33mcommit 2a4c29ce8012bfd15579a017b9b0aaef27253954[m
+Merge: 8c106c7 f9cdf55
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 16 18:39:08 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 8c106c7f67c7d10483d4481b167c861992cddefb[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 16 18:39:03 2025 -0500
+
+    cadic
+
+[33mcommit f9cdf55ff13056ad9289e07714bb6ac58fffadac[m
+Merge: c79387c 3711d15
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Jan 16 16:28:14 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit c79387c7fef9239b050cb1b5e7d753d5ae9676e1[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Jan 16 16:27:59 2025 -0500
+
+     ultimos cambios
+
+[33mcommit 3711d15ff89775f8c5d3dc226b72e7935dc8452a[m
+Merge: a8fa4d0 8a80442
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Thu Jan 16 08:44:53 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit a8fa4d014c31490873d065498211fb8e6ae87b73[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Thu Jan 16 08:44:46 2025 -0500
+
+    1
+
+[33mcommit 8a80442b06eaee845c38a24e955420374b748261[m
+Merge: eeb07ee 300d8b7
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Jan 16 08:18:21 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit eeb07ee7be11775a871e88d98e67554b640e3955[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Jan 16 08:16:28 2025 -0500
+
+    Guardando cambios locales en page.tsx
+
+[33mcommit 300d8b7e4f1fe6305f5dfa2f1d4e183018d4c6ea[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Thu Jan 16 00:10:22 2025 -0500
+
+    1
+
+[33mcommit 8c69e5788b7ee054ed1ba62d7a5822ff07d7f620[m
+Merge: 6d3fbe0 3c7b829
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 15 22:37:33 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 6d3fbe0f2ec900f02563bf266241c494ba72a9f6[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 15 22:37:24 2025 -0500
+
+    cadic
+
+[33mcommit 3c7b82915eaaeaf4e3387235fb72a24ab2033985[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 15 19:07:10 2025 -0500
+
+    fix box escuelas shoppingcartcourseselector
+
+[33mcommit 1fea7f25304de115ad0904dd7fc78f31bd68129e[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 15 17:11:04 2025 -0500
+
+    add element curso detalle
+
+[33mcommit ff900728e7d1fea846290540f249a648a62c1c3a[m
+Merge: c830aa5 efdf9a8
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 15 15:14:29 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit c830aa503ed9e1504a1a6f2aed8f1766c4107d9d[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 15 15:14:22 2025 -0500
+
+    shoppingcartcourseselector traer data
+
+[33mcommit efdf9a86bc57b8b8df292cea58aa1d83ffb9e6da[m
+Merge: 90018f0 6b1a750
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 15 12:23:03 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 90018f06d3188835d2a4204557fe0c620abf5179[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 15 12:22:56 2025 -0500
+
+    cadic
+
+[33mcommit 6b1a750b5a069e896e820d264a8d40fadabac0d4[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 15 12:21:27 2025 -0500
+
+    cadic
+
+[33mcommit a6718593f70aab125c2d824be9a5d1910de0c2a3[m
+Merge: f2c165f 576a0ac
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 15 12:16:34 2025 -0500
+
+    cadic
+
+[33mcommit f2c165f1535b75523d286ae837f649a3bce3b2fa[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 15 12:15:43 2025 -0500
+
+    cadic
+
+[33mcommit 576a0ac3dad155e0c03b0e6c59a185b171fcad1c[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 15 10:55:15 2025 -0500
+
+    Diseño shoppingcartcourseselector
+
+[33mcommit 8ba826d4fa81513d1453906e1e0585d1a93ade51[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 15 07:04:02 2025 -0500
+
+    fix render
+
+[33mcommit be99a2bded2a9e012099b611938b272768ea5b3f[m
+Merge: 1e1d5b0 ea3ccb3
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 15 06:51:14 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 1e1d5b08d654956dc71b16e7e01eef974b2adea1[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 15 06:51:07 2025 -0500
+
+    update shoppingcourseselector.tsx
+
+[33mcommit ea3ccb37e44e113a4ae6bad6709ed2f7ea4d3bad[m
+Merge: f77b8b6 0a7d228
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Tue Jan 14 19:14:09 2025 -0500
+
+    1
+
+[33mcommit f77b8b6dcc3a19f30722b524a929a0fd8f82d45f[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Tue Jan 14 19:06:14 2025 -0500
+
+    1
+
+[33mcommit 0a7d228c5702233743b7822acf8fd29b35429f79[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Jan 14 18:11:46 2025 -0500
+
+    cadic
+
+[33mcommit a1d70f585e546f11a4321da746f251e67987f05a[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Jan 14 17:08:52 2025 -0500
+
+    cadic
+
+[33mcommit 3b5988371615d445d360504aec997a7f1c196d2a[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Jan 14 13:36:12 2025 -0500
+
+    cadic
+
+[33mcommit a83477e12ea4ac242694fcbb6dafded27f0d175a[m
+Merge: a0d69dc e2eb3b1
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Jan 14 11:09:30 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit a0d69dc6d2974bbee3d9d288c13d8405f6a04fa6[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Jan 14 11:09:26 2025 -0500
+
+    cadic
+
+[33mcommit e2eb3b122f998755eb0c39d00d1feccf4a1f223b[m
+Merge: 1291c2a 8506704
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Tue Jan 14 10:04:11 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 1291c2ad44d72f87adefef52d5f6ebd67250591e[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Tue Jan 14 10:04:05 2025 -0500
+
+    .Curso ...
+
+[33mcommit 8506704ba08d5ef38780b615a98cadfd9425346f[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Tue Jan 14 10:03:13 2025 -0500
+
+    1
+
+[33mcommit 0b041cd37c6b388aaa37ce06c9c503fd9482add9[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 13 20:39:50 2025 -0500
+
+    cadic
+
+[33mcommit fd3b1cfdf618ea323629e788d664ffb4ee7163f2[m
+Merge: 97ba421 f0c4d70
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 13 20:39:20 2025 -0500
+
+    cadic/detallecurso
+
+[33mcommit 97ba421d754f221c989be358b016964f1ca723cb[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 13 18:11:29 2025 -0500
+
+    cadic
+
+[33mcommit 3a63d0743ad641a51bc6411e33612a6956fcb34f[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 13 17:30:58 2025 -0500
+
+    cadic
+
+[33mcommit cfe6a8c66ddb1926d33e5cac1fd47e466bacb9be[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 13 17:30:21 2025 -0500
+
+    cadic
+
+[33mcommit f0c4d70203c2dbc7eb1d9961cf23ee100d33ed3d[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Mon Jan 13 17:27:18 2025 -0500
+
+    1
+
+[33mcommit 086665e3826d52b7dab4284f9be4d9a7f4c5e0d7[m
+Merge: 74e62d6 56d9602
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Mon Jan 13 17:25:44 2025 -0500
+
+    1
+
+[33mcommit 74e62d6fe2ef997f1ef7967fcec7297621fb44c2[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Mon Jan 13 17:20:18 2025 -0500
+
+    1
+
+[33mcommit 37f3e9f903c158ad0db9053afd5cbe0ba306365f[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Mon Jan 13 17:20:15 2025 -0500
+
+    11
+
+[33mcommit 56d96020c5eaa36a40e841a1093e8292f03a19df[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 13 17:17:07 2025 -0500
+
+    cadic/beneficios
+
+[33mcommit 8bb3f8e2636fb9949a6167d4d6d04a9e5496cb3e[m
+Merge: c7b52ab 0f7b6d6
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 13 16:00:32 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit c7b52ab55b51c52ce8dfcc282b068f2033525ba1[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 13 16:00:28 2025 -0500
+
+    cadic/modal-pago
+
+[33mcommit 0f7b6d6ca6be08db21000794320a3441c1c435c6[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 13 15:31:13 2025 -0500
+
+    update
+
+[33mcommit 1d9ced0bdd81603a5d18a498e640b25a5069128f[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 13 15:21:30 2025 -0500
+
+    updates coursecards general
+
+[33mcommit b7d8d0acc0478ccb30f8d7af0f0a6b2d44726643[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 13 13:38:16 2025 -0500
+
+    Página pago
+
+[33mcommit 3a63f02623e8d3342d8c33a663af37778135bb9a[m
+Merge: 7abffa9 e61116c
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 13 13:02:55 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 7abffa946936359a4ece348696a21e240e45f8a8[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 13 13:00:54 2025 -0500
+
+    cadic
+
+[33mcommit e61116cbb3323a3d116253f42442c55a286d7555[m
+Merge: 73ebd78 c3b163e
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 13 12:23:58 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 73ebd787859b22bcf31182480a61ca19125d00b9[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 13 12:23:52 2025 -0500
+
+    detalle curso ruta dinamicas
+
+[33mcommit c3b163ea55787bda147812ac513fe7c2e7204f69[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Mon Jan 13 11:37:04 2025 -0500
+
+    1
+
+[33mcommit 207e2d52f1b3cc9c71e092b28d1d16d1b0652404[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 13 10:29:08 2025 -0500
+
+    cadic/cursoDetalle
+
+[33mcommit e31d77560cad4e5c7b9ac0f7ee9ecda1d20b0d3d[m
+Merge: e96a495 184eb7e
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 13 10:26:27 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit e96a495d8e7a611154c622cebb5bb2932a76cf5c[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Jan 13 10:26:24 2025 -0500
+
+    cadic
+
+[33mcommit 184eb7e47e83db9e22081a84c530dc7da8006a77[m
+Merge: 9b6e51c 40d9bae
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 13 10:25:57 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 9b6e51c4ae2def7f83848a8df2bc38b72c2d1b3b[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 13 10:25:51 2025 -0500
+
+    rutas dinamicas
+
+[33mcommit 40d9bae16785d43ab07046bdee4985284c879f48[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Mon Jan 13 08:59:30 2025 -0500
+
+    1
+
+[33mcommit d7ddc5a4f7fef2951b7720c2a6e3390f36656d55[m
+Merge: c56666b 6ff08f2
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Mon Jan 13 08:46:58 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit c56666bfcf24878ba24d50531f2698c3df3051ba[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Mon Jan 13 08:34:15 2025 -0500
+
+    1
+
+[33mcommit 6ff08f25e2535ee809906a2b0b15c76a9791440a[m
+Merge: 0742f94 6df7b0e
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sun Jan 12 18:32:59 2025 -0500
+
+    Merge branch 'paul-damian' into infenix
+
+[33mcommit 0742f9455d0f14cf84a19cd57cf5d3d12ef272e0[m
+Merge: ce4503c 86e2974
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sun Jan 12 17:25:40 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix   Finaliza merge tras resolver conflictos
+
+[33mcommit ce4503c334b7712669200a96bdc1a26bfe497090[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sun Jan 12 15:12:51 2025 -0500
+
+    rutas dinamica front y escuelas
+
+[33mcommit 6df7b0ef52f9cefdfc5f3cb115d34fa22e21c471[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Sun Jan 12 13:38:57 2025 -0500
+
+    cadic-pago
+
+[33mcommit 86e2974c3a5730ed977707c2c907c6c5442c9940[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Sun Jan 12 10:19:57 2025 -0500
+
+    1
+
+[33mcommit bfbb7f2d2f6721f1f4d8032aa67ec61be5c73699[m
+Merge: 82ced3e e4143e0
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Sun Jan 12 10:12:04 2025 -0500
+
+    1
+
+[33mcommit 82ced3eeaac3b7c39f36055be2a528947e483a80[m
+Merge: f7176f0 29b282b
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Sun Jan 12 09:35:47 2025 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit f7176f0d4661b5e1efa36d2712c9420428908f97[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Sun Jan 12 09:35:39 2025 -0500
+
+    1
+
+[33mcommit 136dfe5f4c61f5162f6d72aa6c5021b18a52933d[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Sun Jan 12 04:57:15 2025 -0500
+
+    cadic/pago
+
+[33mcommit 29b282ba931884c34dbf72d09070e92d4c97b14a[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sat Jan 11 19:40:52 2025 -0500
+
+    avance rutas dinamica
+
+[33mcommit e4143e0b72205b08b4a140dd9827721135fad230[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 10 19:24:22 2025 -0500
+
+    cadic/Rutas
+
+[33mcommit 519fb5883434fdd4a0ecd6e57aa0dff161af500e[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Jan 9 19:57:50 2025 -0500
+
+    rutas dinamicas primera etapa
+
+[33mcommit c31bc864f8c6ec658f0e245804c29620b7cee5ff[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 9 19:10:41 2025 -0500
+
+    cadic
+
+[33mcommit bcf8c6d3cd463d1a649496b721e0000b82ebf31c[m
+Merge: dddb2c8 63aabf6
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 9 13:04:52 2025 -0500
+
+    Merge branch 'paul-damian' of https://github.com/InfenixReborn/ccd-ecommerce into paul-damian
+
+[33mcommit dddb2c80c1a0305918d6580f8b74e8edc5676d2a[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 9 13:04:48 2025 -0500
+
+    cadic
+
+[33mcommit 63aabf630b5e9023f30b189f43e7a374e21fdcb8[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Jan 9 12:48:19 2025 -0500
+
+    acoplamiento
+
+[33mcommit f3ffb9bbbbc877f42270504a7fbf98a2fe5bd6d7[m
+Merge: 3909dc8 132b29e
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Jan 9 12:07:42 2025 -0500
+
+    Merge branch 'paul-damian' of https://github.com/InfenixReborn/ccd-ecommerce into paul-damian
+
+[33mcommit 132b29ebf02706989d8a9a4641a3f9a23761d61d[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 9 11:59:25 2025 -0500
+
+    cadic
+
+[33mcommit c272b71981f81dac57dbd63ed79134c16dd2dd93[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Jan 9 11:58:03 2025 -0500
+
+    avance rutas dinamicas
+
+[33mcommit 69096a4bb5b7f801fb610ad344a6b29ebd22bed4[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 9 10:07:40 2025 -0500
+
+    cadic
+
+[33mcommit 3a8ee7073b4c5f81b4a352ef60abe6e917c28bf8[m
+Merge: ec3288c 1b38d56
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 8 19:05:07 2025 -0500
+
+    Merge branch 'paul-damian' of https://github.com/InfenixReborn/ccd-ecommerce into paul-damian
+
+[33mcommit ec3288c63621b6d072ca02b91058153ec70e109b[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Jan 8 19:05:04 2025 -0500
+
+    cadic
+
+[33mcommit 3909dc89aa67aa8cb751c451670633d145aaea5e[m
+Merge: b191a2b 1b38d56
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Wed Jan 8 11:31:29 2025 -0500
+
+    1
+
+[33mcommit b191a2b74bac7d539566d3c0a681552cf6571191[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Wed Jan 8 11:29:02 2025 -0500
+
+    1
+
+[33mcommit 1b38d56e33fbc494528a39347104f58c819d15d4[m
+Merge: 8280966 a3ab3cf
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 8 11:25:22 2025 -0500
+
+    Merge branch 'paul-damian' of https://github.com/InfenixReborn/ccd-ecommerce into paul-damian
+
+[33mcommit 82809663c750e7ea4275e42138b061364f0de44d[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Jan 8 11:25:03 2025 -0500
+
+    avance rutas dinamica
+
+[33mcommit a3ab3cfccb9a95ec411369e764afd20014086e75[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Jan 7 19:24:03 2025 -0500
+
+    cadic
+
+[33mcommit f8bef67f60a689b6df71fac0254a1252984c996d[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Tue Jan 7 10:43:06 2025 -0500
+
+    update
+
+[33mcommit 4cf01a49a2bc8e4c82a2f5d7a377d7dbd74424d5[m
+Merge: f244185 452ed62
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Tue Jan 7 01:49:12 2025 -0500
+
+    1
+
+[33mcommit f244185247d2b676306393b1969a3060eb747b26[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Tue Jan 7 01:46:44 2025 -0500
+
+    1
+
+[33mcommit 452ed623710e739f23affb22417cd950f05380e0[m
+Merge: 950d67b aac7981
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Jan 7 01:29:46 2025 -0500
+
+    Merge branch 'paul-damian' of https://github.com/InfenixReborn/ccd-ecommerce into paul-damian
+
+[33mcommit 950d67b9762c844dce46f6e43132487a31cedde0[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Jan 7 01:29:37 2025 -0500
+
+    nosotros/cadic
+
+[33mcommit aac7981c0492df49a234913a20a8d179cd4cbcfe[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 6 14:23:44 2025 -0500
+
+    course search
+
+[33mcommit d89da85fbd0fc2cc7a4d78bb16e90cdf644e87e0[m
+Merge: b461af2 16dafb4
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 6 08:40:41 2025 -0500
+
+    Merge branch 'paul-damian' of https://github.com/InfenixReborn/ccd-ecommerce into paul-damian
+
+[33mcommit b461af2e17a5fadaaf119e37df5e39150897ad41[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Jan 6 08:40:32 2025 -0500
+
+    dynamic endpoints escuelas
+
+[33mcommit 16dafb45fd4bf7872d5f5747dea0854f1dacf2f1[m
+Merge: 0a8a095 c688031
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Sun Jan 5 23:40:06 2025 -0500
+
+    Merge branch 'paul-damian' of https://github.com/InfenixReborn/ccd-ecommerce into paul-damian
+
+[33mcommit 0a8a095e04eebe96fa7dbc2b78811bd7558898ef[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Sun Jan 5 23:39:57 2025 -0500
+
+    cadic
+
+[33mcommit c688031e518c5d8116ef94cff21ea9f268c9cc3e[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sun Jan 5 15:49:10 2025 -0500
+
+    update new nav bar
+
+[33mcommit 2a247dbe891dc80b1847f06471f905d34c405596[m
+Merge: e1549d3 aca14ef
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sat Jan 4 13:32:00 2025 -0500
+
+    Merge branch 'paul-damian' of https://github.com/InfenixReborn/ccd-ecommerce into paul-damian
+
+[33mcommit e1549d301c2749ce6d77f2002d0216f6dcf0d74e[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sat Jan 4 13:31:36 2025 -0500
+
+    funcionalidades page mineria
+
+[33mcommit 1fd0768aa4ad98140d1f3bd52f8583feca732fab[m
+Merge: 64bdbed aca14ef
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Sat Jan 4 03:23:06 2025 -0500
+
+    1
+
+[33mcommit 64bdbed54796d79c41ee8a8cf6d234e7f681be33[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Sat Jan 4 03:20:59 2025 -0500
+
+    1
+
+[33mcommit aca14ef6518c1dbb9acfbc60f5c96629950e7cfa[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Jan 3 16:29:29 2025 -0500
+
+    cadic/corp
+
+[33mcommit 07c094a5dd648666693ae9bd9d53c76966778a9f[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 2 18:46:40 2025 -0500
+
+    CADIC
+
+[33mcommit 21b38f99336e49816907fb118a0532491c7c4e34[m
+Merge: 6ab42ff 9c59712
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 2 17:21:50 2025 -0500
+
+    Merge branch 'paul-damian' of https://github.com/InfenixReborn/ccd-ecommerce into paul-damian
+
+[33mcommit 6ab42ffeef766e238fea8f26c1091afae312a0f6[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Jan 2 17:21:46 2025 -0500
+
+    cadic
+
+[33mcommit 9c5971287095cbc073bbcdf5d6bca4f97d17dd83[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Jan 2 17:18:42 2025 -0500
+
+    avance curso minería
+
+[33mcommit 90117c522bbbeb9034241fe8c4823000967d0993[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Jan 2 12:21:14 2025 -0500
+
+    avance
+
+[33mcommit 5ca7a752784acca82919ab3fb563c68a9ea1d94b[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Dec 30 19:04:45 2024 -0500
+
+    1
+
+[33mcommit ff4e7387dd4d6acf6f8ec78770584e9355f4ce98[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Sat Dec 28 16:01:43 2024 -0500
+
+    login register avance
+
+[33mcommit 5bd7eabf72c0ab3ef27c4d23bd1210b4415e0e7a[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Sat Dec 28 15:53:50 2024 -0500
+
+    1
+
+[33mcommit cdf411bde29e491e7aaa814dd5508e4eeaba4e85[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Dec 26 19:03:46 2024 -0500
+
+    1
+
+[33mcommit 8db89c079685401d519a233287ebad097b4e9c9b[m
+Merge: 71a280e f7b0272
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Dec 26 17:33:09 2024 -0500
+
+    Merge branch 'infenix' into paul-damian
+
+[33mcommit 71a280e06db6529f02d8ca50e0afe025efa46bf7[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Dec 26 17:31:39 2024 -0500
+
+    avance
+
+[33mcommit f7b0272cd6428eb1c2c79bdea7e4fce75eb2175e[m
+Merge: 89c909f d6cd62a
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Dec 26 15:43:09 2024 -0500
+
+    1
+
+[33mcommit 89c909f0688cdcd21914771cd390928aa38ed8a8[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Dec 26 15:42:01 2024 -0500
+
+    1
+
+[33mcommit d6cd62af2dcf6a4fac8eeed01e18868cb695f374[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Dec 26 15:41:04 2024 -0500
+
+    avance login conexión bd
+
+[33mcommit f1731e7cf39d3fbb9f5089fa8627cd0c4947323d[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Dec 23 19:21:05 2024 -0500
+
+    1
+
+[33mcommit 5fbe5231f189abb03ff8678db7d7730b879d6a1d[m
+Merge: 975fafd 95a043f
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Dec 23 12:00:31 2024 -0500
+
+    1
+
+[33mcommit 975fafd25b8305c47e6b5038d69dc4d53a43bada[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Dec 23 11:59:46 2024 -0500
+
+    1
+
+[33mcommit 95a043f4d670772502aa6b3e5ddb0fef9f6321e2[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Dec 23 11:54:48 2024 -0500
+
+    update course card
+
+[33mcommit 7628fad77561eaf2fb72a94af49553edfd704388[m
+Merge: 4fb6b67 37e104c
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Dec 23 10:48:47 2024 -0500
+
+    1
+
+[33mcommit 4fb6b67e8ad87bd02602d750c2ec0b762006e7ab[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Dec 23 10:46:57 2024 -0500
+
+    1
+
+[33mcommit 37e104c64e4111566ada5357a3c49a60384046da[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Mon Dec 23 09:45:56 2024 -0500
+
+    avance
+
+[33mcommit 10a4de6ad2b4934a6b6062805b75607606debca3[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Sat Dec 21 15:51:22 2024 -0500
+
+    1
+
+[33mcommit 379fdf8b8b78a60da7e3c551376a4ee18fabf3ff[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Dec 20 18:00:18 2024 -0500
+
+    1
+
+[33mcommit 978d989c31cb11abf23e5bc59bcec97778573d13[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Dec 18 18:56:28 2024 -0500
+
+    1
+
+[33mcommit 5928b1be1f6501af032ef2b56afa3c6c2831f46b[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Dec 18 17:54:10 2024 -0500
+
+    avance
+
+[33mcommit 3e5f94395356e713419b7f091f253af323422e46[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Dec 17 19:09:27 2024 -0500
+
+    1
+
+[33mcommit 50c6a15ce0a3010dfce32608a4f258782e27e919[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Dec 16 19:17:50 2024 -0500
+
+    1
+
+[33mcommit 3ef20e1762fd64f70f37d5c565d0d10e5ce6a43d[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Dec 13 19:14:35 2024 -0500
+
+    1
+
+[33mcommit 042b507ad7d1702d19a10cb7cd3a9fcd295817af[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Dec 12 20:04:00 2024 -0500
+
+    1
+
+[33mcommit 9c8bdf6ebcf269d09b7bbf13115ccdc072f145d7[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Dec 11 18:56:34 2024 -0500
+
+    1
+
+[33mcommit 7233d5fb54949c5216432fe6a451165f0657d7bb[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Dec 11 16:16:46 2024 -0500
+
+    avance nosotros, corporativo
+
+[33mcommit 6a8cedd067345ee39779e458c7455034c62b9692[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Dec 10 18:57:20 2024 -0500
+
+    1
+
+[33mcommit bf6317db5c51faf9f411ffe1e7be65dbb304f346[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Dec 10 18:23:22 2024 -0500
+
+    1
+
+[33mcommit 135056dcbdc139cf6a562db6d46234ae6139f39b[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Tue Dec 10 06:43:24 2024 -0500
+
+    1
+
+[33mcommit ce22a85fee6eeab697b3d2f4fbb5a6d0b30b07d2[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Dec 6 19:28:27 2024 -0500
+
+    1
+
+[33mcommit 42836becdb57fbbf5d0551111772a2dbfb7834fa[m
+Merge: bac6fbc dd94ad7
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Dec 5 12:50:29 2024 -0500
+
+    Merge branch 'paul-damian' into infenix
+
+[33mcommit bac6fbc4fb6b96225c430083b3086803d3314d8c[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Dec 5 12:34:27 2024 -0500
+
+    1
+
+[33mcommit dd94ad7decd7d9d5805d1c49e5a83d461e68106e[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Dec 5 12:33:45 2024 -0500
+
+    landing page Modal
+
+[33mcommit d17c96e6d14e5d8a1bb2e6a383427b6e696e0010[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Dec 4 19:37:56 2024 -0500
+
+    1
+
+[33mcommit f74e68590463140fa2f61918445e3ae25f258117[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Dec 4 16:23:22 2024 -0500
+
+    Preparando despliegue de la rama paul-damian
+
+[33mcommit fc6cc909ffde2e9c623178ecf40bacdd4aaa3525[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Dec 3 20:23:35 2024 -0500
+
+    1
+
+[33mcommit 733bedbd0dea086cf4605eebcdfce8be2851db28[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Dec 2 18:36:14 2024 -0500
+
+    1
+
+[33mcommit a10696057aace195f1f87e6c680f40f91799fbb6[m
+Merge: 04a168c 0eb19d0
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Nov 28 09:18:39 2024 -0500
+
+    Merge branch 'paul-damian' into infenix
+
+[33mcommit 0eb19d0904b68e424a789385ebcb495e3fc6b6a8[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Thu Nov 28 09:16:42 2024 -0500
+
+    avance del Contador
+
+[33mcommit 04a168c4f6fc3b00f7686bd31a3bd446cc2f3ad6[m
+Merge: f2d13da 5f1d77f
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Nov 27 17:44:16 2024 -0500
+
+    Merge branch 'paul-damian' into infenix
+
+[33mcommit f2d13da4fa34cc74ea890d6932d88869e4837fa4[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Nov 27 17:40:08 2024 -0500
+
+    1
+
+[33mcommit 761b5538e3c7d6457dd63d615bb7013c33e7edc9[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Nov 27 16:55:24 2024 -0500
+
+    avance cursos
+
+[33mcommit 74f2ce1f40d743373462ab97481690bd166a36d0[m
+Merge: 75c7b36 40d12c2
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Nov 27 11:11:31 2024 -0500
+
+    Merge branch 'nuevapagina' into infenix
+
+[33mcommit 75c7b362dd27cf88618dc04f8aa3d37cf53223b2[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Nov 27 10:53:26 2024 -0500
+
+    cadic
+
+[33mcommit 40d12c25b2130c2c674ec73d9d44ebf3e568c51c[m[33m ([m[1;31morigin/nuevapagina[m[33m)[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Nov 27 10:46:43 2024 -0500
+
+    1
+
+[33mcommit 25d4d1b16020af01109efd9c5566858de139762a[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Nov 27 09:18:20 2024 -0500
+
+    1
+
+[33mcommit 5f1d77fc9bdd035f98251c93af563ce4d85f5120[m
+Author: Paul Damian <pauldamiansarro@gmail.com>
+Date:   Wed Nov 27 09:17:24 2024 -0500
+
+    first commit
+
+[33mcommit 82d5d7cb240dab4ea2179f0ee5edfaf3b6293bd1[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Nov 25 18:53:42 2024 -0500
+
+    1
+
+[33mcommit 4b8d9dbedb8a37f3df812da206b9f6436d4db431[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Nov 25 18:53:23 2024 -0500
+
+    cadic
+
+[33mcommit b726c2beee28d897ad153f86d845736faa6d6505[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Nov 25 09:16:49 2024 -0500
+
+    cadic
+
+[33mcommit 9271360b2f0bb6805f5804fde46591d2b81df2e8[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Nov 25 02:13:11 2024 -0500
+
+    cadic
+
+[33mcommit 3bcdfe47f989230a163c0c8c5803c597dc659305[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Nov 25 02:03:09 2024 -0500
+
+    1
+
+[33mcommit 152c5d4bc40e1b9700f5e5219ecc82314b7e9674[m
+Merge: d119f2b 59083c9
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Sat Nov 23 08:55:41 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 59083c94183e2f7d3b6a26766c9e579fe3889ca2[m
+Merge: f204b38 8182ccf
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Nov 22 19:58:55 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit f204b38a296ca3f1367439a3c2d31e88007a6202[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Nov 22 19:58:48 2024 -0500
+
+    cadic
+
+[33mcommit 8182ccfe8496a03d0ad28b975bde14904eaa443a[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Nov 22 11:56:30 2024 -0500
+
+    1
+
+[33mcommit 7b707efa32b7e28f5b7e720524f0bf337cc535c0[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Nov 22 09:08:00 2024 -0500
+
+    1
+
+[33mcommit d119f2b4894c68d0525bdd3a46033c463e72d523[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Nov 22 05:26:28 2024 -0500
+
+    cadic
+
+[33mcommit 16c7e97b4b30d9c2f67486a2ab34abca8e13c4ee[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Nov 21 21:27:29 2024 -0500
+
+    cadic
+
+[33mcommit 1b146f704ff1c1cd087e124bcdc6a7f14a481746[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Nov 20 19:47:49 2024 -0500
+
+    CADIV
+
+[33mcommit 0c3e8bd40364b62128017f3424c2343c1231e20c[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Nov 20 10:18:23 2024 -0500
+
+    cadic
+
+[33mcommit f80f079c4c7b41da47df8795746e17f202d8f755[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Nov 20 09:28:52 2024 -0500
+
+    1
+
+[33mcommit 444bf5c24a3fd7dc1b4ca401e84353a8360cc324[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Nov 20 06:33:58 2024 -0500
+
+    cadic
+
+[33mcommit 10a0c408a4246027ec64fced28f7699e5517625a[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Nov 19 20:24:56 2024 -0500
+
+    cadic
+
+[33mcommit a5a0ab61f9a29c41b864274534f3f53e10fd4886[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Nov 19 06:24:28 2024 -0500
+
+    cadic
+
+[33mcommit 4293bada0c7bc6949cbbec6a0f3c2cb2275413d9[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Nov 19 01:34:29 2024 -0500
+
+    cadic
+
+[33mcommit 4c9eed601c44ff31acd65051e370c2a37a03dc33[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Nov 18 19:30:55 2024 -0500
+
+    cadic
+
+[33mcommit 516ef4b34c1ed08a9081ee7e8bc08ee36d5b1df4[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Nov 18 18:39:21 2024 -0500
+
+    cadic
+
+[33mcommit fd3b77cd883cf264bc0a6881bf3f692441df3a0b[m
+Merge: 2758568 a05d578
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Nov 18 00:26:54 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 275856854ffd3fc29eef0286e72e858fd9ee9f55[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Nov 18 00:26:32 2024 -0500
+
+    cadic
+
+[33mcommit a05d5786f088694ac20a5d5746ae970f935fb46a[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Sun Nov 17 16:12:03 2024 -0500
+
+    1
+
+[33mcommit 7c0e844c6d41256bf3489f30c82814487545c5bf[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Nov 14 18:33:39 2024 -0500
+
+    1
+
+[33mcommit 7582e930aca150cca08e841635c87809384dd540[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Nov 13 20:09:14 2024 -0500
+
+    cadic
+
+[33mcommit 425707f25e172e0ef0875a842a5b6c4ca0557de7[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Nov 13 19:59:40 2024 -0500
+
+    cadic
+
+[33mcommit c3738023b911ff8a222f30f7dc5403ea63847d52[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Nov 13 19:47:24 2024 -0500
+
+    cadic
+
+[33mcommit 97188571110815cbcf6b03cbf31b96a3917fc7a2[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Nov 13 19:39:36 2024 -0500
+
+    cadic
+
+[33mcommit fe993a9e0b415746a7464e704bc51be088ad3e4b[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Nov 13 19:23:08 2024 -0500
+
+    cadic
+
+[33mcommit 224315616b114c81eee3826d39c5c723273d4a92[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Nov 13 18:40:41 2024 -0500
+
+    CADIC
+
+[33mcommit f45086a0e3b3cec7deb0967a0e62eb218b217bcf[m
+Merge: 793c02a 7e81a33
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Nov 13 18:25:27 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 793c02ae12ff4660cbe3e6dc280d78e50e950c30[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Nov 13 18:25:22 2024 -0500
+
+    CADIC
+
+[33mcommit 7e81a33eb1059cb9aef067e69fcee3a7a5bbfc56[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Nov 13 18:24:13 2024 -0500
+
+    1
+
+[33mcommit 3da3adc4b8dabad4251f5aec69f340eb11b29724[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Nov 13 18:14:55 2024 -0500
+
+    CADIC
+
+[33mcommit b2ce98e6ee079b058adf09c744f8c7ee6356d9e7[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Nov 13 16:24:39 2024 -0500
+
+    cadic
+
+[33mcommit 6465f698b9d24b1eec89195c92109a2915c97bab[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Nov 13 15:57:33 2024 -0500
+
+    cadic
+
+[33mcommit a479456a9b4f746880710585606794e8a4160d36[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Nov 12 20:01:11 2024 -0500
+
+    CADIC
+
+[33mcommit 59bc98dadf5bd924c54be6e6645ddce7f6be9597[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Nov 8 18:32:03 2024 -0500
+
+    1
+
+[33mcommit 06945ee36aeacc1972cfd6fb3358653502897dd9[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Nov 7 18:29:12 2024 -0500
+
+    1
+
+[33mcommit 2795769c915c747e03b13254e93d113ca4eca528[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Nov 6 18:27:19 2024 -0500
+
+    1
+
+[33mcommit 2c6f3002adbf700592e00c4118060451abf510b1[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Nov 6 09:55:35 2024 -0500
+
+    1
+
+[33mcommit 4043e2928b171a6c5a6f4ed81c2599b5c7a1fd41[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Nov 6 09:51:56 2024 -0500
+
+    cadic
+
+[33mcommit 322fd78277ab7acc28c2d117fbbf467f702786b0[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Nov 6 06:30:40 2024 -0500
+
+    cadic
+
+[33mcommit 9ea762200cbe031a83dd7e12062d11a1f91ac481[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Nov 6 06:19:57 2024 -0500
+
+    cadic
+
+[33mcommit 1636a412c89cf426592a466874dae59f24c4151f[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Wed Nov 6 02:22:47 2024 -0500
+
+    1
+
+[33mcommit baf1210d74fe9b29e0cd600e92b51b15f1734907[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Nov 5 19:41:58 2024 -0500
+
+    cadic
+
+[33mcommit 56a97661d0f832a0a7101305f0db0ce122220ac5[m
+Merge: 5452ce6 c3637ab
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Nov 5 18:39:36 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 5452ce60bd1c2bd5288a73e4aec449bf2bdcf245[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Nov 5 18:39:31 2024 -0500
+
+    cadic
+
+[33mcommit c3637ab50cc239ba35d89a1e115ba5576cca2029[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Nov 5 18:38:39 2024 -0500
+
+    1
+
+[33mcommit 2f770bbeac058628c85b5ef5f95d422c4338de4c[m
+Merge: 927ccd6 534d4a6
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Nov 5 17:30:33 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 927ccd613392c8386430ed0d91d03cc07e7e8f4c[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Nov 5 17:28:35 2024 -0500
+
+    cadic
+
+[33mcommit 534d4a6cf7772d633d4a25ceabed71381bac9190[m
+Merge: b3829b2 a6c188d
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Nov 5 14:29:45 2024 -0500
+
+    1
+
+[33mcommit b3829b26770e0bf1185a1fb83b199ae8038213fa[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Nov 5 14:24:58 2024 -0500
+
+    1
+
+[33mcommit a6c188d0aed43dda56f21a9142e153de2d0ca761[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Nov 5 13:58:57 2024 -0500
+
+    cadic
+
+[33mcommit 8d760af56c88aacaf9dd078032b39fac4e847a8c[m
+Merge: 948987e 239c071
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Nov 5 09:08:24 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 239c071fdbca82305852b4491222918d290837d7[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Tue Nov 5 07:56:24 2024 -0500
+
+    1
+
+[33mcommit 948987e0a138ae46b7d5106ca754681080d39adc[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Nov 4 19:49:19 2024 -0500
+
+    cadic
+
+[33mcommit 53765dd9c6db0beb9479d48c4f7b00203a47d374[m
+Merge: c31da53 e6a909a
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Nov 4 18:05:18 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit e6a909a418d6cd9842c9dd3e89e58dce4a1ac0bb[m
+Merge: 7a04ca5 8b453cf
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Nov 4 18:04:45 2024 -0500
+
+    1
+
+[33mcommit c31da530bdfabbc1175863332653ba0bec0af199[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Nov 4 18:04:09 2024 -0500
+
+    cadic
+
+[33mcommit 7a04ca52e8613f1900201e26493cc7e89ee23477[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Nov 4 18:00:17 2024 -0500
+
+    1
+
+[33mcommit 8b453cfb93b177d9ad5d2564e7f878ee9017c593[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Nov 4 18:00:09 2024 -0500
+
+    cadic
+
+[33mcommit 1cdaebb222fc04027847ea75db56795654205941[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Nov 4 16:34:14 2024 -0500
+
+    cadic
+
+[33mcommit 3201758e0122da5a40ea8959ebd9d7befb80e10c[m
+Merge: bd3e7c1 29deee1
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Nov 4 12:19:04 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit bd3e7c129b239e7b26e9d0823e9d16156a26f677[m
+Merge: c0cbfa2 52e1c28
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Nov 4 12:18:58 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 29deee199948b838f649ad01281c4a1143d6773e[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Nov 4 12:18:26 2024 -0500
+
+    1
+
+[33mcommit c0cbfa28ae9dbb6eedf522304df418766947df3e[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Nov 4 12:18:22 2024 -0500
+
+    cadic
+
+[33mcommit 52e1c28a3549f99679eba30336783644b6727885[m
+Merge: 30e7397 c638e37
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Nov 4 11:55:43 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 30e739766a557a079e361189feb6983cd0452121[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Nov 4 11:55:40 2024 -0500
+
+    1
+
+[33mcommit c638e37ce4e6711f8eb50a9ae4897f0ccf106c54[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Nov 4 11:53:02 2024 -0500
+
+    cadic
+
+[33mcommit c62cd563d9affea391d9b982884df8ce73988055[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Nov 4 11:38:21 2024 -0500
+
+    cadic
+
+[33mcommit c55b31dec88e4faf1ef3256368cbd56678aafefb[m
+Merge: 9ac74d6 4a3c2dd
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Mon Nov 4 08:34:20 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 9ac74d630146a40b46a2c00c5278f54e50e7ceb0[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Mon Nov 4 08:34:11 2024 -0500
+
+    1
+
+[33mcommit 4a3c2dd8e167031cf565c6704bf6a806b165ca25[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Mon Nov 4 01:27:49 2024 -0500
+
+    cadic
+
+[33mcommit 853e42b48c5bfc428122c86c3af484673e1062ad[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Sun Nov 3 11:21:36 2024 -0500
+
+    cadic
+
+[33mcommit f1e6173849cf39d5472ed6ffdb234dc3327be42f[m
+Merge: ef27f66 476c177
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Sat Nov 2 08:28:29 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit ef27f66dc8322b9f87e8fa3a3656990ef2a797ef[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Sat Nov 2 08:28:24 2024 -0500
+
+    cadic
+
+[33mcommit 476c177aa12fd66d1e6fb67a80bbb9ec453d5e12[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Oct 31 19:00:15 2024 -0500
+
+    1
+
+[33mcommit 0c46a9753ebecefcbad73c37e85b3dfc9a86bf3d[m
+Merge: 9af07ff b0b84c1
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Thu Oct 31 09:08:46 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 9af07ff985039cb1d8247f877242e8d22fb53cda[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Thu Oct 31 09:08:42 2024 -0500
+
+    cadic
+
+[33mcommit b0b84c17a8190c95247b38d9776d7b05a82635e7[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Thu Oct 31 07:34:29 2024 -0500
+
+    1
+
+[33mcommit 978a97f093d5651d9cd78654355564b8dafa8483[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Thu Oct 31 01:35:40 2024 -0500
+
+    1
+
+[33mcommit b10be7c3a90cf609fb471f6cb6c07aea04c4590e[m
+Merge: 7d5d0ba 89134ea
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Oct 30 23:00:07 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 7d5d0bac0d7a8882df5b29a49dbd62ccf40bd9fb[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Oct 30 22:58:57 2024 -0500
+
+    cadic
+
+[33mcommit 89134ea796b1d0cf617993a750555c2d67121200[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Oct 30 17:12:22 2024 -0500
+
+    1
+
+[33mcommit 5fc385cfd78096fd691de8dad121e0fce5feb3ba[m
+Merge: 722f346 7939d90
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 29 17:33:54 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 722f346a49a22609c2bebcf27caff51f81528293[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 29 17:32:29 2024 -0500
+
+    cadic
+
+[33mcommit 7939d9070dbdc2881eb48ca85082a588d20a0cf5[m
+Merge: 8af59b6 122101c
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 29 13:03:33 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 8af59b64ab55377103ebb72b99b271fdef72b9ae[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 29 13:03:30 2024 -0500
+
+    1
+
+[33mcommit 122101cbec3d58d4aa2dc4f277c07fdd260b2ac1[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 29 12:49:03 2024 -0500
+
+    cadic
+
+[33mcommit 212324407f3ebc674ecf58f28dd671c4000b7c43[m
+Merge: 5a51734 43c6b12
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 29 11:58:59 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 5a51734f2b0a385b0c99eae90b080889ea8a0458[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 29 11:58:53 2024 -0500
+
+    cadic
+
+[33mcommit 43c6b1258eb285eff3f5608d267af1bb66584ebf[m
+Merge: 7508be5 98d2e7e
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 29 10:08:21 2024 -0500
+
+    1
+
+[33mcommit 7508be5b44f3d9a793b665667d5f8787c448ae12[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 29 10:07:06 2024 -0500
+
+    1
+
+[33mcommit 98d2e7e2b2ba3d23cd5c4ff20c4d74c6c8856765[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 29 10:06:04 2024 -0500
+
+    cadic
+
+[33mcommit b0ef75c8707f2cebf9c43b0084a3ad55c7d8fc5c[m
+Merge: fd09b15 d3a1688
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 29 09:11:29 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit fd09b156e35325f7ab870bfa965b83cb04a97c65[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 29 09:11:24 2024 -0500
+
+    cadic
+
+[33mcommit d3a168872f17178597ebe198c1fe1f8f8d84d4f4[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Tue Oct 29 08:03:48 2024 -0500
+
+    1
+
+[33mcommit 76db0392af7aca75c8e84a71a0b99f18002a12d9[m
+Merge: 485fd91 784ef3f
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Tue Oct 29 07:23:25 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 485fd914611fe90be62e2e64496e7f5ee051a777[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Tue Oct 29 07:23:19 2024 -0500
+
+    1
+
+[33mcommit 784ef3f5b6887129e63626f76cf0f5a2b75f4423[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Oct 29 07:12:10 2024 -0500
+
+    cadic
+
+[33mcommit 291dd2514f6871a9be13488cfae0e13e8ea48f3b[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Oct 28 18:39:43 2024 -0500
+
+    1
+
+[33mcommit 6479f887557266ef4a5bbb3117b5401b09cd7635[m
+Merge: 273a4a4 5b57d20
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 28 12:25:45 2024 -0500
+
+    cadic
+
+[33mcommit 273a4a4c383613dc90a1decc0e046726debb5049[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 28 12:24:30 2024 -0500
+
+    cadic
+
+[33mcommit 5b57d205920ad18a633c2f8e18659be7adfbe4a6[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Oct 28 12:23:32 2024 -0500
+
+    1
+
+[33mcommit 585a047706f4793003690163f9f539667c77702a[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Mon Oct 28 07:55:23 2024 -0500
+
+    1
+
+[33mcommit 3294e69127ffd726d2be3dc0aea59b4207233a27[m
+Merge: 210515c e828e57
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Sat Oct 26 19:03:34 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 210515ceaaa5e6cdb4c100e16043584511550688[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Sat Oct 26 19:03:26 2024 -0500
+
+    cadic
+
+[33mcommit e828e57669e8e2476a46603173e641a3f255c3be[m
+Merge: 31709d4 3c6c2a8
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Oct 25 18:37:31 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 31709d4f2858e8bdd1d3f78087c45f87a2f79898[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Oct 25 18:37:27 2024 -0500
+
+    1
+
+[33mcommit 3c6c2a8458796c9dd78dbf96579bc1bf5fc7c07e[m
+Merge: 2a149a2 5e65241
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Oct 25 17:14:42 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 2a149a2b80c4475be4d44349576c35762d9b64dd[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Oct 25 17:14:28 2024 -0500
+
+    cadic
+
+[33mcommit 5e6524146f35b7e2daadc6acab1b4de50cf7f7aa[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Fri Oct 25 08:20:48 2024 -0500
+
+    1
+
+[33mcommit 5dadf67480e6cb1bea3e86cbcc4cbc5b9918d3ca[m
+Merge: dd0c774 dd7da68
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Oct 24 18:33:08 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit dd0c774dbd2c69d08df72a64e65e88654ae33fa8[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Oct 24 18:33:06 2024 -0500
+
+    1
+
+[33mcommit dd7da685e78c72ab5e33feaf8821a6990c35f6f5[m
+Merge: 9b96397 16cc92b
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Thu Oct 24 10:02:57 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 16cc92b7bd6e8f59d667a7fc6307b504af2ab75b[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Thu Oct 24 08:21:43 2024 -0500
+
+    cadic
+
+[33mcommit 465251b73b232f5f3d635b886cc18a0df9361b01[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Wed Oct 23 16:23:49 2024 -0500
+
+    1
+
+[33mcommit 522f39dfa97ac85b9d52dcf7b5b8fcb3761d7155[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Oct 23 14:13:56 2024 -0500
+
+    1
+
+[33mcommit eed49a0dc36095fd118d80a7657cb5cf70b81351[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 22 18:19:35 2024 -0500
+
+    1
+
+[33mcommit 6e83504a73bb262cbca920a0decf5d422fb99acd[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 22 16:35:25 2024 -0500
+
+    1
+
+[33mcommit 07784be15323689ebcff52585c2269bd332282d2[m
+Merge: 89d4787 1429037
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 22 15:11:15 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 89d4787f930526e7555963da77019a79b122a675[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 22 15:11:12 2024 -0500
+
+    1
+
+[33mcommit 9b9639788ade4c1b4b5054b7153b2b56b408fa8d[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Oct 16 19:16:54 2024 -0500
+
+    cadic
+
+[33mcommit 1429037cff48c7ea0813927e689e1c36b1c91b5d[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Oct 16 17:33:40 2024 -0500
+
+    cadic
+
+[33mcommit 5e33ebb95b6563d71fe2b6daddf202b910a076fb[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Oct 16 09:20:33 2024 -0500
+
+    cadic
+
+[33mcommit 2a3170060f7a6b35e654fe234f768c68f5c5f619[m
+Merge: 4c86e51 9dd0ddc
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 15 18:29:10 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 4c86e5124eb04472c90f1956b483c8dabeb8b74e[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 15 18:29:05 2024 -0500
+
+    cadic
+
+[33mcommit 9dd0ddc27aa82dbc257226d5c14a8a20e8db622a[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 15 18:28:05 2024 -0500
+
+    1
+
+[33mcommit 8e53baba65a4e148ae1d8c1095e9cdca8225f4f9[m
+Merge: cdd6720 443b64f
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 15 11:06:40 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit cdd6720b1a13bf9525d77dc01c753817bd4b653f[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 15 11:06:37 2024 -0500
+
+    1
+
+[33mcommit 443b64f7001e04504655f88073d866e2d6780432[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 14 19:35:26 2024 -0500
+
+    cadic
+
+[33mcommit 0267781b0493d6e7691888db7b9374e5af09d5ad[m
+Merge: a9381c6 747ba79
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 14 18:29:26 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit a9381c693c55a41b0282604db65d0bcc18382233[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 14 18:27:51 2024 -0500
+
+    cadic
+
+[33mcommit 747ba798202d53e30f011a7d22dee512e22044a7[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Oct 14 18:26:44 2024 -0500
+
+    1
+
+[33mcommit fa9cae4d14b36ffac00f602e312e2d404d30939f[m
+Merge: d199ded 5d27c78
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Oct 14 17:02:09 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit d199dedbaf7c14f88967a030fceeb1443b2d3088[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Oct 14 17:02:06 2024 -0500
+
+    1
+
+[33mcommit 5d27c782e122113572482b4f2916f82c0ac5f6e6[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 14 17:01:49 2024 -0500
+
+    cadic
+
+[33mcommit 0467717c7eec6b78e757550f2206b5c84fddac11[m
+Merge: 3fdaef3 5fd97df
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 14 16:27:25 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 3fdaef356ca416ec49000788eb6075fa59ccec65[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 14 16:27:20 2024 -0500
+
+    cadic
+
+[33mcommit 5fd97dfb23af83f0ba366d1bd79ee24e64e8b556[m
+Merge: f60cc20 619815d
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Oct 14 14:52:15 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit f60cc20b87727c4abd89ca3c9bfef80fa6490c37[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Oct 14 14:52:12 2024 -0500
+
+    1
+
+[33mcommit 619815d1f5095e7b6a114feec3266efc475ada6e[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 14 14:51:56 2024 -0500
+
+    cadic
+
+[33mcommit cbaa1b4cf7738492da70edcd8d945953a8fce9cf[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 14 12:57:06 2024 -0500
+
+    cadic
+
+[33mcommit 4b888b7d0647f646fc23c7b4bbac08130789cf6b[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 14 12:33:11 2024 -0500
+
+    cadic
+
+[33mcommit eeed4ac7db8438d02e4293c21737c0de8288a451[m
+Merge: 11e0269 e50a3ed
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 14 00:48:33 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 11e0269a6c0bc93bc5acca07ceaebf1ed4df02c0[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 14 00:48:28 2024 -0500
+
+    CADIC
+
+[33mcommit 0388da70ba7a1ab8d05febe36e2b0d8ca347742f[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Sun Oct 13 21:38:29 2024 -0500
+
+    cadic
+
+[33mcommit e50a3ede0953fc3f1c973fd036c25bf801cd7890[m
+Merge: 2ee5c22 a7b60cf
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Sun Oct 13 21:20:26 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 2ee5c22a9d67693ceaa912b6dcac2619697b24ce[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Sun Oct 13 21:20:23 2024 -0500
+
+    1
+
+[33mcommit a7b60cf5677f06f1e55d700a2b60150f6f855bd8[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Sat Oct 12 18:42:10 2024 -0500
+
+    CADIC
+
+[33mcommit f428c37939cb22fe6e3e4302656097c5023839eb[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Oct 11 16:13:36 2024 -0500
+
+    cadic
+
+[33mcommit d44a8c8d34182a3b32115c6dc78cea1b90a86668[m
+Merge: 912d354 143b2d1
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Oct 11 13:07:45 2024 -0500
+
+    1Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 912d3546cba9091b857582285e9796545b97e5ed[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Oct 11 13:07:26 2024 -0500
+
+    1
+
+[33mcommit 143b2d1d9996f73b9c063c3991fa84a858feb0f5[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Oct 11 13:05:12 2024 -0500
+
+    cadic
+
+[33mcommit 73af26471667749b19963988c556ff1d57488c6c[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Oct 11 12:33:49 2024 -0500
+
+    cadic
+
+[33mcommit ec6b5a7000def09804f7e6995ee38dee3d1bad65[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Oct 11 12:10:01 2024 -0500
+
+    cadic
+
+[33mcommit e0b2212bc81f2124c68248237de4fb7cde497ff4[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Oct 11 10:12:36 2024 -0500
+
+    cadic
+
+[33mcommit ac2c7892eab9d5a1855fee3cf8c2197f1f40d3f4[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Oct 11 09:28:53 2024 -0500
+
+    cadic
+
+[33mcommit c55919a6a6f3554c8635906acfccba25c8c2a3fd[m
+Merge: c76f5b9 84e124a
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Oct 9 11:10:08 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 84e124a90420e013b20b4228f93079ba103968f3[m
+Merge: 67cb57b e4da8eb
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Oct 9 11:09:46 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 67cb57b971d22b8d141293f565629a972e1a89d5[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Oct 9 11:09:43 2024 -0500
+
+    1
+
+[33mcommit c76f5b9be4ff9477b68010051ada2825acf21e64[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Oct 9 11:09:39 2024 -0500
+
+    cadic
+
+[33mcommit e4da8eb88923943fbd0f688c60313d83449a8a67[m
+Merge: b7afcd0 7cb13d9
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Oct 9 10:31:47 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit b7afcd0f27dc91b98922c297ea8f72b60b86c39f[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Oct 9 10:30:18 2024 -0500
+
+    cadic
+
+[33mcommit 7cb13d98ce65e44f882e2e68363e6c0b4fd78093[m
+Merge: a18f2a2 820df6c
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Oct 9 09:49:21 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit a18f2a2a83f9529e6150d7b4e8f6ac9e21f0641e[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Oct 9 09:49:18 2024 -0500
+
+    1
+
+[33mcommit 820df6c67ec7e125d4ef5efabad3dcb63e686539[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Oct 9 09:49:03 2024 -0500
+
+    cadic
+
+[33mcommit 6a9b9915a690fbc5fb7fd94f696fbaa7bf818f70[m
+Merge: 5157b08 ab9867c
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 8 17:50:30 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 5157b0861b682d43d8b9f85daab126db6730977a[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 8 17:50:26 2024 -0500
+
+    1
+
+[33mcommit ab9867c329eedbaee508118e6809c4cfd650f5e0[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 8 17:49:38 2024 -0500
+
+    cadic
+
+[33mcommit 4aed21493789f9cb3476dbe13d355b00d658f0e7[m
+Merge: 30538f7 103c3a7
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 7 17:50:01 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 30538f759b3b09861c8fe51c2d2e7f7ebfaafa7c[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 7 17:49:18 2024 -0500
+
+    cadic
+
+[33mcommit 103c3a7cd10b60c5ea525136aeaa0616152e6f13[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Oct 7 17:48:38 2024 -0500
+
+    1
+
+[33mcommit 806227ce5420172116d3284dc15d47ae862fb00b[m
+Merge: f53bed0 fa767ad
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 7 11:46:41 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit f53bed0e8e29f8d1d79e91feab8fb50b66019373[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 7 11:46:36 2024 -0500
+
+    cadic
+
+[33mcommit fa767ad86e0ff766aceeab65a01a31fcbe10697a[m
+Merge: 4365ab2 1cdd714
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Oct 7 09:16:24 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 4365ab22826de090366a98d35319aa2d75bdd6a4[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Oct 7 09:16:21 2024 -0500
+
+    1
+
+[33mcommit 1cdd714265f2e2ca39203ad0f44229ceeff92e8a[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Oct 7 09:02:41 2024 -0500
+
+    cadic
+
+[33mcommit 729515e0ca942582fccfbb5a33ced37507b80e1e[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Oct 4 20:06:25 2024 -0500
+
+    cadic
+
+[33mcommit fd8cc94e862bb9a583a548df8d90bf3b81173c47[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Oct 4 19:11:59 2024 -0500
+
+    cadic
+
+[33mcommit 6495fc8b5c5e8e688f9b88e0096ec4bd076a8fd3[m
+Merge: f205492 346d2cd
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Oct 4 18:55:37 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit f2054920488e80c04873def61cc78dc40c0b9a5e[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Oct 4 18:55:31 2024 -0500
+
+    cadic
+
+[33mcommit 346d2cd34725e609f8c25b1d79db4c33f472a71d[m
+Merge: d7df30b 01e1836
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Oct 4 18:53:57 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit d7df30bd4aa37a311276fc2c20482f3b276e08b0[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Oct 4 18:53:54 2024 -0500
+
+    1
+
+[33mcommit 01e1836f66e720900059e9b15f8f4fa5497265c0[m
+Merge: bc47c0a 56e522f
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Oct 4 10:58:32 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit bc47c0a6e83e4e41f1b259f12e68e1271415df7e[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Oct 4 10:56:17 2024 -0500
+
+    cadic
+
+[33mcommit 56e522f022bb8198775e28e8760625621c449760[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Oct 4 10:38:53 2024 -0500
+
+    1
+
+[33mcommit 3fdae5e3719fd5fb80fcd02c3226e0358b6992ce[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Oct 3 18:32:48 2024 -0500
+
+    1
+
+[33mcommit aed921d65cc1ea12f1a43e1430bbaef92a4e2bdf[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Oct 3 13:03:20 2024 -0500
+
+    1
+
+[33mcommit 9889a782bc84c01564cf4810854640cdbe9afdf6[m
+Merge: bf869ea 4ebbf35
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Oct 3 12:21:37 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit bf869eafeeb5273ab2484a78a5212857274c44b1[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Oct 3 12:21:35 2024 -0500
+
+    1
+
+[33mcommit 4ebbf35f2cd2b583d4549b5158c1f1e9e4ade3d0[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Oct 2 20:23:44 2024 -0500
+
+    cadic
+
+[33mcommit 006720a56f6b7f15850b81fe83a225c765d764ec[m
+Merge: c29b849 31f3009
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Oct 2 16:59:42 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit c29b84921b0d3361667a71299cba3e4034bce449[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Oct 2 16:58:16 2024 -0500
+
+    cadic
+
+[33mcommit 31f3009308dd6ee1a74c21f7d04d93d254c47bc7[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Oct 2 16:58:05 2024 -0500
+
+    1
+
+[33mcommit 712231c1cf0eae334911caf7387951f3e50a5560[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Oct 2 10:03:08 2024 -0500
+
+    1
+
+[33mcommit eff64300c477c743caaf24ce16b00f9988d30998[m
+Merge: a0de506 33348dc
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Oct 2 09:49:04 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit a0de5066fc37a44b8e35c11976f84edc0f110c65[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Oct 2 09:48:57 2024 -0500
+
+    cadic
+
+[33mcommit 33348dc730a45a21e4aae7df8ad64316fd6ff2ff[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Oct 2 09:48:36 2024 -0500
+
+    1
+
+[33mcommit 942fa361251301806947099676106dbf4dd52478[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 1 19:14:15 2024 -0500
+
+    cadic
+
+[33mcommit 9882730dad5747f6316532d56433421362e12467[m
+Merge: 742bb25 1250dea
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 1 18:28:48 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 742bb25674cbcad64ba2021d599113558476d598[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 1 18:28:25 2024 -0500
+
+    cadic
+
+[33mcommit 1250dea2bceaf289552886bb6e0b2678402eec0c[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 1 18:28:13 2024 -0500
+
+    1
+
+[33mcommit 5e46c109913bb86b02f230fbaf45b34c636a7655[m
+Merge: bca9cc4 e5c703f
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 1 17:03:37 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit bca9cc43445edbe22190987859578828c6200d61[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 1 17:03:34 2024 -0500
+
+    1
+
+[33mcommit e5c703f8015e088d889beb0fdfe700e429b6bd61[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 1 17:01:31 2024 -0500
+
+    cadic
+
+[33mcommit 5e37c51f8cdffb2deff66ad5be67b420ea7fe2d8[m
+Merge: 09f7b82 c282fa1
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 1 15:29:59 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 09f7b82eb30ba01ece64f95b201dfd9618410ea8[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 1 15:29:53 2024 -0500
+
+    cadic
+
+[33mcommit c282fa182e166661137686215d6148747a8ae1b5[m
+Merge: 946960b 26077d6
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 1 15:27:57 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 946960b0419502418f7278db2c25675f14390099[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 1 15:27:54 2024 -0500
+
+    1
+
+[33mcommit 26077d6e5c0a7b91950bbaa8d37ccfca02fbd254[m
+Merge: 21b38c5 6442975
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 1 13:04:55 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 21b38c55567266dc8718f30ac6f3971571781bb0[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 1 13:04:48 2024 -0500
+
+    cadic
+
+[33mcommit 6442975a04f93657460216f72b301a66c1f5f618[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 1 13:03:57 2024 -0500
+
+    1
+
+[33mcommit 409af5159afca04203d3517cadd4480dbb43a48f[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 1 12:32:02 2024 -0500
+
+    1
+
+[33mcommit b82dab55b5004255acfbc417c47f00c27f269bcd[m
+Merge: d6d8da0 685b716
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 1 12:21:35 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit d6d8da0c997e526420fb37eaeb8e14281db7328d[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 1 12:21:29 2024 -0500
+
+    cadic
+
+[33mcommit 685b716942e636a1b15e65eeb0d19ac86f8656d7[m
+Merge: 78165dc 307ef12
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 1 12:21:12 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 78165dc757ff01f04ee0ac5c9a3ae4b47333c639[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 1 12:21:09 2024 -0500
+
+    1
+
+[33mcommit 307ef12ddb078e31fccef46848eafcf1aa559b6f[m
+Merge: ba9d1bc 3aff25a
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 1 10:03:39 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit ba9d1bc48f9a4367ad423315c16b4111c5611af9[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Oct 1 10:03:32 2024 -0500
+
+    cadic
+
+[33mcommit 3aff25af191332ced9b65ca421dafa6f4b85b5c9[m
+Merge: 04d82ec 177661e
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 1 10:03:28 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 04d82ec76c22cc3a52c4242f2a5c10de1ada03fb[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Oct 1 10:03:21 2024 -0500
+
+    1
+
+[33mcommit 177661e0b89cfffcf45fba813a9dfe494208bbe2[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 30 20:04:41 2024 -0500
+
+    cadic
+
+[33mcommit ec83a3c64228d349fdd8b5379b2812aa60083e1d[m
+Merge: 6c873e1 09dc351
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 30 18:01:31 2024 -0500
+
+    fff
+
+[33mcommit 6c873e1619c2992534686736b914508272850105[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 30 17:59:58 2024 -0500
+
+    cadic
+
+[33mcommit 09dc351067de6e2d57eabb50e3bc125165319658[m
+Merge: c841f5a e562b3a
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Sep 30 17:59:53 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit c841f5a7cd47793c4460d5168c92de01cf2c1bb4[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Sep 30 17:59:50 2024 -0500
+
+    1
+
+[33mcommit e562b3a00a423a94b5ab0f4ef6f2deb99a0f833b[m
+Merge: 09adde6 d16725c
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 30 09:10:42 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 09adde63be0bb170d7546acfafac23168af07690[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 30 09:10:24 2024 -0500
+
+    cadic
+
+[33mcommit d16725cd276392742a820f1f152994298a56e7a4[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Sep 30 09:09:37 2024 -0500
+
+    1
+
+[33mcommit 73ab9f0073af7655eba0cb16ea2c11eb7b67986c[m
+Merge: 55e3892 673bea1
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 27 18:13:23 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 55e389236c4212aa62d17ee29d9911715a4b1cec[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 27 18:13:20 2024 -0500
+
+    1
+
+[33mcommit 673bea14d08eaa4de3bd2958b00f41e20de6402d[m
+Merge: 234c8ee e3dd4a7
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 27 16:24:11 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 234c8eeb005d349a30753e3ed5fcef6868ee89d0[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 27 16:24:06 2024 -0500
+
+    cadic
+
+[33mcommit e3dd4a73a2fb08950c621fc3c0897e36363fff40[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 27 16:23:04 2024 -0500
+
+    1
+
+[33mcommit 77978264a085d9e2630bc57544381e0ef158ed89[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Sep 26 18:27:48 2024 -0500
+
+    1
+
+[33mcommit 4e74556ab88fbb30b48f5579cfdc17781fcd8d4a[m
+Merge: caf13ed 0b7bbc7
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Sep 25 19:09:38 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit caf13ed1d01578fda7dcdaf2df13b272cc8e8547[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Sep 25 19:08:57 2024 -0500
+
+    cadic
+
+[33mcommit 0b7bbc7bc5377cbe12c81cf9ffec0fc67df67f9c[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 25 18:24:15 2024 -0500
+
+    1
+
+[33mcommit 7a6ebf35252d1d7d04b8403c08345efcfdb587f1[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 25 10:29:23 2024 -0500
+
+    1
+
+[33mcommit e88a2950197130489f67ed5207aaee6649598779[m
+Merge: e10637e d97e4ff
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 24 18:35:44 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit e10637e73d5f367187276498f548dd7f899a53c3[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 24 18:35:38 2024 -0500
+
+    1
+
+[33mcommit d97e4ff3f4f70ec2e8f8d2ae6455f75cbe20eb2d[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 23 20:17:53 2024 -0500
+
+    cadic
+
+[33mcommit ecefe20053fc5075a2edbe1f5d769a2150d9350f[m
+Merge: 0cbed4c 23033b9
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 23 18:39:41 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 0cbed4ce168b4895277f25770c29f838f8087744[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 23 18:39:35 2024 -0500
+
+    cadic
+
+[33mcommit 23033b918ae2d7872091e89d00ac91d70d89989e[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Sep 23 18:13:42 2024 -0500
+
+    1
+
+[33mcommit d017249dac63333aa2e6baf44b8a926ea86bc293[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Sat Sep 21 15:27:06 2024 -0500
+
+    1
+
+[33mcommit dad5c8540f7788df6467031a24e5605eebb5190b[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Sat Sep 21 14:20:33 2024 -0500
+
+    cadic
+
+[33mcommit 75333ce40f2c03c0038086024defe463d14eeea3[m
+Merge: a803db5 4fe8290
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 20 19:50:25 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit a803db5d0d59e36333905fa906a8ec7987c6022d[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 20 19:49:51 2024 -0500
+
+    cadic
+
+[33mcommit 4fe829083c8b72d95375499ac6c1e0143029c076[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 20 19:49:40 2024 -0500
+
+    1
+
+[33mcommit 2083262f99ab348e40add5745f03eac26c64f108[m
+Merge: 6fee0cd f5aefda
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 20 17:36:09 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 6fee0cd80fdc70da5bb451a66cf74ee65d743b2a[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 20 17:33:28 2024 -0500
+
+    cadic
+
+[33mcommit f5aefda04f9a229d8a04fd73a4b8de8d3052530e[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 20 17:19:11 2024 -0500
+
+    1
+
+[33mcommit 5c16273ca443c5866cf8652398408eb913f4c945[m
+Merge: f596d89 57f1ffe
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 20 16:54:57 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit f596d890772acb329af6c078767a5818785f76c0[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 20 16:54:48 2024 -0500
+
+    1
+
+[33mcommit 57f1ffe979037c5550119b3c473c0185596882ad[m
+Merge: 0ef089c 1f4e8c3
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 20 16:54:43 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 0ef089c084f6e2b403d085680dc59604c10f3d47[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 20 16:54:01 2024 -0500
+
+    cadic
+
+[33mcommit 1f4e8c3fd2cc8255e9e3388fbf093c0dfb2c652a[m
+Merge: f0537c6 21fd121
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 20 15:43:45 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit f0537c693b4bc6516baafadd395bcbafb077528c[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 20 15:43:41 2024 -0500
+
+    1
+
+[33mcommit 48c8c2ef07e47c138efa635ae5825820e720d0ee[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 20 15:17:55 2024 -0500
+
+    cadic
+
+[33mcommit 21fd1214598860b3880b37fbe0c6476bd1786784[m
+Merge: 38c1393 4aa0fbf
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 20 14:11:16 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 38c13930954288287bee80dc459088fa74d3cb91[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 20 14:11:09 2024 -0500
+
+    cadic
+
+[33mcommit 4aa0fbf1ebc1901990a5d4b89df22f77830d2c96[m
+Merge: 95f77f3 2203961
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 20 14:05:56 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 95f77f3f6512e0765a427aec8753ce4911182654[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 20 14:05:54 2024 -0500
+
+    1
+
+[33mcommit 2203961fd29e6872ac609e6fdeb768446c9b0d1c[m
+Merge: 44960a2 6be5502
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 20 14:05:37 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 44960a28f366c1ac4a0b79546e76ff27e51aebce[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 20 14:05:32 2024 -0500
+
+    cadic
+
+[33mcommit 6be55024544717a4b173c1a3d8638fb8a10dfee6[m
+Merge: f6393f2 8cf19ef
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 20 12:22:17 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit f6393f29a728c3a45a012c783e2efaec70bf60b0[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 20 12:22:15 2024 -0500
+
+    1
+
+[33mcommit 8cf19ef9c2c016122975ad0671539aeae909b9c5[m
+Merge: 086947a 46ed02f
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 20 12:18:35 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 086947ac694558eaa503be62b7968f38920a68a4[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 20 12:18:28 2024 -0500
+
+    cadic
+
+[33mcommit 46ed02fd8049f35bf386dd95d37a0ec8649617cf[m
+Merge: 206117f 5680290
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 20 10:38:20 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 206117f3ef08bc7a506a7b75145c53fb4fa91470[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 20 10:38:17 2024 -0500
+
+    1
+
+[33mcommit 56802902c41edeb797af1660fc0408b4fc1116ce[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 20 10:38:08 2024 -0500
+
+    cadic-screen
+
+[33mcommit 1bf61f8dede6af662705bcadfa0d52f34726f9a1[m
+Merge: f57e059 1b40b1b
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Fri Sep 20 07:57:10 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit f57e0599bb151edc7454a664e54b2dcf7d0729f8[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Fri Sep 20 07:57:04 2024 -0500
+
+    1
+
+[33mcommit 1b40b1b0007d2242fd4da8c1d1af19f111047b44[m
+Merge: 44717ec 7f147a6
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Sep 20 07:42:18 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 44717ec8565cf1946e7661e5de7c137c9875d650[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Sep 20 07:42:12 2024 -0500
+
+    cadic/corp
+
+[33mcommit 7f147a652da15985237ec09d29b909681a68caf7[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 20 02:49:35 2024 -0500
+
+    1
+
+[33mcommit 1d0921d6e0093060123dbf51d5ad8cbaee8e610a[m
+Merge: 79cb19c 5500bd0
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Thu Sep 19 10:13:24 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 5500bd0f36fc0c61bdf590dd2783a06a0b000d81[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Sep 19 09:54:30 2024 -0500
+
+    1
+
+[33mcommit 4565f22ea771248e30d6185ae27937b9559ebb54[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Sep 19 09:18:11 2024 -0500
+
+    1
+
+[33mcommit 79cb19c09bccd44aeceeb87a4658ad077135affa[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Sep 18 20:11:58 2024 -0500
+
+    cadicv18/09/2024
+
+[33mcommit d64a6d5bb45d79a129ced35a5b46a0346d022a8e[m
+Merge: b100c5c cada003
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 18 10:18:59 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit b100c5c2a8b9ae3d45a00b7c75e2deb60a46fdd9[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 18 10:18:57 2024 -0500
+
+    1
+
+[33mcommit cada003d64d1eb94831529e2cade27a219bebd8f[m
+Merge: 1a8b92f f60dc05
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Sep 18 09:40:12 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 1a8b92f75ac6d5df039ebe54dd5f3237d18cddae[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Sep 18 09:40:05 2024 -0500
+
+    cadicv/18/07
+
+[33mcommit f60dc052c1c90a5eb9a61739ef627b5a97361aee[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Wed Sep 18 07:47:14 2024 -0500
+
+    1
+
+[33mcommit c7fc1de8826b0524192805d1392df41d7f843227[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Tue Sep 17 23:24:34 2024 -0500
+
+    Version antes de la masacre
+
+[33mcommit 82547f183dc81b786ebee800b30f8d8580dafc17[m
+Merge: 9d8bfa6 c915741
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 17 17:32:11 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 9d8bfa6a3e5609e62a0ee5dd09910bfce2919739[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 17 17:30:02 2024 -0500
+
+    cadicvb34
+
+[33mcommit c915741be6a74fc59251d42d5ac198ce70719387[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 17 17:29:37 2024 -0500
+
+    1
+
+[33mcommit c5e8e788493ac96cbabb7bae591b2aacc9c3aa16[m
+Merge: 1e09071 5102d0b
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 17 16:43:06 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 1e0907164a613b57733638370c2c7c4b33dfde87[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 17 16:42:43 2024 -0500
+
+    cadic/17/09
+
+[33mcommit 5102d0b7d725d4cab0f2854eb4b167ab77098e06[m
+Merge: ebef3f5 9f4c0a7
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 17 16:42:10 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit ebef3f5a44e5cdacdfea53a1df49091693fc6de1[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 17 16:42:07 2024 -0500
+
+    1
+
+[33mcommit 9f4c0a7b9863688e860a7828ccf7fc3a54b46d9d[m
+Merge: 50c5e6a 5af9b82
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 17 10:53:42 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 50c5e6a307e05bcfde4734ad8c6b877eb3cda1b9[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 17 10:53:11 2024 -0500
+
+    cadic-16/09
+
+[33mcommit 5af9b82ce1511aed4fd751ba3c8eecafc3e0ee3f[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Sep 16 18:25:38 2024 -0500
+
+    11
+
+[33mcommit fc87e6fed2161399cc7859729193818effd4395f[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Sep 16 15:04:48 2024 -0500
+
+    1
+
+[33mcommit 9424e83a6b57bcfce23a118aadf09098674682bc[m
+Merge: 2dfdd6a c9081c7
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 16 15:01:16 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 2dfdd6a005f458b43b685d0015091e8b08608712[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 16 15:01:11 2024 -0500
+
+    catalogoccd
+
+[33mcommit c9081c7f6ef719a42acc9964bd10d39c24555d7f[m
+Merge: 787a4ad fe9d4fa
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Sep 16 15:00:56 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 787a4add2daed835cbe3bc1397e06e2f825061d2[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Sep 16 15:00:53 2024 -0500
+
+    1
+
+[33mcommit fe9d4fabe7ea710708fe547b11ba4be508db41fc[m
+Merge: 3605922 fd6d1af
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 13 19:03:17 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 36059229bcb16c61ff7733147cbcd2f8253219bd[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 13 19:03:11 2024 -0500
+
+    catalago-end
+
+[33mcommit fd6d1af45bbc0a872e91c561483f6de76879741a[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 13 18:57:02 2024 -0500
+
+    1
+
+[33mcommit 321ce2ce2afeab8bb2b2a13279ff9634239748bb[m
+Merge: a2f77c3 a5ee343
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 13 14:45:48 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit a2f77c31f7454f4f5c9bda9e03d69bc28e853181[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 13 14:45:39 2024 -0500
+
+    cadicv56789
+
+[33mcommit a5ee3439233d7b498a8abab6db4393358d034074[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 13 14:43:41 2024 -0500
+
+    1
+
+[33mcommit 72d3d6024f96bae77ec6338d1fb2ede67b99084f[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Sep 12 18:25:51 2024 -0500
+
+    1
+
+[33mcommit 890b306ccc2e6b79dcc2798cd6c810452f84ca5d[m
+Merge: 40fff4b d363a8a
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 11 18:15:07 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 40fff4b72bc1862f62905a71b5770f3497f1042b[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 11 18:14:47 2024 -0500
+
+    1
+
+[33mcommit d363a8a68de3c08548df6b52da012d871524ed49[m
+Merge: ab01cb8 c1c47e9
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Sep 11 18:11:44 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit ab01cb8291083c1517f0a45610e6b891444bb440[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Sep 11 18:11:39 2024 -0500
+
+    CADICV1234778
+
+[33mcommit c1c47e9866020f724f62e338b48a4e7773e38967[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 11 15:09:10 2024 -0500
+
+    1
+
+[33mcommit 91b9d8b7a3175b006eb9200efd62f61bd53f4855[m
+Merge: 52be559 c1cfdbe
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 11 09:08:29 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 52be55903ee5d6635697622f0b7079241cc1f0e5[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 11 09:08:21 2024 -0500
+
+    1
+
+[33mcommit c1cfdbed7a8d662725a456168180b6fa560156fd[m
+Merge: 75e04dd 6e85c95
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Sep 11 09:03:20 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 75e04dde0e2fc16a032e8bea1ba50e761413a3cd[m
+Merge: 8edc9ae cd73e77
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Sep 11 09:01:36 2024 -0500
+
+    cadicv11/09
+
+[33mcommit 8edc9aea3de257378158afe6c61edb99d01bbded[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 10 19:55:30 2024 -0500
+
+    cadicv34343434
+
+[33mcommit 6e85c9535fa8269e04e38cafd5e9044b2337e6fa[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 10 19:50:04 2024 -0500
+
+    1
+
+[33mcommit f79efe936e03f3352cbe9869b1d6b7d6aab2b143[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 10 18:32:53 2024 -0500
+
+    1
+
+[33mcommit 1d574a7f5aea4f8aa10226ef48eeb3d119503aab[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 10 18:27:24 2024 -0500
+
+    1
+
+[33mcommit 693d2e07217e138dd00766cc07877687aa08b1c6[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 10 18:25:05 2024 -0500
+
+    1
+
+[33mcommit 42221c611db1a53bec36afdd1b6ce1ad59db80eb[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 10 18:10:13 2024 -0500
+
+    CADICV2345235
+
+[33mcommit b8b52897931fd0e1156d4fedab71608d7cb33c32[m
+Merge: 25f09fc cd73e77
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 10 18:08:00 2024 -0500
+
+    Merge branch1 'infenix'
+
+[33mcommit cd73e77d4356bf2bf4d2bbd45f0ab011ecffd8d1[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 10 18:07:38 2024 -0500
+
+    1
+
+[33mcommit 25f09fc68878f2e7d360b93a9535f78f1c4b1487[m
+Merge: e5fba05 5f00d98
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 10 18:01:37 2024 -0500
+
+    Merge branch 'infenix'
+
+[33mcommit 48eb80d70006962dd2ec34e779f50fa4a28902a6[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 10 18:01:06 2024 -0500
+
+    CADICV2345657
+
+[33mcommit 5f00d98ae5d6a03fc22fbb224cd2f122cb059ac9[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 10 17:58:53 2024 -0500
+
+    1
+
+[33mcommit 698b10ada44d62d55ea2e085ca3b2a120b382b60[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 10 15:03:50 2024 -0500
+
+    1
+
+[33mcommit 5c96ca314e4777a4cd8a36c9a48d6656071c7a2a[m
+Merge: e75d11d 01deffe
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 10 15:00:31 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit e75d11d0c1bce551ea58f375b3781de21dea88e1[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 10 15:00:26 2024 -0500
+
+    1
+
+[33mcommit 01deffebae3e2b547d1e9a8c1ec71dfef7efa43f[m
+Merge: c716603 b96b326
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 10 14:55:14 2024 -0500
+
+    cadicv344444
+
+[33mcommit c7166037c5e5297e181f95e18901b01e896975a2[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 10 14:42:07 2024 -0500
+
+    cadicv23
+
+[33mcommit b96b3262889ceaa3cfb910d7a3796b5ee3f531c9[m
+Merge: bf79572 54db8e2
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 10 14:40:05 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit bf795721558ac8eb7d42d55b210dc187ab786ca5[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 10 14:39:57 2024 -0500
+
+    1
+
+[33mcommit 54db8e277a0ab035c81a92c2e5556d5d5d43afdb[m
+Merge: 9aa223a 92a0464
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 10 10:41:30 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 9aa223a3c1deaf739d7934ec9caf2a7dd6000364[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 10 10:41:22 2024 -0500
+
+    cadicv/10/09carrito
+
+[33mcommit 92a046490932b805b789c72686fb3634f529e78d[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 10 10:39:27 2024 -0500
+
+    1
+
+[33mcommit 8fee8f10069791c95c1e06f5da967a7efc10d796[m
+Merge: 1a5999c cf492f2
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 10 10:03:22 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 1a5999cf103c6d227c1f57b87dee1ee9ff2678a2[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 10 10:03:11 2024 -0500
+
+    1
+
+[33mcommit cf492f2a5943b18db36999e3f848103997a2a5d1[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 10 10:02:22 2024 -0500
+
+    cadic/version/prime
+
+[33mcommit 6a04bbdf2239e10543e8ba2c9c86aea40d33bb8c[m
+Merge: b8d185b 4851d86
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 10 09:56:47 2024 -0500
+
+    cadicv10/09/2024
+
+[33mcommit b8d185bf357b09fc49d1664b0101718a175b9bda[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 10 09:52:06 2024 -0500
+
+    cadicv2/10/09
+
+[33mcommit 8470564583bb9c738850308456d0364d86baa258[m
+Merge: c22aa79 67c3658
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 10 09:47:37 2024 -0500
+
+    cadicv10/09
+
+[33mcommit 4851d86bffa334bdbef1550aa0dfbb38e1859eae[m
+Merge: a52d939 13984c8
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 10 08:58:47 2024 -0500
+
+    cadicv78
+
+[33mcommit a52d9393528cd6ca8b3d4cefeed0bcf0f946a304[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 9 19:23:50 2024 -0500
+
+    cadicv3443434
+
+[33mcommit 13984c82c0e6ca47af1ad7f832accf5a389841a3[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Sep 9 18:26:31 2024 -0500
+
+    1
+
+[33mcommit 251f0e614770f64e798f164638766c8d6bd55d87[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 9 17:41:21 2024 -0500
+
+    cadicv332323
+
+[33mcommit e5fba0549299e12222d87653b69394ed2ef3b5f0[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Sat Sep 7 02:27:12 2024 -0500
+
+    1
+
+[33mcommit c22aa79da114be488cbb754693925ae65f5873a7[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Sep 6 19:02:39 2024 -0500
+
+    cadicv345567
+
+[33mcommit 60407f2af9c69b316e86ecf1250df6196235d64e[m
+Merge: 50a60ce 67c3658
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 6 18:59:55 2024 -0500
+
+    1Merge branch 'infenix'
+
+[33mcommit 67c3658e668461cedee850c0a8fa00eb8f1c6d53[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Sep 6 18:58:48 2024 -0500
+
+    1
+
+[33mcommit a8bbb255757b2b4f8ed609a57740935df9220f05[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Fri Sep 6 01:50:54 2024 -0500
+
+    cadicv2
+
+[33mcommit 50a60ce0d2899f38c594690f76d58f6bacdd5bf8[m
+Merge: 08749af 333a93d
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Sep 5 18:26:34 2024 -0500
+
+    Merge branch 'infenix'
+
+[33mcommit 333a93d04fc1cbef24d8eb53eb76fb4f7f6a34d5[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Sep 5 18:26:03 2024 -0500
+
+    1
+
+[33mcommit 9fe1f80801a2c07a9fe1ebed44bda8ea83d2bd7e[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Sep 5 10:18:44 2024 -0500
+
+    1
+
+[33mcommit 08749af44421dc2299a84bedd96749f471032034[m
+Merge: 34c52e4 6b5b7f4
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Sep 5 09:54:46 2024 -0500
+
+    merge
+
+[33mcommit 6b5b7f4308aa6484bcc66544a3d24ca9118d0b98[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Sep 5 09:51:18 2024 -0500
+
+    1
+
+[33mcommit 34c52e46bd17e8289c2b451b5111de762b3e0aa7[m
+Merge: ac9fe46 8cb2e39
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Sep 5 09:27:05 2024 -0500
+
+    1Merge branch 'infenix'
+
+[33mcommit 8cb2e3908e2cf0d4945522625add12b0eb3e2d50[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Sep 5 09:26:01 2024 -0500
+
+    1
+
+[33mcommit ac9fe465b14113554d70a4826bc4a962d9904ed9[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 4 17:58:48 2024 -0500
+
+    1
+
+[33mcommit dd3361421672cfc5cc898986979352a5eea4e8a4[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 4 17:50:25 2024 -0500
+
+    1
+
+[33mcommit 5fb92ee158135521e04a75e14d227ccf590a78ce[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 4 17:45:52 2024 -0500
+
+    1
+
+[33mcommit 76c83814c9f8126316d867f7e8e96836b0451a67[m
+Merge: 0ecadf5 ac2913a
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 4 10:46:12 2024 -0500
+
+    1
+
+[33mcommit ac2913a439af1edac129e5f90babc56a4cd67462[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 4 10:41:43 2024 -0500
+
+    1
+
+[33mcommit c4e93e398cd5bef69c7c88bc6a5a4cd14ddebbe2[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 4 10:40:59 2024 -0500
+
+    1
+
+[33mcommit d0b512b9219bb5f462ec7dd071c083d3befccb05[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 4 10:23:47 2024 -0500
+
+    1
+
+[33mcommit 93c39ecc5534898600531bfa627988a05f31b5f0[m
+Merge: 49523a6 75b4cdd
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Sep 4 10:07:09 2024 -0500
+
+    1
+
+[33mcommit 49523a6f5c9ec748ac246b024d967116c757a342[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 3 20:13:58 2024 -0500
+
+    envio upc
+
+[33mcommit 75b4cdd3f343eb82ecfb00deb3eeab823ad38b41[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 3 19:28:41 2024 -0500
+
+    CADIV232
+
+[33mcommit 1ddcaeda518faf914548c0d2081667c7820d1ce8[m
+Merge: 817536d 16f2192
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 3 13:02:41 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 817536d0a48b59d0875eff0da4d0f0b145e71c53[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Sep 3 13:02:30 2024 -0500
+
+    1
+
+[33mcommit 16f219237278805c81a0711bc3c7fc2d95a35f3e[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Sep 3 13:01:24 2024 -0500
+
+    cadicv45637
+
+[33mcommit f7502c2efeaac8dd1f327a1f54ae3110a252ef38[m
+Merge: 1309f96 f3d674e
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 2 19:26:41 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 1309f96cec62612e27c68978f4ef0260ea4d65fd[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 2 19:26:31 2024 -0500
+
+    cadicv34567
+
+[33mcommit f3d674e631ec137b30e91977b3dcd4582769db4b[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Sep 2 18:27:53 2024 -0500
+
+    1
+
+[33mcommit 228646daa3163cc5f17e5d7311752c0d1c1a1050[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Sep 2 16:30:00 2024 -0500
+
+    1
+
+[33mcommit 561144b2bb316a3aa081844487f7bb0e16843a4d[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 2 16:24:22 2024 -0500
+
+    cadicv2
+
+[33mcommit 6241851235da5aad70e9c89c8ed3d057723140a7[m
+Merge: 9786382 de687ae
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 2 09:09:19 2024 -0500
+
+    cadicv3456
+
+[33mcommit 9786382142b7ea8f8286b1e816fe509dc965cee9[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Sep 2 09:03:14 2024 -0500
+
+    cadicv3456
+
+[33mcommit de687aea5d3b23492313bd18cfefa46458c997a0[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Sep 2 08:59:31 2024 -0500
+
+    1
+
+[33mcommit 5f8fc5bf82d687f18d7cfed5246b139cc6918af3[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Aug 28 18:30:08 2024 -0500
+
+    1
+
+[33mcommit fbd181c0f83590978d423e2596a1f174e09c4e1b[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Aug 28 09:04:15 2024 -0500
+
+    cadicv3454
+
+[33mcommit 789ebfbe9dd30b8873cf65f5e6c951af1cf407ea[m
+Merge: f08cbbc 614488d
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Aug 27 19:08:04 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit f08cbbca75652eeb1e4389ae93848449e045c962[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Aug 27 19:07:50 2024 -0500
+
+    cadicv456
+
+[33mcommit 614488d3f5619237ee7de31121f3a276d6e1f80d[m
+Merge: 33e71f2 8e88b6b
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Aug 27 18:24:40 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 33e71f22f2940d7005589832f60ae838d51ff225[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Aug 27 18:24:30 2024 -0500
+
+    1
+
+[33mcommit 8e88b6b7eedf234782f69f688540d58accb2710a[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Aug 27 13:17:23 2024 -0500
+
+    CADICV3456
+
+[33mcommit 3b7ce614aa3791f0d18ca94a3079bdfde144f4e9[m
+Merge: 51d10ab 7ac43c3
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Aug 26 19:29:49 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 51d10ab4af0908cb9fcaa1ab1e85c28779be6bbd[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Aug 26 19:29:40 2024 -0500
+
+    CADICV456
+
+[33mcommit 7ac43c308363193ca7e1d96121dbbbe8c3d2cb5b[m
+Merge: a525ac1 a10b59c
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Aug 26 18:01:20 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit a525ac1709d6910b645b330f7c4c6b0a15627bb8[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Aug 26 18:01:11 2024 -0500
+
+    1
+
+[33mcommit a10b59c54a7225754839fd46193c7d2e1dde5b12[m
+Merge: 6a44ec9 212951c
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Aug 26 12:55:55 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 6a44ec91d9dc6147b88e9a5986e62d257a08a938[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Aug 26 12:54:52 2024 -0500
+
+    cadicv234
+
+[33mcommit 212951ccdc11ad52eb2f35ba03a2b56cd84cd7da[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Aug 26 12:48:35 2024 -0500
+
+    1
+
+[33mcommit 73f648b2f43166708abe3d123d672912c90d2bab[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Aug 23 18:52:42 2024 -0500
+
+    1
+
+[33mcommit 72bc444972d6fc0d7bbf0a5afa7ef9fd38c57df9[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Aug 23 18:40:10 2024 -0500
+
+    cadicv345
+
+[33mcommit d73d96932353bbd51fdb50e8829a0cefdcc0bbbb[m
+Merge: 9d32748 d86776a
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Aug 23 17:05:20 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 9d32748f7cafcdc1dd0495c65b8d6ba5b3adb793[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Aug 23 17:05:09 2024 -0500
+
+    1
+
+[33mcommit d86776a1c04f01dee8c00c9c00252a81d6858104[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Aug 23 17:02:20 2024 -0500
+
+    cadicv67
+
+[33mcommit 7169f180e89ab3ce1d2afd79d560ead17080e277[m
+Merge: f32a661 7c033ec
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Aug 23 13:52:37 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit f32a661732f5ce02c8884618a65913e9bc55d563[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Aug 23 13:52:29 2024 -0500
+
+    cadic47
+
+[33mcommit 7c033ec2cc42bd096281764cde156774706ceaa3[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Aug 23 13:25:24 2024 -0500
+
+    1
+
+[33mcommit 1ee3d4a740994c3d79b590fc5eb4a5a21852c2b7[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Aug 22 18:09:04 2024 -0500
+
+    1
+
+[33mcommit be63420b32e2b67df9dd4e44b95d49d8b2a38d90[m
+Merge: f2f528b 1f3c372
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Aug 21 18:36:01 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit f2f528b8d680038bcc2ee3256f3ccd98c8bfb6e7[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Wed Aug 21 18:35:55 2024 -0500
+
+    cadicv46
+
+[33mcommit 1f3c372dddabafd35aace540d121faefcccfe075[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Aug 21 18:23:47 2024 -0500
+
+    1
+
+[33mcommit b295b1d9c0b3f7abc22183e359d059de82268ef3[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Wed Aug 21 00:25:55 2024 -0500
+
+    cadic35
+
+[33mcommit f15112f656e401afabc39ff360933555c29e76f0[m
+Merge: 5f7ae8b 7f7da35
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Aug 20 18:59:06 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 5f7ae8bf0f6b919dd0dfa76bf2896bad9b0001d6[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Aug 20 18:59:02 2024 -0500
+
+    1
+
+[33mcommit 7f7da35681b2dda54201caa4eb9aeca093670b8c[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Aug 20 18:58:10 2024 -0500
+
+    cadic34
+
+[33mcommit 88207a37da155a2b71d90d3191db6893213c44d8[m
+Merge: c25653d 4b1e5f3
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Aug 20 18:57:58 2024 -0500
+
+    cadic24
+
+[33mcommit c25653db618ed462fc7ae8d01aeabaedc7744214[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Aug 19 18:51:56 2024 -0500
+
+    cadic23
+
+[33mcommit 4b1e5f399c2707dec327e586244dafa4788cd987[m
+Merge: 54fdb52 f3e5198
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Aug 19 17:10:10 2024 -0500
+
+    1
+
+[33mcommit 54fdb528b33bbb9c60ca10e3c9eab5dfc054ce5b[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Aug 19 16:59:02 2024 -0500
+
+    1
+
+[33mcommit f3e5198da4b53ff9774be1d4918bfa46a8abc9f1[m
+Merge: 9e8544e 74518a6
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Aug 19 16:58:39 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 9e8544ef1b10e296f73abc8c0ed614696789cb2a[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Aug 19 16:58:34 2024 -0500
+
+    cadicv22
+
+[33mcommit 74518a6683b8c6ed930e65cba4a2b402a26d5aa0[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Mon Aug 19 04:32:40 2024 -0500
+
+    1
+
+[33mcommit bc87be2bf229027b74fc05ea7214822b902524e2[m
+Merge: 5ef4d96 4e5381b
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Sun Aug 18 09:51:18 2024 -0500
+
+    1
+
+[33mcommit 5ef4d9661bb21a6bae268e8fe00160b7017bd61f[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Sun Aug 18 09:49:37 2024 -0500
+
+    1
+
+[33mcommit 4e5381bf5958ff55d4f167db91401731f089e94f[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Fri Aug 16 18:30:31 2024 -0500
+
+    cadicv20
+
+[33mcommit 01af8d01fcbe990648365bc52c1707ed61127780[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Fri Aug 16 02:23:30 2024 -0500
+
+    1
+
+[33mcommit 2575d67b98b243d4dd0ffacbddec70613f725a57[m
+Merge: 19dae95 d04dce8
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Thu Aug 15 19:05:41 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 19dae95c731f307483503e408935c3263ec19580[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Thu Aug 15 19:05:27 2024 -0500
+
+    cadicv11
+
+[33mcommit d04dce87d14526371956587ed4ec7f21e6af6de1[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Aug 15 18:55:30 2024 -0500
+
+    12
+
+[33mcommit d9a398a2e21e51f78f1b81187bf3d1027225d452[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Thu Aug 15 18:23:31 2024 -0500
+
+    cadicv10
+
+[33mcommit 9d7dc0b1d956a1e9cd7b3c84cb8de82cb7fd9384[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Aug 15 15:49:47 2024 -0500
+
+    Multimedia
+
+[33mcommit 4193c73a9ce01388f497e09b736f7cd8a29519f6[m
+Merge: 1542a5c 376c31d
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Aug 15 15:24:28 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 1542a5c935b71a77156d011bb1f5f5f54bda9396[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Aug 15 15:24:21 2024 -0500
+
+    1
+
+[33mcommit 376c31d41c88180e31466d86e2c3b665333ffbf5[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Thu Aug 15 15:20:37 2024 -0500
+
+    cadicv9
+
+[33mcommit b6a1bba7fe60bac4a8e5f189bf5b4c6a64abff0c[m
+Merge: 91297fa b60b186
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Thu Aug 15 09:13:36 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 91297fae893f847e31eaeaa191447b635a75669f[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Thu Aug 15 09:09:45 2024 -0500
+
+    cadicv8
+
+[33mcommit b60b186c009bafdfb89858960cb601669d1e5d25[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Thu Aug 15 01:27:37 2024 -0500
+
+    1
+
+[33mcommit 42cded9b0ce9b1d5ce8c15475130b1933372ec1a[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Aug 14 19:15:26 2024 -0500
+
+    1
+
+[33mcommit 32fad8ad3429ed85eb92acd1f8fb7b7c40542907[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Wed Aug 14 02:07:34 2024 -0500
+
+    1
+
+[33mcommit 87bd0af884aa07c1185f8e5599153f9b913fd766[m
+Merge: 89710f3 f410f67
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Aug 13 18:03:16 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 89710f3bc8ed52e780336f176e9c9788af32e2fe[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Aug 13 18:03:11 2024 -0500
+
+    1
+
+[33mcommit f410f6775317e87771f35c54735cad481ff9f8dd[m
+Merge: 079c989 0830c7a
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Aug 13 18:02:39 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit 079c98923795de37a92209f61bb3130443a86d2e[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Tue Aug 13 18:02:32 2024 -0500
+
+    cadicv6
+
+[33mcommit 0830c7a2bfbb13d67f93c106a01c46c5878bb772[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Tue Aug 13 00:24:07 2024 -0500
+
+    1
+
+[33mcommit 0ecadf5547e46c98fa90244cd82b3996543f619d[m
+Merge: 466807e 36a01e0
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Aug 12 18:56:08 2024 -0500
+
+    Merge branch 'infenix'
+
+[33mcommit 36a01e0dd92495fb9ec22c990021402814082ad2[m
+Merge: b8de845 be9643e
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Aug 12 18:52:19 2024 -0500
+
+    Merge branch 'infenix' of https://github.com/InfenixReborn/ccd-ecommerce into infenix
+
+[33mcommit b8de845b83e8e3f3e2f25ad66983019cef33e75f[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Aug 12 18:52:15 2024 -0500
+
+    1
+
+[33mcommit be9643e44b58083052d6274adfffac5c4953c99c[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Aug 12 18:48:11 2024 -0500
+
+    cadicv4
+
+[33mcommit 1bb02b5bcc5e9db336443089132b47db980cf288[m
+Author: cadiv2 <ezio1622@gmail.com>
+Date:   Mon Aug 12 14:32:09 2024 -0500
+
+    cadicv3
+
+[33mcommit 8236c0ee4ac9d60a06cd09f1d671c55e34d090d2[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Aug 12 11:43:43 2024 -0500
+
+    1
+
+[33mcommit 025d699ffb43e7b91b36edc81ec5c5865908c2b6[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Mon Aug 12 01:27:00 2024 -0500
+
+    1
+
+[33mcommit d212b11f5593d295435359538fac12455354f284[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Sat Aug 10 16:26:33 2024 -0500
+
+    cadicv2
+
+[33mcommit 1cebf052d81d5c7a29069bab7f12c5952f30c550[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Aug 9 19:01:24 2024 -0500
+
+    1
+
+[33mcommit 2f1347b4ee6de17396e04cbfcc06d524c91d2270[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Aug 5 17:44:00 2024 -0500
+
+    1
+
+[33mcommit 7c41afd4fb041601b467989eee221cad1d8b2e14[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Aug 5 17:28:27 2024 -0500
+
+    1
+
+[33mcommit 14cfe603463972e2c7e55a430d106c795c32cf3d[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Mon Aug 5 02:24:37 2024 -0500
+
+    1
+
+[33mcommit 466807e9cce56e2c70b993a8a1a3f3a80939c3cd[m
+Merge: fd03672 6e1e9ea
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Aug 2 17:14:40 2024 -0500
+
+    Merge branch 'infenix'
+
+[33mcommit 6e1e9ea9c2fdc30e5ed9707d27add052bcd0d5c1[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Aug 2 17:13:52 2024 -0500
+
+    1
+
+[33mcommit fd03672e146029633fc7ea3365c7e377416c725a[m
+Merge: 68fd40e 71cfdf5
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Aug 2 09:54:10 2024 -0500
+
+    Merge branch 'infenix'
+
+[33mcommit 71cfdf57bb5cf421efa6ad04d2495bc1ea8a0dae[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Aug 2 09:53:12 2024 -0500
+
+    1
+
+[33mcommit 4be1f2af1e6a802b2b79cbd6bf9e3b716ceb49a5[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Aug 1 19:03:29 2024 -0500
+
+    1
+
+[33mcommit 68fd40ec3624f0e891184f48fe635fa7ae5b2c8a[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Aug 1 09:28:53 2024 -0500
+
+    13
+
+[33mcommit 9018b1c96bcaa6cfec36e12b936f04eefc50ae69[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Aug 1 09:28:12 2024 -0500
+
+    1
+
+[33mcommit 7353ebf0aa8854b14bddd981a064ad3a6feaad13[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Aug 1 09:24:01 2024 -0500
+
+    1
+
+[33mcommit be0d606a4fe85bf6ae81832ee5414a9a8c0d9d64[m
+Merge: fef3370 05e83c6
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Aug 1 09:14:12 2024 -0500
+
+    Merge branch 'infenix'
+
+[33mcommit 05e83c6979c6090c4af5555f0edfb8b25cffb268[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Jul 31 19:20:00 2024 -0500
+
+    1
+
+[33mcommit 4b28827cb72df256cca56d81e16c2d8109c78703[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Jul 30 19:00:41 2024 -0500
+
+    1
+
+[33mcommit 2a85b971245cfcc7fd2778f49ed6db3a50250f10[m
+Author: InFeniXReborn <infenix.reborn@gmail.com>
+Date:   Tue Jul 30 03:20:40 2024 -0500
+
+    1
+
+[33mcommit 93a5f6502d10c61df51e6c6c650244e31b7580e5[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Jul 26 17:30:45 2024 -0500
+
+    1
+
+[33mcommit 2fee3ffb84199b68714f46b8a44d800ca9fb0448[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Jul 26 17:29:35 2024 -0500
+
+    1
+
+[33mcommit b7a9408e03a854f77126f6792e41cfe864653a4b[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Jul 26 17:17:39 2024 -0500
+
+    1
+
+[33mcommit 1be1ca9d7a56d25c926ed407e0aa88c31cb2f87e[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Fri Jul 26 16:04:42 2024 -0500
+
+    1
+
+[33mcommit f60b8a4623ca578314907f34734c96c531d9a7fc[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Thu Jul 25 19:00:48 2024 -0500
+
+    1
+
+[33mcommit fef33701d60f146366a9497a326e4495a0c433b5[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Jul 24 18:56:10 2024 -0500
+
+    1
+
+[33mcommit 51a475d6b995940a814211bf9d37ad05235cde83[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Wed Jul 24 16:09:27 2024 -0500
+
+    1
+
+[33mcommit d853a635802578cb05cdfdd533f6727604084096[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Jul 23 11:58:29 2024 -0500
+
+    1
+
+[33mcommit 225096458af8274ce2819decdf8afb063d5a1b7c[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Jul 23 10:46:51 2024 -0500
+
+    1
+
+[33mcommit 7b8223a14a18c78bfc4574bbc25645128081f45b[m
+Merge: 00b8db6 39cc68d
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Jul 23 10:38:30 2024 -0500
+
+    Merge branch 'master' of https://github.com/InfenixReborn/ccd-ecommerce
+
+[33mcommit 00b8db6401401e2a1b2f9443d051bf96d7fcd785[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Tue Jul 23 10:36:51 2024 -0500
+
+    Paso 4
+
+[33mcommit 39cc68dfb1623e068dfbb76a0ab264e411be8cc4[m
+Author: cadicv2 <ezio1622@gmail.com>
+Date:   Tue Jul 23 02:16:08 2024 -0500
+
+    carritov2
+
+[33mcommit c94b958bd6b7758cab7c680bbc537eb3377315ed[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Jul 22 19:02:07 2024 -0500
+
+    1
+
+[33mcommit 295bb537e1d789440287c0f61052ac526f3d35b8[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Jul 22 15:54:04 2024 -0500
+
+    Paso 3
+
+[33mcommit 5bef6bb4e2f8e5a6e2a29fe39609c9f0bd2bc921[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Jul 22 13:30:56 2024 -0500
+
+    paso 2
+
+[33mcommit 75c1f0f3caff50a121b33d581fb9260c5e1354ef[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Jul 22 12:03:11 2024 -0500
+
+    1er commit
+
+[33mcommit 56cc07fbf59fe77dfb12994dff0d2d6f9e94b611[m
+Author: InfenixReborn <150693716+InfenixReborn@users.noreply.github.com>
+Date:   Mon Jul 22 10:23:42 2024 -0500
+
+    Initial commit from Create Next App

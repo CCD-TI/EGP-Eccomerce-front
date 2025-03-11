@@ -1,0 +1,318 @@
+"use client";
+
+import React, { useState, useEffect } from "react";
+import CourseCard from "@/components/ui/paul/coursecard";
+import axios from "axios";
+import { environment } from "@/environments/environment";
+import { IoSearch } from "react-icons/io5";
+
+type Especializacion = {
+  IdEspecializacion: number;
+  Especializacion: string;
+  Descripcion: string;
+  Escuela_id: number;
+  Estado_id: string;
+  UltimaFechMod: string;
+  UltimoUserMod: string;
+  CantidadCursos: number;
+};
+
+type Producto = {
+  TipoModalidad: string;
+  IdProducto: number;
+  Precio: number;
+};
+
+type CursoDetalleTP = {
+  Productos: Producto[];
+  Descripcion: string;
+  Calificacion: string;
+  Seguidores: string;
+  Nivel: string;
+  MarcasRespaldo: string;
+  ExamenParcial: number;
+  ExamenFinal: number;
+  Profesores: string;
+  Frecuencia: string;
+  HorasAcademicas: string;
+  Estado_id: string;
+  UltimaFechMod: string;
+  Escuela: string;
+  Especializacion: string;
+  IdCurso: number;
+  Curso: string;
+  TipoCurso: string;
+  RutaImagen: string;
+  CantidadModulos: number;
+};
+
+const CollegeCourseSection: React.FC<{
+  escuela: string;
+  t1: string;
+  t2: string;
+  t4: string;
+}> = ({ escuela, t1, t2, t4 }) => {
+  const [selectedEspecializaciones, setSelectedEspecializaciones] = useState<
+    number[]
+  >([]);
+
+  const [especializaciones, setEspecializaciones] = useState<Especializacion[]>(
+    []
+  );
+
+  const [cursosCompletos, setCursosCompletos] = useState<CursoDetalleTP[]>([]);
+  const [searchTerm, setSearchTerm] = useState<string>(""); // Para el texto del buscador
+  const [isLoading, setIsLoading] = useState<boolean>(false); // Estado de carga
+  const [currentPage, setCurrentPage] = useState(1);
+  const coursesPerPage = 15;
+  const [selectedTipoCurso, setSelectedTipoCurso] = useState<string | null>(
+    null
+  );
+  const [error, setError] = useState<string | null>(null);
+
+  const api = axios.create({
+    baseURL: environment.baseUrl,
+    headers: { "Content-Type": "application/json" },
+  });
+
+  // Manejar selección del tipo de curso
+  const handleTipoCursoClick = (tipoCurso: string) => {
+    setSelectedTipoCurso((prev) => (prev === tipoCurso ? null : tipoCurso));
+  };
+
+  // Fetch Cursos
+  useEffect(() => {
+    const fetchCursos = async () => {
+      try {
+        setIsLoading(true);
+
+        // Caso 1: Búsqueda por palabra
+        if (searchTerm.trim() !== "") {
+          const response = await api.post("/inicio/buscarcursosporpalabra", {
+            Palabra: searchTerm,
+            Escuela: escuela,
+            T1: t1,
+            T2: t2,
+            T4: t4,
+          });
+          setCursosCompletos(response.data.cursos || []);
+          return;
+        }
+        // Caso 3: Obtener todos los cursos
+        const response = await api.post(
+          "/inicio/vercursosespecializacionescuela",
+          {
+            Escuela: escuela,
+            T1: t1,
+            T2: t2,
+            T4: t4,
+          }
+        );
+        setCursosCompletos(response.data.data[0]);
+      } catch (error) {
+        console.error("Error fetching cursos:", error);
+      } finally {
+        setIsLoading(false);
+        setCurrentPage(1); // Reinicia la paginación
+      }
+    };
+
+    fetchCursos();
+  }, [selectedEspecializaciones, searchTerm, escuela]);
+
+  // Manejar búsqueda
+  const handleSearch = () => {
+    setSelectedEspecializaciones([]); // Reinicia los filtros al buscar por palabra
+    setCurrentPage(1); // Reinicia la paginación
+  };
+
+  // Manejar selección de especialización
+  const handleEspecializacionClick = (especializacionId: number) => {
+    setSelectedEspecializaciones((prevSelected) =>
+      prevSelected.includes(especializacionId)
+        ? prevSelected.filter((id) => id !== especializacionId)
+        : [...prevSelected, especializacionId]
+    );
+    setSearchTerm(""); // Reinicia la búsqueda al usar los filtros
+  };
+
+  // Pagination
+  const totalPages = Math.ceil(cursosCompletos.length / coursesPerPage);
+  const indexOfLastCourse = currentPage * coursesPerPage;
+  const indexOfFirstCourse = indexOfLastCourse - coursesPerPage;
+  const currentCourses = cursosCompletos.slice(
+    indexOfFirstCourse,
+    indexOfLastCourse
+  );
+
+  // Mostrar currentCourses en consola
+  // console.log("currentCourses:", currentCourses);
+
+  return (
+    <>
+      <>
+        {/* Search Bar */}
+        <div
+          className="group relative w-full mt-8 mb-8 flex justify-center items-center"
+          data-aos="fade-up"
+        >
+          <div className="relative w-[80%] max-w-2xl">
+            <input
+              type="text"
+              placeholder="Encuentra tu curso o diploma"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && handleSearch()} // Buscar al presionar Enter
+              className="w-full px-6 py-3 text-white bg-[#0a0e27] border border-cyan-500 text-xl rounded-full text-center placeholder:text-white focus:placeholder-transparent focus:outline-none focus:ring-2 focus:ring-cyan-300 group-hover:outline-none group-hover:ring-2 group-hover:ring-cyan-300 transition duration-300"
+            />
+            <button
+              className="absolute right-3 top-[50%] p-2 -translate-y-[50%] rounded-full transition duration-500"
+              onClick={handleSearch}
+            >
+              <IoSearch className="w-5 h-5 text-cyan-500 group-hover:cyan-300 group-hover:scale-[1.20] transition duration-500" />
+            </button>
+          </div>
+        </div>
+
+        <div className="w-[95%] mx-auto">
+          <div className="flex flex-col lg:flex-row min-h-screen">
+            {/* Sidebar */}
+            <aside className="lg:w-1/4 p-6 h-min bg-colors-dark-blue-ccd rounded-2xl text-white">
+              {/* Filtro por Especialización */}
+              <div>
+                <h2 className="text-xl font-bold mb-4">Especialización</h2>
+                <ul className="space-y-2 pt-4">
+                  {especializaciones.map((especializacion) => (
+                    <li
+                      key={especializacion.IdEspecializacion}
+                      className="flex justify-between"
+                    >
+                      <label
+                        className="flex items-start gap-2 text-white text-left hover:text-cyan-400 cursor-pointer"
+                        htmlFor={especializacion-${especializacion.IdEspecializacion}}
+                      >
+                        <input
+                          type="checkbox"
+                          id={especializacion-${especializacion.IdEspecializacion}}
+                          checked={selectedEspecializaciones.includes(
+                            especializacion.IdEspecializacion
+                          )}
+                          onChange={() =>
+                            handleEspecializacionClick(
+                              especializacion.IdEspecializacion
+                            )
+                          }
+                          className="mt-[3px]"
+                        />
+                        {especializacion.Especializacion}
+                      </label>
+                      <span className="text-right">
+                        {especializacion.CantidadCursos}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Filtro por Tipo de Curso */}
+              <div>
+                <h2 className="text-xl font-bold mb-4 mt-8">Producto</h2>
+                <ul className="space-y-2 pt-4">
+                  {["Curso", "Diploma"].map((tipo) => (
+                    <li key={tipo}>
+                      <label
+                        className="flex items-center gap-2 text-white cursor-pointer"
+                        htmlFor={tipo-${tipo}}
+                      >
+                        <input
+                          type="checkbox"
+                          id={tipo-${tipo}}
+                          checked={selectedTipoCurso === tipo}
+                          onChange={() => handleTipoCursoClick(tipo)}
+                        />
+                        {tipo}
+                      </label>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </aside>
+
+            {/* Main Content */}
+            <main className="lg:w-3/4 pb-10">
+              {isLoading ? (
+                <p className="text-white text-center">Cargando cursos...</p>
+              ) : cursosCompletos.length === 0 ? (
+                <p className="text-white text-center">
+                  No se encontraron cursos.
+                </p>
+              ) : (
+                <>
+                  <div className="flex flex-wrap gap-6 px-0 mx-0 justify-center bg-[#131939] py-10">
+                    {currentCourses.map(
+                      (producto: CursoDetalleTP, index: number) => (
+                        <div key={producto.IdCurso || index}>
+                          <CourseCard
+                            array={producto}
+                            pid={producto.IdCurso}
+                            ruta={producto.Curso}
+                            escuela={escuela}
+                            openSideSheet={() => {}}
+                          />
+                        </div>
+                      )
+                    )}
+                  </div>
+
+                  <div>
+                    {currentCourses.length > 0 && (
+                      <div className="flex justify-center items-center mt-6 gap-2">
+                        <button
+                          className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-gray-700 hover:bg-gray-200 transition-all duration-300"
+                          onClick={() =>
+                            setCurrentPage((prev) => Math.max(prev - 1, 1))
+                          }
+                          disabled={currentPage === 1}
+                        >
+                          {"<"}
+                        </button>
+                        {Array.from({ length: totalPages }).map(
+                          (_, pageIndex) => (
+                            <button
+                              key={pageIndex}
+                              className={`w-10 h-10 flex items-center justify-center rounded-xl font-bold transition-all duration-300 ${
+                                currentPage === pageIndex + 1
+                                  ? "bg-cyan-400 text-white shadow-md"
+                                  : "bg-white text-gray-700 hover:bg-gray-200"
+                              }`}
+                              onClick={() => setCurrentPage(pageIndex + 1)}
+                            >
+                              {pageIndex + 1}
+                            </button>
+                          )
+                        )}
+                        <button
+                          className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-gray-700 hover:bg-gray-200 transition-all duration-300"
+                          onClick={() =>
+                            setCurrentPage((prev) =>
+                              Math.min(prev + 1, totalPages)
+                            )
+                          }
+                          disabled={currentPage === totalPages}
+                        >
+                          {">"}
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                </>
+              )}
+            </main>
+          </div>
+        </div>
+      </>
+    </>
+  );
+};
+
+export default CollegeCourseSection;

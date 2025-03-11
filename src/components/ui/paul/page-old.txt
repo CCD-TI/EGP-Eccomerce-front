@@ -1,0 +1,1523 @@
+"use client";
+
+import CountUp from "react-countup";
+import {
+  Avatar,
+  Button,
+  Card,
+  CardBody,
+  CardFooter,
+  CardHeader,
+  Divider,
+  Image,
+  Tab,
+  Tabs,
+  Input,
+  Skeleton,
+} from "@nextui-org/react";
+import Link from "next/link";
+import { RocketLaunchIcon } from "@heroicons/react/24/solid";
+import { MagnifyingGlassIcon } from "@heroicons/react/16/solid";
+import {
+  FaCheck,
+  FaCirclePlay,
+  FaPlus,
+  FaRegCalendar,
+  FaStar,
+} from "react-icons/fa6";
+import { PiStudentFill } from "react-icons/pi";
+import { LiaCertificateSolid } from "react-icons/lia";
+import { GiTeacher } from "react-icons/gi";
+import React, { useEffect, useState } from "react";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import clsx from "clsx";
+import { IoBusinessSharp, IoPricetags } from "react-icons/io5";
+import { IoIosHeart, IoMdSchool } from "react-icons/io";
+import { IoSearch } from "react-icons/io5";
+import { GoClock } from "react-icons/go";
+import { LuBookMarked } from "react-icons/lu";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import Slider from "react-slick"; // Asegúrate de que esto sea correcto
+import "slick-carousel/slick/slick.css";
+import Carousel2 from "@/components/ui/bruno/carruselstackCat";
+import Carousel3 from "@/components/ui/bruno/carrusels";
+import Carousel4 from "@/components/ui/bruno/carrusel4";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import "aos/dist/aos.css"; // Importa los estilos de AOS
+import AOS from "aos"; // Importa AOS
+
+// import required modules
+import { FreeMode, Autoplay, Pagination, Navigation } from "swiper/modules";
+import Modal2 from "@/components/ui/bruno/modal2";
+import CarruselPro from "@/components/ui/bruno/carrruselT";
+import { GrDocumentPdf } from "react-icons/gr";
+import { environment } from "@/environments/environment";
+import axios from "axios";
+import { FiBookOpen } from "react-icons/fi";
+import { FaShoppingCart } from "react-icons/fa";
+import ProductoComponent from "@/components/ui/pricing/producto";
+import { useSession } from "next-auth/react";
+import { TbPlaystationCircle } from "react-icons/tb";
+import PageInicio from "@/components/ui/viewPlataform/PageInicio";
+import BtnWhatssap from "@/components/ui/bruno/btnWhatssap";
+import CarouselLogos from "@/components/ui/paul/carousellogos";
+
+// Portada Front Page
+import FrontPage from "@/components/ui/paul/frontpage";
+// Cursos
+import CourseCard from "@/components/ui/paul/coursecard";
+// Packs icon
+import { FaCircleCheck } from "react-icons/fa6";
+// Countdown Timer - Contador
+import CountdownTimer from "@/components/ui/paul/countdowntimer";
+import CertificateModel from "@/components/ui/paul/cetificatemodel";
+import AccreditationsSection from "@/components/ui/paul/acreditationsection";
+import TeachersSection from "@/components/ui/paul/teacherssection";
+import TestimonialsSection from "@/components/ui/paul/testimonialsection";
+import SectionCTA from "@/components/ui/paul/sectioncta";
+import SchoolsSection from "@/components/ui/paul/schoolssection";
+
+export default function Home() {
+  const api = axios.create({
+    baseURL: environment.baseUrl,
+    headers: { "Content-Type": "application/json" },
+  });
+
+  const [selectedTabCurso, setSelectedTabCurso] = React.useState("e1");
+  const [selectedTabDiploma, setSelectedTabDiploma] = React.useState("p1");
+
+  const [selectedCI, setSelectCI] = React.useState([]);
+  const [selectedCD, setSelectCD] = React.useState([]);
+  const [selectedCG, setSelectCG] = React.useState([]);
+  const [selectedDI, setSelectDI] = React.useState([]);
+  const [selectedDD, setSelectDD] = React.useState([]);
+  const [selectedDG, setSelectDG] = React.useState([]);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Duración de las animaciones
+      once: true, // Si la animación se ejecuta solo una vez
+      mirror: false, // Si las animaciones se deben volver a ejecutar al hacer scroll hacia arriba
+      // delay: 500,
+      // startEvent: 'load'
+    });
+  }, []);
+
+  const items2 = [
+    {
+      title: "Valorización y liquidación de obras públicas y privadas",
+      date: "02 Ago 2024",
+      hours: "120 Horas",
+      modules: "11 Módulos",
+      price: "S/.999.99",
+      image: "/Multimedia/Imagen/Cursos/ejem1.png",
+      tag: "Ing. Civil",
+    },
+    {
+      title: "Curso de Gestión de Proyectos",
+      date: "05 Sep 2024",
+      hours: "80 Horas",
+      modules: "8 Módulos",
+      price: "S/.799.99",
+      image: "/Multimedia/Imagen/Cursos/ejem2.png",
+      tag: "Gestión",
+    },
+    {
+      title: "Curso de Gestión de Proyectos",
+      date: "05 Sep 2024",
+      hours: "80 Horas",
+      modules: "8 Módulos",
+      price: "S/.799.99",
+      image: "/Multimedia/Imagen/Cursos/ejem2.png",
+      tag: "Gestión",
+    },
+    {
+      title: "Curso de Gestión de Proyectos",
+      date: "05 Sep 2024",
+      hours: "80 Horas",
+      modules: "8 Módulos",
+      price: "S/.799.99",
+      image: "/Multimedia/Imagen/Cursos/ejem2.png",
+      tag: "Gestión",
+    },
+    {
+      title: "Curso de Gestión de Proyectos",
+      date: "05 Sep 2024",
+      hours: "80 Horas",
+      modules: "8 Módulos",
+      price: "S/.799.99",
+      image: "/Multimedia/Imagen/Cursos/ejem2.png",
+      tag: "Gestión",
+    },
+    {
+      title: "Curso de Gestión de Proyectos",
+      date: "05 Sep 2024",
+      hours: "80 Horas",
+      modules: "8 Módulos",
+      price: "S/.799.99",
+      image: "/Multimedia/Imagen/Cursos/ejem2.png",
+      tag: "Gestión",
+    },
+
+    // Añadir más objetos aquí
+  ];
+
+  const Curs = [
+    {
+      examen: "examen de VALORIZACIÓN",
+      preguntas: "Curso",
+    },
+    {
+      examen: "examen de excel profesional plus",
+      preguntas: "Diploma",
+    },
+    {
+      examen: "examen de SSoma",
+      preguntas: "Curso",
+    },
+    {
+      examen: "examen de TOPOGRAFÍA CON DRONES",
+      preguntas: "Curso",
+    },
+    {
+      examen: "examen de maestro de obra",
+      preguntas: "Curso",
+    },
+    {
+      examen: "examen de maestro de obra",
+      preguntas: "10 preguntas",
+    },
+    {
+      examen: "examen de maestro de obra",
+      preguntas: "10 preguntas",
+    },
+    {
+      examen: "examen de maestro de obra",
+      preguntas: "10 preguntas",
+    },
+    {
+      examen: "examen de maestro de obra",
+      preguntas: "10 preguntas",
+    },
+    {
+      examen: "examen de maestro de obra",
+      preguntas: "10 preguntas",
+    },
+  ];
+
+  const [isFollowed, setIsFollowed] = React.useState(false);
+
+  /**/
+  const [currentIndex, setCurrentIndex] = useState(1);
+
+  const items = [
+    // Tus elementos aquí, por ejemplo:
+    {
+      title: "Testimonio 1",
+      rating: 4.5,
+      text: "Excelente experiencia...",
+    },
+    {
+      title: "Testimonio 2",
+      rating: 4.5,
+      text: "Excelente experiencia...",
+    },
+    {
+      title: "Testimonio 3",
+      rating: 4.5,
+      text: "Excelente experiencia...",
+    },
+    // ... otros elementos
+  ];
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await api.post("/inicio/listarProductoDetallesTop", {
+          fclasificacion: "Curso",
+          fcategoria: "Ingenieria",
+        });
+        setSelectCI(response.data.data[0]);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  const handleTabChangeCurso = async (key: any) => {
+    setSelectedTabCurso(key);
+    let response;
+
+    switch (Number(key)) {
+      case 1:
+        break;
+      case 2:
+        if (selectedCD.length === 0) {
+          response = await api.post("/inicio/listarProductoDetallesTop", {
+            fclasificacion: "Curso",
+            fcategoria: "Derecho",
+          });
+          setSelectCD(response.data.data[0]);
+        } else {
+        }
+        break;
+      case 3:
+        if (selectedCG.length === 0) {
+          response = await api.post("/inicio/listarProductoDetallesTop", {
+            fclasificacion: "Curso",
+            fcategoria: "Gestión Pública",
+          });
+          setSelectCG(response.data.data[0]);
+        } else {
+        }
+        break;
+    }
+  };
+
+  const handleTabChangeDiploma = async (key: any) => {
+    setSelectedTabDiploma(key);
+    let response;
+
+    switch (Number(key)) {
+      case 1:
+        if (selectedDI.length === 0) {
+          response = await api.post("/inicio/listarProductoDetallesTop", {
+            fclasificacion: "Diploma",
+            fcategoria: "Ingenieria",
+          });
+          setSelectDI(response.data.data[0]);
+        } else {
+        }
+        break;
+      case 2:
+        if (selectedDD.length === 0) {
+          response = await api.post("/inicio/listarProductoDetallesTop", {
+            fclasificacion: "Diploma",
+            fcategoria: "Derecho",
+          });
+          setSelectDD(response.data.data[0]);
+        } else {
+        }
+        break;
+      case 3:
+        if (selectedDG.length === 0) {
+          response = await api.post("/inicio/listarProductoDetallesTop", {
+            fclasificacion: "Diploma",
+            fcategoria: "Gestión Pública",
+          });
+          setSelectDG(response.data.data[0]);
+        } else {
+        }
+        break;
+    }
+  };
+
+  const [datoprofesores, setdatoprofesores] = useState([]);
+
+  // Configuración del carrusel
+  const settings = {
+    dots: true,
+    infinite: false, // Desactivar carrusel infinito
+    speed: 500,
+    slidesToShow: Math.min(datoprofesores.length, 3), // Muestra máximo 3 o el número total de datos
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: Math.min(datoprofesores.length, 2), // Muestra máximo 2 o el número total de datos
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: Math.min(datoprofesores.length, 1), // Muestra máximo 1 o el número total de datos
+        },
+      },
+    ],
+    appendDots: (dots: React.ReactNode) => (
+      <div>
+        <ul className="flex justify-center mt-4 space-x-2">{dots}</ul>
+      </div>
+    ),
+    customPaging: (i: number) => (
+      <button className="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-600 focus:outline-none border-2 border-transparent active:border-blue-500" />
+    ),
+    nextArrow: <CustomNextArrow />,
+    prevArrow: <CustomPrevArrow />,
+  };
+
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        const listarmoduloprofesores = await api.post(
+          "/inicio/listarprofesoreslanding",
+          {}
+        );
+
+        setdatoprofesores(listarmoduloprofesores.data.data[0]);
+      } catch (error) {
+        console.error("Error cargando los datos:", error);
+      }
+    };
+    loadData();
+  }, []);
+  const { data: session } = useSession();
+
+  //  Lista de Cursos
+  const storageUrl = process.env.NEXT_PUBLIC_STORAGE_URL;
+  const courses = [
+    {
+      college: "gestión",
+      imageUrl: `${storageUrl}/Multimedia/Imagen/Ccd/Pruebas/curso-hd.png`,
+      label: "Top ventas",
+      title: "Nombre del curso (Pero no más de dos líneas)",
+      // description: "*Color - Ingeniería*",
+      participants: "0000 Integrantes",
+      rating: "99% (7K)",
+      modules: "00 Módulos",
+      hours: "00 Horas",
+      oldPrice: "S/2334.80",
+      newPrice: "S/1796.00",
+    },
+    {
+      college: "ingeniería",
+      imageUrl: `${storageUrl}/Multimedia/Imagen/Ccd/Pruebas/curso-hd.png`,
+      label: "Nuevo",
+      title: "Nombre del curso (Pero no más de dos líneas)",
+      // description: "*Color - Ingeniería*",
+      participants: "0000 Integrantes",
+      rating: "99% (7K)",
+      modules: "00 Módulos",
+      hours: "00 Horas",
+      oldPrice: "S/2334.80",
+      newPrice: "S/1796.00",
+    },
+    {
+      college: "minería",
+      imageUrl: `${storageUrl}/Multimedia/Imagen/Ccd/Pruebas/curso2-hd.png`,
+      label: "Top ventas",
+      title: "Nombre del curso (Pero no más de dos líneas)",
+      // description: "*Color - Ingeniería*",
+      participants: "0000 Integrantes",
+      rating: "99% (7K)",
+      modules: "00 Módulos",
+      hours: "00 Horas",
+      oldPrice: "S/2334.80",
+      newPrice: "S/1796.00",
+    },
+    {
+      college: "gestión",
+      imageUrl: `${storageUrl}/Multimedia/Imagen/Ccd/Pruebas/curso2-hd.png`,
+      label: "Nuevo",
+      title: "Nombre del curso (Pero no más de dos líneas)",
+      // description: "*Color - Ingeniería*",
+      participants: "0000 Integrantes",
+      rating: "99% (7K)",
+      modules: "00 Módulos",
+      hours: "00 Horas",
+      oldPrice: "S/2334.80",
+      newPrice: "S/1796.00",
+    },
+    // Agrega más Cursos...
+  ];
+
+  return (
+    <>
+      {environment.modo == "desarrollo" ? (
+        <>
+          <PageInicio />
+        </>
+      ) : (
+        <>
+          <div className="w-full m-auto ">
+
+            {/* Front Page */}
+            <FrontPage/>
+
+            {/* Carrusel 02 */}
+            <div className="w-full">
+              <CarouselLogos />
+            </div>
+
+            {/* Sección Descubre */}
+            <SchoolsSection/>
+            
+            {/* Cursos */}
+            <div className="flex flex-wrap gap-6 justify-center bg-[#131939] py-10 px-4">
+              {courses.map((course, index) => (
+                <CourseCard key={index} {...course} />
+              ))}
+            </div>
+
+            {/* Packs */}
+            <div className="bg-colors-night-blue-ccd2 py-16 flex flex-col items-center">
+              {/* Título principal */}
+              <div className="text-center mb-8">
+                <h1 className="md:text-4xl font-extrabold text-white">
+                  <span className="text-3xl mr-2">VERANO</span>
+                  <span className="text-3xl md:text-4xl font-extrabold text-colors-cyan-ccd">
+                    FEST
+                  </span>{" "}
+                  <span className="text-3xl md:text-4xl font-extrabold text-white">
+                    2025
+                  </span>
+                </h1>
+                <h1
+                  className="text-7xl py-2 text-colors-dark-blue-ccd font-extrabold tracking-wide neon-violet"
+                  style={{
+                    WebkitTextStrokeWidth: "1px", // Ancho del trazo
+                    WebkitTextStrokeColor: "#FF8EFD", // Color teal-300
+                  }}
+                >
+                  PROMOCIÓN
+                </h1>
+                <p
+                  className="text-2xl text-colors-cyan-ccd mt-4 border-2 border-colors-cyan-ccd rounded-2xl px-6 py-2 inline-block shadow-[0_0_15px_7px_rgba(0,234,223,0.2)]"
+                  // style={{
+                  //   WebkitTextStrokeWidth: "1px", // Ancho del trazo
+                  //   WebkitTextStrokeColor: "#00eadf", // Color teal-300
+                  // }}
+                >
+                  HASTA UN 50% DSCTO
+                </p>
+              </div>
+
+              {/* Tarjetas de precios */}
+              <div className="flex flex-wrap justify-center gap-10 mt-12">
+                {/* Tarjeta Plan Básico */}
+                <div className="group bg-gradient-to-t from-colors-sky-ccd to-colors-dark-blue-ccd shadow-lg p-6 w-[300px] rounded-2xl border-2 border-white hover:shadow-[0_0_15px_7px_rgba(49,133,247,0.5)] transition duration-300 hover:scale-110">
+                  <h3 className="text-3xl text-center text-white">Plan</h3>
+                  <h2 className="text-4xl font-extrabold text-center text-colors-sky-ccd">
+                    BÁSICO
+                  </h2>
+                  <div className="w-8 h-[4px] mx-auto bg-colors-sky-ccd mt-2"></div>
+                  {/* Rayita blanca */}
+                  <ul className="mt-4 space-y-2 text-white">
+                    <li className="flex items-center font-sans text-lg">
+                      <FaCircleCheck className="mr-2 text-colors-sky-ccd text-lg" />{" "}
+                      1 Curso en vivo
+                    </li>
+                    <li className="flex items-center font-sans text-lg">
+                      <FaCircleCheck className="mr-2 text-colors-sky-ccd  text-lg" />{" "}
+                      1 Curso asincrónico
+                    </li>
+                    <li className="flex items-center font-sans text-lg">
+                      <FaCircleCheck className="mr-2 text-colors-sky-ccd  text-lg" />{" "}
+                      2 Certificados de CCD
+                    </li>
+                  </ul>
+                  <p className="text-white text-lg line-through text-center mt-4">
+                    S/ 1,399.99
+                  </p>
+                  <p className="text-5xl font-extrabold text-center text-white">
+                    <span className="relative top-[-15px] text-2xl">S/</span>
+                    699.99
+                  </p>
+                  <div className="flex justify-center">
+                    <button className="border-colors-dark-blue-ccd border-2 border-[rgba(22,30,110,0.3)] text-white text-xl font-bold px-4 py-2 mt-6 rounded-2xl group-hover:scale-110 group-hover:border-[rgba(22,30,110,0)] group-hover:bg-colors-dark-blue-ccd transition duration-300">
+                      Adquirir plan
+                    </button>
+                  </div>
+                </div>
+
+                {/* Tarjeta Plan Premium */}
+                <div className="group bg-gradient-to-t from-colors-violet-ccd2 to-colors-dark-blue-ccd shadow-lg p-6 w-[300px] rounded-2xl border-2 border-white hover:shadow-[0_0_15px_7px_rgba(98,50,250,0.5)] transition duration-300 hover:scale-110">
+                  <h3 className="text-3xl text-center text-white">Plan</h3>
+                  <h2 className="text-4xl font-extrabold text-center text-white">
+                    PREMIUM
+                  </h2>
+                  <div className="w-8 h-[4px] mx-auto bg-white mt-2"></div>
+                  {/* Rayita blanca */}
+                  <ul className="mt-4 space-y-2 text-white">
+                    <li className="flex items-center text-lg">
+                      <FaCircleCheck className="mr-2 text-white" /> 1 Año de
+                      acceso total
+                    </li>
+                    <li className="flex items-center text-lg">
+                      <FaCircleCheck className="mr-2 text-white" /> Más de 40
+                      cursos
+                    </li>
+                    <li className="flex items-center text-lg">
+                      <FaCircleCheck className="mr-2 text-white" /> Certificados
+                      ilimitados
+                    </li>
+                  </ul>
+                  <p className="text-white text-lg line-through text-center mt-4">
+                    S/ 2,999.99
+                  </p>
+                  <p className="text-5xl font-extrabold text-center text-white">
+                    <span className="relative top-[-15px] text-2xl">S/</span>
+                    1,499.99
+                  </p>
+                  <div className="flex justify-center">
+                    <button className="border-colors-dark-blue-ccd border-2 border-[rgba(22,30,110,0.3)] text-white text-xl font-bold px-4 py-2 mt-6 rounded-2xl group-hover:scale-110 group-hover:border-[rgba(22,30,110,0)] group-hover:bg-colors-dark-blue-ccd transition duration-300">
+                      Adquirir plan
+                    </button>
+                  </div>
+                </div>
+
+                {/* Tarjeta Plan Profesional */}
+                <div className="group bg-gradient-to-t from-colors-cyan-ccd to-colors-dark-blue-ccd shadow-lg p-6 w-[300px] rounded-2xl border-2 border-white hover:shadow-[0_0_15px_7px_rgba(0,234,223,0.5)] transition duration-300 hover:scale-110">
+                  <h3 className="text-3xl text-center text-white">Plan</h3>
+                  <h2 className="text-4xl font-extrabold text-center text-colors-cyan-ccd">
+                    PROFESIONAL
+                  </h2>
+                  <div className="w-8 h-[4px] mx-auto bg-colors-cyan-ccd mt-2"></div>
+                  {/* Rayita blanca */}
+                  <ul className="mt-4 space-y-2 text-white">
+                    <li className="flex items-center text-lg">
+                      <FaCircleCheck className="mr-2 text-colors-cyan-ccd" /> 2
+                      Cursos en vivo
+                    </li>
+                    <li className="flex items-center text-lg">
+                      <FaCircleCheck className="mr-2 text-colors-cyan-ccd" /> 2
+                      Cursos asincrónicos
+                    </li>
+                    <li className="flex items-center text-lg">
+                      <FaCircleCheck className="mr-2 text-colors-cyan-ccd" /> 4
+                      Certificados PMI
+                    </li>
+                  </ul>
+                  <p className="text-white text-lg line-through text-center mt-4">
+                    S/ 4,999.98
+                  </p>
+                  <p className="text-5xl font-extrabold text-center text-white">
+                    <span className="relative top-[-15px] text-2xl">S/</span>
+                    999.99
+                  </p>
+                  <div className="flex justify-center">
+                    <button className="border-colors-dark-blue-ccd border-2 border-[rgba(22,30,110,0.3)] text-white text-xl font-bold px-4 py-2 mt-6 rounded-2xl group-hover:scale-110 group-hover:border-[rgba(22,30,110,0)] group-hover:bg-colors-dark-blue-ccd transition duration-300">
+                      Adquirir plan
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Texto final */}
+              <p
+                className="text-center my-12"
+                // style={{
+                //   WebkitTextStrokeWidth: "1px", // Ancho del trazo
+                //   WebkitTextStrokeColor: "#00eadf", // Color teal-300
+                // }}
+              >
+                <span
+                  className="text-5xl text-colors-cyan-ccd inline-block mr-2 neon-cyan"
+                  style={{
+                    WebkitTextStrokeWidth: "1px", // Ancho del trazo
+                    WebkitTextStrokeColor: "#00eadf",
+                  }}
+                >
+                  ¡Obtén acceso total
+                </span>
+                <span
+                  className="text-5xl font-extrabold text-colors-violet-ccd2 inline-block neon-violet"
+                  style={{
+                    WebkitTextStrokeWidth: "1px", // Ancho del trazo
+                    WebkitTextStrokeColor: "#FF8EFD",
+                  }}
+                >
+                  a nuestros cursos!
+                </span>
+              </p>
+
+              {/* Temporizador */}
+              <div className="flex justify-center gap-4 mt-6">
+                <CountdownTimer targetDate="12/31/2024 23:59:59" />
+              </div>
+            </div>
+
+            {/* Certificado */}
+            <CertificateModel/>
+
+            {/* Acreditaciones */}
+            <AccreditationsSection/>
+
+            {/* Docentes de Excelencia */}
+            <TeachersSection/>
+
+            {/* Testimonios */}
+            <TestimonialsSection/>
+
+            {/* Section CTA */}
+            <SectionCTA/>
+
+
+            
+            <div
+              className="w-full overflow-hidden flex justify-center  items-center  "
+              data-aos="zoom-in-down"
+              data-aos-anchor-placement="top-bottom"
+            >
+              <div className="h-full w-[70%]   max-xl:w-[75%] max-2xl:w-[65%] min-[1620px]:w-[60%]  min-[1920px]:w-[55%]  max-sm:w-[90%]  flex flex-col justify-center items-center pt-[3.75rem] gap-5 mx-auto ">
+                <div
+                  className="flex gap-3 justify-center items-center"
+                  data-aos="fade-up"
+                >
+                  <h1>
+                    <span className=" text-4xl text-white font-extrabold">
+                      Programas
+                    </span>
+                    <span className="text-4xl text-white">
+                      {" "}
+                      de alta especializac
+                    </span>
+                    <span className="text-4xl underline text-white  decoration-[white] decoration-4 underline-offset-4 ">
+                      ión
+                    </span>
+                  </h1>
+                </div>
+                <div className="">
+                  <Tabs
+                    aria-label="Options"
+                    variant="bordered"
+                    className="w-full !bg-transparent"
+                    classNames={{
+                      base: " flex justify-center items-center text-red-500 !bg-transparent",
+                      cursor: "bg-white/20 text-white ",
+                      tabContent: "!text-white !bg-transparent",
+                      tab: "!text-blue-900 !bg-transparent",
+                      wrapper: "text-blue-500 !bg-transparent",
+                      panel: "text-yellow-500 !bg-transparent",
+                      tabList: "text-green-500 !bg-transparent",
+                    }}
+                  >
+                    <Tab
+                      key="courses"
+                      title={
+                        <div
+                          className="flex items-center space-x-2"
+                          data-aos="fade-up"
+                        >
+                          <IoBusinessSharp />
+                          <span>Cursos</span>
+                        </div>
+                      }
+                      className="!bg-transparent"
+                    >
+                      <Card className="!bg-transparent !border-none !shadow-none">
+                        <CardBody className="!bg-transparent">
+                          <Tabs
+                            variant="bordered"
+                            aria-label="Options"
+                            color="primary"
+                            placement={"top"}
+                            selectedKey={selectedTabCurso}
+                            onSelectionChange={handleTabChangeCurso}
+                            classNames={{
+                              base: "flex justify-center  items-center text-red-500 !bg-transparent",
+                              cursor: "bg-white/20 text-white ",
+                              tabContent: "!text-white !bg-transparent",
+                              tab: "!text-blue-900 !bg-transparent",
+                              wrapper: "text-blue-500  !bg-transparent",
+                              panel: "text-yellow-500 !bg-transparent",
+                              tabList: "text-green-500 !bg-transparent",
+                            }}
+                          >
+                            <Tab
+                              key="1"
+                              title={
+                                <div className="h-full w-[14rem] max-sm:w-16  ">
+                                  <div className="flex justify-center items-center text-center gap-3">
+                                    <span>Ingeniería</span>
+                                  </div>
+                                </div>
+                              }
+                            >
+                              <Card className="!bg-transparent !shadow-none">
+                                <CardBody className="flex gap-10 py-5 text-center">
+                                  <div className="h-full w-full grid grid-cols-3 max-md:grid-cols-1 max-2xl:grid-cols-2  gap-14 ">
+                                    {selectedCI.map(
+                                      (producto: any, index: number) => {
+                                        const id = `${producto.Clasificacion}-${producto.Modelo}`;
+                                        // Añadir el ID al objeto producto
+                                        const productoConId = {
+                                          ...producto,
+                                          id,
+                                        };
+
+                                        return (
+                                          <ProductoComponent
+                                            key={index}
+                                            array={productoConId}
+                                          />
+                                        );
+                                      }
+                                    )}
+                                  </div>
+                                  <Link href={"/tienda/Curso/Ingenieria"}>
+                                    <Button className="bg-white/20 w-[30%] text-white m-auto">
+                                      Ver más
+                                    </Button>
+                                  </Link>
+                                </CardBody>
+                              </Card>
+                            </Tab>
+
+                            <Tab
+                              key="3"
+                              title={
+                                <div className="h-full w-[14rem]  max-sm:w-16  ">
+                                  <div className="flex justify-center items-center text-center gap-3">
+                                    <span className="block max-sm:hidden">
+                                      Gestión Pública
+                                    </span>
+                                    <span className="hidden max-sm:block">
+                                      Gestión P.
+                                    </span>
+                                  </div>
+                                </div>
+                              }
+                            >
+                              <Card className="!bg-transparent !shadow-none">
+                                <CardBody className="flex gap-10 py-5 text-center">
+                                  <div className="h-full w-full grid grid-cols-3 max-md:grid-cols-1 max-2xl:grid-cols-2  gap-14">
+                                    {selectedCG.map(
+                                      (producto: any, index: number) => {
+                                        const id = `${producto.Clasificacion}-${producto.Modelo}`;
+                                        // Añadir el ID al objeto producto
+                                        const productoConId = {
+                                          ...producto,
+                                          id,
+                                        };
+                                        return (
+                                          <ProductoComponent
+                                            key={index}
+                                            array={productoConId}
+                                          />
+                                        );
+                                      }
+                                    )}
+                                  </div>
+                                  <Link href={"/tienda/Curso/Gestión Pública"}>
+                                    <Button className="bg-white/20 w-[30%] text-white m-auto">
+                                      Ver más
+                                    </Button>
+                                  </Link>
+                                </CardBody>
+                              </Card>
+                            </Tab>
+                          </Tabs>
+                        </CardBody>
+                      </Card>
+                    </Tab>
+
+                    {/* Tab Diplomas */}
+                    <Tab
+                      key="diplomas"
+                      title={
+                        <div
+                          className="flex items-center space-x-2"
+                          data-aos="fade-up"
+                        >
+                          <IoMdSchool />
+                          <span>Diplomas</span>
+                        </div>
+                      }
+                    >
+                      <Card className=" !bg-transparent !border-none !shadow-none">
+                        <CardBody>
+                          <Tabs
+                            aria-label="Options"
+                            variant="bordered"
+                            placement={"top"}
+                            selectedKey={selectedTabDiploma}
+                            onSelectionChange={handleTabChangeDiploma}
+                            classNames={{
+                              base: "flex justify-center  items-center text-red-500 !bg-transparent",
+                              cursor: "bg-white/20 text-white border-1",
+                              tabContent: "!text-white !bg-transparent",
+                              tab: "!text-blue-900 !bg-transparent",
+                              wrapper: "text-blue-500  !bg-transparent",
+                              panel: "text-yellow-500 !bg-transparent",
+                              tabList: "text-green-500 !bg-transparent",
+                            }}
+                          >
+                            <Tab
+                              key="1"
+                              title={
+                                <div className="h-full w-[14rem] max-sm:w-10">
+                                  <div className="flex justify-center items-center text-center gap-3">
+                                    <span>Ingeniería</span>
+                                  </div>
+                                </div>
+                              }
+                            >
+                              <Card className="!bg-transparent !shadow-none">
+                                <CardBody className="flex gap-10 py-5 text-center">
+                                  <div className="h-full w-full grid grid-cols-3 max-md:grid-cols-1 max-2xl:grid-cols-2  gap-14">
+                                    {selectedDI.map(
+                                      (producto: any, index: number) => {
+                                        const id = `${producto.Clasificacion}-${producto.Modelo}`;
+                                        // Añadir el ID al objeto producto
+                                        const productoConId = {
+                                          ...producto,
+                                          id,
+                                        };
+                                        return (
+                                          <ProductoComponent
+                                            key={index}
+                                            array={productoConId}
+                                          />
+                                        );
+                                      }
+                                    )}
+                                  </div>
+                                  <Link href={"/tienda/Diploma/Ingenieria"}>
+                                    <Button className="bg-white/20 w-[30%] text-white m-auto">
+                                      Ver más
+                                    </Button>
+                                  </Link>
+                                </CardBody>
+                              </Card>
+                            </Tab>
+                            <Tab
+                              key="3"
+                              title={
+                                <div className="h-full w-[14rem] max-sm:w-16">
+                                  <div className="flex justify-center items-center text-center gap-3">
+                                    <span className="block max-sm:hidden">
+                                      {" "}
+                                      Gestión Pública
+                                    </span>
+                                    <span className="hidden max-sm:block">
+                                      Gestión P.
+                                    </span>
+                                  </div>
+                                </div>
+                              }
+                            >
+                              <Card className="!bg-transparent !shadow-none">
+                                <CardBody className="flex gap-10 py-5 text-center">
+                                  <div className="h-full w-full grid grid-cols-3 max-md:grid-cols-1 max-2xl:grid-cols-2 gap-y-4 gap-10">
+                                    {selectedDG.map(
+                                      (producto: any, index: number) => {
+                                        const id = `${producto.Clasificacion}-${producto.Modelo}`;
+                                        // Añadir el ID al objeto producto
+                                        const productoConId = {
+                                          ...producto,
+                                          id,
+                                        };
+                                        return (
+                                          <ProductoComponent
+                                            key={index}
+                                            array={productoConId}
+                                          />
+                                        );
+                                      }
+                                    )}
+                                  </div>
+                                  <Link
+                                    href={"/tienda/Diploma/Gestión Pública"}
+                                  >
+                                    <Button className="bg-white/20 w-[30%] text-white m-auto">
+                                      Ver más
+                                    </Button>
+                                  </Link>
+                                </CardBody>
+                              </Card>
+                            </Tab>
+                          </Tabs>
+                        </CardBody>
+                      </Card>
+                    </Tab>
+                  </Tabs>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="w-full flex justify-center items-center"
+              data-aos="zoom-in-down"
+            >
+              <div
+                className="h-full w-[80%] flex flex-col justify-center gap-4 "
+                data-aos="fade-right"
+              >
+                <div className="w-full flex flex-col gap-6 justify-center items-center">
+                  <div className="flex gap-3" data-aos="fade-up">
+                    <h1>
+                      <span className=" text-4xl text-white font-extrabold">
+                        Empresas
+                      </span>
+                      <span className="text-4xl text-white">
+                        {" "}
+                        que confiaron en nosot
+                      </span>
+                      <span className="text-4xl underline text-white  decoration-[white] decoration-4 underline-offset-4">
+                        ros
+                      </span>
+                    </h1>
+                  </div>
+
+                  <Carousel4 />
+
+                  <div className="flex flex-col gap-12 justify-center items-center">
+                    <div className="flex gap-3" data-aos="fade-up">
+                      <h1>
+                        <span className=" text-4xl text-white font-extrabold">
+                          Acreditaciones
+                        </span>
+                        <span className="text-4xl text-white"> estableci</span>
+                        <span className="text-4xl underline text-white  decoration-[white] decoration-4 underline-offset-4">
+                          das
+                        </span>
+                      </h1>
+                    </div>
+
+                    <div className="w-full grid grid-cols-4 max-xl:grid-cols-2 max-sm:grid-cols-1 gap-8 justify-center items-center justify-items-center max-sm:gap-8 p-2">
+                      <div className="group relative w-60 h-[21rem] [perspective:1000px] bg-transparent">
+                        <div className="w-full h-full absolute inset-0 bg-white/20  shadow-2xl  rounded-xl p-8 transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                          {/* Front Side */}
+                          <div className="absolute inset-0 flex flex-col  items-center justify-center backface-hidden ">
+                            <img
+                              alt="colegio de ingenieros del callao"
+                              src={
+                                environment.baseUrlStorage +
+                                "/Multimedia/Imagen/Ccd/Logos/CAL.png"
+                              }
+                              className="h-[80%] w-full rounded-t-xl p-4"
+                            />
+                            <div className=" w-full h-[20%] p-2 rounded-b-2xl text-center  bg-white">
+                              <span className=" font-extrabold text-md text-blue-900 text-center ">
+                                Colegio De Abogados <br /> De Lima
+                              </span>
+                            </div>
+                          </div>
+                          {/* Back Side */}
+                          <div className="absolute inset-0 flex flex-col items-center gap-4 justify-center p-6 bg-white/20 text-white [transform:rotateY(180deg)] backface-hidden rounded-xl">
+                            <Image
+                              alt="colegio de ingenieros del callao"
+                              src="/Multimedia/Imagen/ccdlogo.png"
+                              width={300}
+                              height={0}
+                              className="w-20 h-20 rounded-full  bg-white p-2"
+                            />
+                            <p className="mt-2 text-sm  text-center text-white">
+                              <b>El acuerdo</b> entre el CCD y el Colegio de
+                              Abogados promueve la formación continua y
+                              actualización de los profesionales del derecho.
+                            </p>
+
+                            <Modal2
+                              btnName={
+                                <div className="flex gap-2 items-center">
+                                  <GrDocumentPdf className="h-6 w-6 text-blue-800" />
+                                  <h1>Mas informacion</h1>
+                                </div>
+                              }
+                              tHeader="Colegio De Abogados De Lima"
+                              Pcenter={<span></span>}
+                              btndow={
+                                <Button
+                                  color="success"
+                                  variant="light"
+                                  as="a"
+                                  className="bg-[#162E54] text-white"
+                                  href={
+                                    environment.baseUrlStorage +
+                                    "/Documentos/Pdf/Ccd/Convenio/CONVENIO  CAL LIMA 2021.pdf"
+                                  }
+                                  download
+                                >
+                                  Descargar PDF
+                                </Button>
+                              }
+                              doc={
+                                <iframe
+                                  src={
+                                    environment.baseUrlStorage +
+                                    "/Documentos/Pdf/Ccd/Convenio/CONVENIO  CAL LIMA 2021.pdf"
+                                  }
+                                  width="100%"
+                                  height="500px"
+                                  style={{ border: "none" }}
+                                  title="PDF Document"
+                                />
+                              }
+                              content={<span></span>}
+                              css="bg-white"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="group relative w-60 h-[21rem] [perspective:1000px]">
+                        <div className="h-full w-full absolute inset-0 bg-white/20   shadow-2xl  rounded-xl p-8 transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                          {/* Front Side */}
+                          <div className="absolute inset-0 flex flex-col  items-center justify-center backface-hidden">
+                            <img
+                              alt="colegio de ingenieros del callao"
+                              src={
+                                environment.baseUrlStorage +
+                                "/Multimedia/Imagen/Ccd/Logos/CIP.png"
+                              }
+                              className="h-[80%] w-full rounded-t-xl p-6"
+                            />
+                            <div className="w-full h-[20%] py-2  rounded-b-2xl text-center  bg-white border-1">
+                              <span className=" font-extrabold text-md text-blue-900 text-center ">
+                                Colegio De Ingenieros
+                                <br /> Del Perú
+                              </span>
+                            </div>
+                          </div>
+                          {/* Back Side */}
+                          <div className="absolute inset-0 flex flex-col items-center gap-4 justify-center p-6 bg-white/20 text-white [transform:rotateY(180deg)] backface-hidden rounded-xl">
+                            <Image
+                              alt="colegio de ingenieros del callao"
+                              src="/Multimedia/Imagen/ccdlogo.png"
+                              width={300}
+                              height={0}
+                              className="w-20 h-20 rounded-full  bg-white  p-2"
+                            />
+                            <p className="mt-2 text-sm text-center text-white">
+                              <b>El convenio</b> entre el CCD y el CIP Callao
+                              impulsa la capacitación de ingenieros con
+                              programas y talleres especializados.
+                            </p>
+
+                            <Modal2
+                              btnName={
+                                <div className="flex gap-2 items-center">
+                                  <GrDocumentPdf className="h-6 w-6 text-blue-900" />
+                                  <h1>Mas informacion</h1>
+                                </div>
+                              }
+                              tHeader="Colegio De Ingenieros Del Perú"
+                              Pcenter={<span></span>}
+                              btndow={
+                                <Button
+                                  color="success"
+                                  variant="light"
+                                  as="a"
+                                  className="bg-[#162E54] text-white"
+                                  href={
+                                    environment.baseUrlStorage +
+                                    "/Documentos/Pdf/Ccd/Convenio/CONVENIO CENTRO DE CAPACITACIÓN Y DESARROLLO S.A.C..pdf"
+                                  }
+                                  download
+                                >
+                                  Descargar PDF
+                                </Button>
+                              }
+                              doc={
+                                <iframe
+                                  src={
+                                    environment.baseUrlStorage +
+                                    "/Documentos/Pdf/Ccd/Convenio/CONVENIO CENTRO DE CAPACITACIÓN Y DESARROLLO S.A.C..pdf"
+                                  }
+                                  width="100%"
+                                  height="500px"
+                                  style={{ border: "none" }}
+                                  title="PDF Document"
+                                />
+                              }
+                              content={<span></span>}
+                              css="bg-white"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="group relative  w-60 h-[21rem] [perspective:1000px]">
+                        <div className="h-full w-full absolute inset-0 bg-white/20   shadow-2xl  rounded-xl p-8 transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                          {/* Front Side */}
+                          <div className="absolute inset-0 flex flex-col items-center justify-center backface-hidden">
+                            <img
+                              alt="colegio de economistas de lima"
+                              src={
+                                environment.baseUrlStorage +
+                                "/Multimedia/Imagen/Ccd/Logos/CEL.png"
+                              }
+                              className="h-[80%] w-full rounded-xl p-6 "
+                            />
+                            <div className="w-full h-[20%] py-2 rounded-b-2xl text-center  bg-white border-1">
+                              <span className=" font-extrabold text-md text-blue-900 text-center">
+                                Colegio De Economistas
+                                <br /> De Lima
+                              </span>
+                            </div>
+                          </div>
+                          {/* Back Side */}
+                          <div className="absolute inset-0 flex flex-col items-center  gap-4 justify-center p-6 bg-white/20 text-blue-800 [transform:rotateY(180deg)] backface-hidden rounded-xl">
+                            <Image
+                              alt="Colegio De Economistas De Lima"
+                              src="/Multimedia/Imagen/ccdlogo.png"
+                              width={300}
+                              height={0}
+                              className="w-20 h-20 rounded-full  bg-white p-2"
+                            />
+                            <p className="mt-2 text-sm text-center text-white">
+                              <b>El acuerdo</b> entre el CCD y el Colegio de
+                              Economistas fomenta la actualización profesional
+                              en temas económicos y gubernamentales.
+                            </p>
+
+                            <Modal2
+                              btnName={
+                                <div className="flex gap-2 items-center">
+                                  <GrDocumentPdf className="h-6 w-6 text-blue-900" />
+                                  <h1>Mas informacion</h1>
+                                </div>
+                              }
+                              tHeader="Colegio De Economistas De Lima"
+                              Pcenter={<span></span>}
+                              btndow={
+                                <Button
+                                  color="success"
+                                  variant="light"
+                                  as="a"
+                                  className="bg-[#162E54] text-white"
+                                  href={
+                                    environment.baseUrlStorage +
+                                    "/Documentos/Pdf/Ccd/Convenio/CONVENIO ENTRE EL CEL Y CCD.pdf"
+                                  }
+                                  download
+                                >
+                                  Descargar PDF
+                                </Button>
+                              }
+                              doc={
+                                <iframe
+                                  src={
+                                    environment.baseUrlStorage +
+                                    "/Documentos/Pdf/Ccd/Convenio/CONVENIO ENTRE EL CEL Y CCD.pdf"
+                                  }
+                                  width="100%"
+                                  height="500px"
+                                  style={{ border: "none" }}
+                                  title="PDF Document"
+                                />
+                              }
+                              content={<span></span>}
+                              css="bg-white"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="group relative  w-60 h-[21rem] [perspective:1000px]">
+                        <div className="h-full w-full absolute inset-0 bg-white/20    rounded-xl p-8 transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                          {/* Front Side */}
+                          <div className="absolute inset-0 flex flex-col items-center justify-center backface-hidden">
+                            <img
+                              alt="piura"
+                              src={
+                                environment.baseUrlStorage +
+                                "/Multimedia/Imagen/Ccd/Logos/CEP.png"
+                              }
+                              className="h-[100%] w-full rounded-xl p-6 "
+                            />
+                            <div className="w-full h-[20%] py-2 rounded-b-2xl text-center bg-white border-1">
+                              <span className=" font-bold text-md text-blue-900  text-center ">
+                                Colegio De Economistas <br /> De Piura
+                              </span>
+                            </div>
+                          </div>
+                          {/* Back Side */}
+                          <div className=" absolute inset-0 flex flex-col items-center gap-4 justify-center p-6 text-blue-900  [transform:rotateY(180deg)] backface-hidden rounded-xl">
+                            <Image
+                              alt="colegio de ingenieros del callao"
+                              src="/Multimedia/Imagen/ccdlogo.png"
+                              width={300}
+                              height={0}
+                              className="w-20 h-20 rounded-full  bg-white p-2"
+                            />
+                            <p className="mt-2 text-sm text-center text-white">
+                              <b>El convenio</b> entre el CCD y el Colegio de
+                              Economistas de Piura apoya la formación continua y
+                              el desarrollo económico regional.
+                            </p>
+
+                            <Modal2
+                              btnName={
+                                <div className="flex gap-2 items-center">
+                                  <GrDocumentPdf className="h-6 w-6 text-blue-900" />
+                                  <h1>Mas informacion</h1>
+                                </div>
+                              }
+                              tHeader="Colegio De Economistas De Piura"
+                              Pcenter={<span></span>}
+                              btndow={
+                                <Button
+                                  color="success"
+                                  variant="light"
+                                  as="a"
+                                  className="bg-[#162E54] text-white"
+                                  href={
+                                    environment.baseUrlStorage +
+                                    "/Documentos/Pdf/Ccd/Convenio/CONVENIO CEP -PIURA 2023.pdf"
+                                  }
+                                  download
+                                >
+                                  Descargar PDF
+                                </Button>
+                              }
+                              doc={
+                                <iframe
+                                  src={
+                                    environment.baseUrlStorage +
+                                    "/Documentos/Pdf/Ccd/Convenio/CONVENIO CEP -PIURA 2023.pdf"
+                                  }
+                                  width="100%"
+                                  height="500px"
+                                  style={{ border: "none" }}
+                                  title="PDF Document"
+                                />
+                              }
+                              content={<span></span>}
+                              css="bg-white"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="w-full flex justify-center items-center "
+              data-aos="zoom-in-down"
+            >
+              <div className="h-full w-[75%] flex flex-col  justify-center items-center py-[3.75rem] gap-10">
+                <div className="flex gap-3" data-aos="fade-up">
+                  <h1>
+                    <span className=" text-4xl text-white font-extrabold">
+                      Conoce
+                    </span>
+                    <span className="text-4xl text-white"> nuestros bene</span>
+                    <span className="text-4xl underline text-white  decoration-[white] decoration-4 underline-offset-4">
+                      ficios
+                    </span>
+                  </h1>
+                </div>
+                <div className="w-full h-full flex  max-lg:flex-col   max-lg:items-center gap-12">
+                  <div className="w-full flex items-center justify-center md:w-1/2">
+                    <img
+                      alt="mountain landscape"
+                      className="h-[18rem] w-full rounded-xl "
+                      src={
+                        environment.baseUrlStorage +
+                        "/Multimedia/Imagen/Ccd/Banners/CERTIFICATE CON NOSOTROS.png"
+                      }
+                    />
+                  </div>
+                  <div className="text-white flex flex-col justify-center w-full md:w-1/2 p-6  shadow-2xl rounded-xl  bg-white/20  ">
+                    <h2 className="text-2xl font-bold text-white">
+                      Certifícate con nosotros
+                    </h2>
+                    <p className="text-white mt-2">
+                      Al terminar tu curso o diploma de alta especiali zación,
+                      recibe tu certificado en formato físico y digital.
+                    </p>
+                    <ul className="list-disc list-inside mt-4 text-muted-foreground">
+                      <li className="text-white">
+                        Firmado por <strong> representantes</strong> con grado
+                        académico.
+                      </li>
+                      <li className="text-white">
+                        Certificado con <strong> código único</strong>.
+                      </li>
+                      <li className="text-white">
+                        Certificado con valor <strong> internacional</strong>.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="w-full h-full flex  max-lg:flex-col-reverse  max-lg:items-center gap-12">
+                  <div className="flex flex-col justify-center gap-2  w-full md:w-1/2 p-6 rounded-xl shadow-2xl bg-white/20 text-white">
+                    <h2 className="text-2xl font-semibold text-white">
+                      Se parte de nuestras MASTER CLASS
+                    </h2>
+                    <p className="text-white' mt-2">
+                      Únete a nuestra comunidad y aprende de los mejores temas.
+                    </p>
+                    <ul className="list-disc list-inside mt-4 text-muted-foreground">
+                      <li className="text-white">
+                        Primera clase gratuita en nuestros{" "}
+                        <strong>cursos o diplomas</strong>.
+                      </li>
+                      <li className="text-white">
+                        Descuentos para <strong>inscripción</strong> en cursos o
+                        diploma de alta especialización.
+                      </li>
+                      <li className="text-white">
+                        Obtén tu certificado de <strong>participación</strong>.
+                      </li>
+                    </ul>
+                    {/* <div className='w-full flex justify-end'>
+                  <a href="#" className="p-6 lg:p-2 w-[10rem]  bg-white/20   hover:bg-[#00EADE] hover:!text-[#162E54]  rounded-xl text-end">
+                    <p className='text-center  font-extrabold'>Inscribete aqui</p>
+                  </a>
+                </div> */}
+                  </div>
+                  <div className="flex items-center justify-center w-full md:w-1/2">
+                    <img
+                      alt="mountain landscape"
+                      className="h-[18rem] w-full rounded-xl "
+                      src={
+                        environment.baseUrlStorage +
+                        "/Multimedia/Imagen/Ccd/Banners/MASTER CLASS.png"
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="w-full min-h-[36vh] lg:min-h-[60vh] overflow-hidden  flex justify-center items-center "
+              data-aos="zoom-in-down"
+            >
+              <div className=" h-full w-[80%] flex flex-col items-center justify-center gap-10 mx-auto  ">
+                <div className=" w-full flex flex-col items-center justify-center  gap-4">
+                  <div className="px-4 md:px-[3.75rem] py-6 flex justify-center flex-col items-center text-center">
+                    <h1>
+                      <span className=" text-4xl text-white font-extrabold">
+                        Aprende{" "}
+                      </span>
+                      <span className="text-4xl text-white"> con los mejo</span>
+                      <span className="text-4xl underline text-white  decoration-[white] decoration-4 underline-offset-4">
+                        res
+                      </span>
+                    </h1>
+                  </div>
+
+                  <Slider
+                    {...settings}
+                    className="carousel-container w-full flex flex-col  justify-center py-8 max-w-xl  px-[6rem] max-sm:px-0 min-[500px]:px-0 lg:px-0 lg:max-w-7xl relative"
+                  >
+                    {datoprofesores.map((item: any, index: number) => {
+                      console.log(JSON.stringify(datoprofesores));
+                      return (
+                        <>
+                          <div key={index} className="px-6">
+                            <div className="w-full h-full flex flex-col  items-center   text-white bg-white/20 min-h-[44rem] max-h-[44rem] rounded-2xl overflow-hidden">
+                              <div
+                                className={`w-full h-full flex justify-center items-center
+                             bg-[url('https://pub-9d2abfa175714e64aed33b90722a9fd5.r2.dev/Multimedia/Imagen/Ccd/Fondos/PROFES-APP_FONDOS-BLANCO.jpg')] 
+                             bg-cover relative`}
+                              >
+                                <img
+                                  src={
+                                    environment.baseUrlStorage +
+                                    "/" +
+                                    item.RutaImagenPerfil
+                                  }
+                                  className="w-full h-full object-cover rounded-t-lg"
+                                />
+                              </div>
+                              <div className="w-full h-[40%] flex flex-col justify-between items-center  p-4 ">
+                                <div>
+                                  <p className="mt-2 text-center text-sx lg:text-base font-bold">
+                                    {item.Nombres + " " + item.Apellidos}
+                                  </p>
+                                  <p className="mt-2  text-center text-[0.75rem]">
+                                    {item.Descripcion}
+                                  </p>
+                                </div>
+
+                                <div className="w-full">
+                                  <div className="w-full text-xs lg:text-md  border-t-2 border-gray-300 my-4"></div>
+                                  <p className="mt-2 text-xs lg:text-md text-center p-2  text-white  rounded-md">
+                                    {item.Puesto}
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </>
+                      );
+                    })}
+                  </Slider>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="overflow-hidden  w-full flex justify-center items-center py-10"
+              data-aos="zoom-in-down"
+            >
+              <div className=" h-full w-[80%]  flex flex-col justify-center  items-center  mx-auto  ">
+                <div className=" w-full flex flex-col justify-center items-center   gap-8">
+                  <div className="px-4 md:px-[3.75rem] flex justify-center gap-8 items-center text-center">
+                    <h1 className="text-center font-extrabold">
+                      <span className="text-4xl text-white">Testimon</span>
+                      <span className="text-4xl underline text-white  decoration-[white] decoration-4 underline-offset-4">
+                        ios
+                      </span>
+                    </h1>
+                  </div>
+
+                  <Carousel2 />
+                </div>
+              </div>
+            </div>
+          </div>
+        </>
+      )}
+    </>
+  );
+}
+
+// Componentes de flecha personalizados
+const CustomNextArrow = ({
+  onClick,
+}: {
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
+}) => (
+  <button
+    className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-[#00EADE]  text-[#162E54] p-2 rounded-full z-10 focus:outline-none"
+    onClick={onClick}
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M9 5l7 7-7 7"
+      />
+    </svg>
+  </button>
+);
+
+const CustomPrevArrow = ({
+  onClick,
+}: {
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
+}) => (
+  <button
+    className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-[#00EADE] text-[#162E54] p-2 rounded-full z-10 focus:outline-none"
+    onClick={onClick}
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M15 19l-7-7 7-7"
+      />
+    </svg>
+  </button>
+);

@@ -1,0 +1,363 @@
+"use client";
+import React, { useEffect, useState } from "react";
+import ubigeo from "@/components/ui/paul/data/ubigeo.json";
+import {
+  Tabs,
+  Tab,
+  Card,
+  CardBody,
+  CardHeader,
+  Input,
+  Select,
+  SelectItem,
+  Autocomplete,
+  AutocompleteItem,
+  DateInput,
+  Button,
+} from "@nextui-org/react";
+import axios from "axios";
+import { environment } from "@/environments/environment";
+import { CalendarDate } from "@internationalized/date";
+import { useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
+import UserInfo from "@/components/ui/paul/UserInfo";
+
+//Axios
+const api = axios.create({
+  baseURL: environment.baseUrl,
+  headers: { "Content-Type": "application/json" },
+});
+export default function App() {
+  const { data: session, status } = useSession();
+  const router = useRouter();
+  const [selects, setSelects] = useState({
+    tipoDocumento: null,
+    paises: null,
+    departamento: null,
+    provincia: null,
+    distrito: null,
+    genero: null,
+  });
+  const [selected, setSelected] = React.useState("photos");
+  const [dataSelectTipoDocumento, setdataSelectTipoDocumento] = React.useState(
+    []
+  );
+  const [dataSelectPais, setdataSelectPais] = React.useState([]);
+  const [dataSelectDepartamento, setdataSelectDepartamento] = React.useState(
+    []
+  );
+  const [dataSelectProvincia, setdataSelectProvincia] = React.useState([]);
+  const [dataSelectDistrito, setdataSelectDistrito] = React.useState([]);
+  const [dataMisDatos, setdataMisDatos] = useState<any>([]);
+
+  // Define el tipo Key si está disponible
+  type Key = string | number;
+
+  const handleSelectionChange = (key: Key) => {
+    setSelected(key.toString());
+  };
+
+  useEffect(() => {
+    if (status === "unauthenticated") {
+      router.push("/"); // Redirige al inicio si no está autenticado
+    }
+  }, [status, router]);
+
+  //1era carga
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        const responseTipoDocumento = await api.post(
+          "/inicio/listarSelectTipoDocumento",
+          {
+            ptipodocumento: "Identidad",
+          }
+        );
+        setdataSelectTipoDocumento(responseTipoDocumento.data.data[0]);
+        const responsePais = await api.post("/inicio/listarPaises", {});
+        setdataSelectPais(responsePais.data.data[0]);
+        console.log("DATASelectPais" + JSON.stringify(dataSelectPais));
+        if (session?.user.Usuario) {
+          const response = await api.post("/inicio/listarMisDatos", {
+            fusuario: session?.user.Usuario,
+          });
+          setdataMisDatos(response.data.data[0][0]);
+        }
+      } catch (error) {
+        console.error("Error cargando los datos:", error);
+      }
+    };
+    loadData();
+  }, [session?.user.Usuario]);
+
+  useEffect(() => {
+    if (dataMisDatos) {
+      setSelects((prevSelects) => ({
+        ...prevSelects,
+        tipoDocumento: dataMisDatos.TipoDocumento_id,
+      }));
+      console.log("e" + JSON.stringify(dataMisDatos));
+      console.log(JSON.stringify(dataMisDatos.TipoDocumento_id));
+    }
+  }, [dataMisDatos]);
+
+  //UBIGEO
+  // useEffect(() => {
+  //   const funct1 = async () => {
+  //     const response = await api.post("/inicio/listarDepartamento", {
+  //       fpais: selects.paises,
+  //     });
+  //     setdataSelectDepartamento(response.data.data[0]);
+  //   };
+
+  //   funct1();
+  // }, [selects.paises]);
+
+  // useEffect(() => {
+  //   const funct1 = async () => {
+  //     const response = await api.post("/inicio/listarProvincia", {
+  //       fdepartamento: selects.departamento,
+  //     });
+  //     setdataSelectProvincia(response.data.data[0]);
+  //   };
+
+  //   funct1();
+  // }, [selects.paises, selects.departamento]);
+  // useEffect(() => {
+  //   const funct1 = async () => {
+  //     const response = await api.post("/inicio/listarDistrito", {
+  //       fprovincia: selects.provincia,
+  //     });
+  //     setdataSelectDistrito(response.data.data[0]);
+  //   };
+
+  //   funct1();
+  // }, [selects.paises, selects.departamento, selects.provincia]);
+
+  const handleSelectChange = (key: any, value: any) => {
+    setSelects((prevSelects) => ({
+      ...prevSelects,
+      [key]: value,
+    }));
+  };
+
+  const datagenero = [
+    { Genero: "Masculino" },
+    { Genero: "Femenino" },
+    { Genero: "Prefiero no decirlo" },
+  ];
+
+  return (
+    <div className="flex w-full !h-fit flex-col m-auto py-6 bg-double-esferas2">
+      <div className="max-w-[100rem] py-16 px-6 w-full mx-auto ">
+        <div className="w-[90%] mx-auto ">
+         {/* <UserInfo/>    */}
+          <Tabs
+            aria-label="Options"
+            selectedKey={selected}
+            onSelectionChange={handleSelectionChange}
+            classNames={{
+              base: " flex justify-center items-center text-red-500 !bg-transparent",
+              cursor: "bg-white/20 text-white ",
+              tabContent: "!text-white !bg-transparent",
+              tab: "!text-blue-900 !bg-transparent",
+              wrapper: "text-blue-500 !bg-transparent",
+              panel: "text-yellow-500 !bg-transparent",
+              tabList: "text-green-500 !bg-transparent",
+            }}
+            variant="bordered"
+          >
+            <Tab key="photos" title="Datos Personales">
+              <Card className="bg-white">
+                <CardBody className="flex flex-col gap-5">
+                  <div className="flex gap-10">
+                    <Input
+                      type="email"
+                      label="Nombres"
+                      variant="bordered"
+                      className="w-full "
+                      placeholder="Escribir sus nombres"
+                    />
+                    <Input
+                      type="email"
+                      label="Apellidos"
+                      variant="bordered"
+                      className="w-full "
+                      classNames={{ label: "!", input: " " }}
+                      placeholder="Escribir sus nombres"
+                    />
+                  </div>
+                  <div className="flex gap-10">
+                    <Autocomplete
+                      label="tipoDocumento"
+                      variant="bordered"
+                      defaultItems={dataSelectTipoDocumento}
+                      placeholder="Seleccionar la opción"
+                      selectedKey={selects.tipoDocumento}
+                      onSelectionChange={(value) =>
+                        handleSelectChange("tipoDocumento", value)
+                      }
+                    >
+                      {(item: any) => (
+                        <AutocompleteItem
+                          key={item.IdTipoDocumento}
+                          value={item.IdTipoDocumento}
+                        >
+                          {`${item.TipoDocumento}`}
+                        </AutocompleteItem>
+                      )}
+                    </Autocomplete>
+                    <Input
+                      type="email"
+                      label="N° de Documento"
+                      variant="bordered"
+                      className="w-full "
+                      classNames={{ label: "!", input: " " }}
+                      placeholder="Escribir sus nombres"
+                    />
+                  </div>
+                  <div className="flex gap-10">
+                    <Autocomplete
+                      label="País"
+                      variant="bordered"
+                      defaultItems={dataSelectPais}
+                      placeholder="Seleccionar la opción"
+                      selectedKey={selects.paises}
+                      onSelectionChange={(value) =>
+                        handleSelectChange("paises", value)
+                      }
+                    >
+                      {(item: any) => (
+                        <AutocompleteItem key={item.IdPais} value={item.IdPais}>
+                          {`${item.Pais}`}
+                        </AutocompleteItem>
+                      )}
+                    </Autocomplete>
+                    <Input
+                      type="email"
+                      label="Telefono"
+                      variant="bordered"
+                      className="w-full "
+                      classNames={{ label: "!", input: " " }}
+                      placeholder="Escribir sus nombres"
+                    />
+                  </div>
+                  <div className="flex gap-10">
+                    <Autocomplete
+                      label="Departamento"
+                      variant="bordered"
+                      defaultItems={dataSelectDepartamento}
+                      placeholder="Seleccionar la opción"
+                      selectedKey={selects.departamento}
+                      onSelectionChange={(value) =>
+                        handleSelectChange("departamento", value)
+                      }
+                    >
+                      {(item: any) => (
+                        <AutocompleteItem
+                          key={item.IdDepartamento}
+                          value={item.IdDepartamento}
+                        >
+                          {`${item.Departamento}`}
+                        </AutocompleteItem>
+                      )}
+                    </Autocomplete>
+                    <Autocomplete
+                      label="Provincia"
+                      variant="bordered"
+                      defaultItems={dataSelectProvincia}
+                      placeholder="Seleccionar la opción"
+                      selectedKey={selects.provincia}
+                      onSelectionChange={(value) =>
+                        handleSelectChange("provincia", value)
+                      }
+                    >
+                      {(item: any) => (
+                        <AutocompleteItem
+                          key={item.IdProvincia}
+                          value={item.IdProvincia}
+                        >
+                          {`${item.Provincia}`}
+                        </AutocompleteItem>
+                      )}
+                    </Autocomplete>
+                    <Autocomplete
+                      label="Distrito"
+                      variant="bordered"
+                      defaultItems={dataSelectDistrito}
+                      placeholder="Seleccionar la opción"
+                      selectedKey={selects.distrito}
+                      onSelectionChange={(value) =>
+                        handleSelectChange("distrito", value)
+                      }
+                    >
+                      {(item: any) => (
+                        <AutocompleteItem
+                          key={item.IdDistrito}
+                          value={item.IdDistrito}
+                        >
+                          {`${item.Distrito}`}
+                        </AutocompleteItem>
+                      )}
+                    </Autocomplete>
+                  </div>
+                  <div className="flex gap-10">
+                    <Input
+                      type="email"
+                      label="Dirección"
+                      variant="bordered"
+                      className="w-full "
+                      classNames={{ label: "!", input: " " }}
+                      placeholder="Escribir sus nombres"
+                    />
+                  </div>
+                  <div className="flex gap-10">
+                    <DateInput
+                      label={"Fecha de nacimiento"}
+                      variant="bordered"
+                      placeholderValue={new CalendarDate(1995, 11, 6)}
+                      className="max-w-sm"
+                    />
+                    <Autocomplete
+                      label="Genero"
+                      variant="bordered"
+                      defaultItems={datagenero}
+                      placeholder="Seleccionar la opción"
+                      selectedKey={selects.genero}
+                      onSelectionChange={(value) =>
+                        handleSelectChange("genero", value)
+                      }
+                    >
+                      {(item: any) => (
+                        <AutocompleteItem key={item.Genero} value={item.Genero}>
+                          {`${item.Genero}`}
+                        </AutocompleteItem>
+                      )}
+                    </Autocomplete>
+                  </div>
+                  <Button
+                    color="primary"
+                    variant="bordered"
+                    className="max-w-52 m-auto"
+                  >
+                    Guardar
+                  </Button>
+                </CardBody>
+              </Card>
+            </Tab>
+            <Tab key="music" title="Datos de Cuenta">
+              <Card>
+                <CardBody>
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur.
+                </CardBody>
+              </Card>
+            </Tab>
+          </Tabs>
+        </div>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,75 @@
+page origin 442
+            
+            {/* Carrusel 01 OLD */} 
+            {/* <div
+              className="h-full w-full 
+      flex flex-col items-center justify-center relative overflow-hidden "
+            >
+              <div
+                className=" h-[90vh]    max-2xl:h-full w-full  flex flex-col items-center justify-between"
+                data-aos="zoom-in-down"
+              >
+                <Carousel
+                  additionalTransfrom={0}
+                  autoPlay
+                  arrows={false}
+                  autoPlaySpeed={3000}
+                  centerMode={false}
+                  className=""
+                  containerClass="w-full -mb-24"
+                  draggable
+                  focusOnSelect={false}
+                  infinite
+                  itemClass=""
+                  keyBoardControl
+                  minimumTouchDrag={80}
+                  pauseOnHover
+                  renderArrowsWhenDisabled={false}
+                  renderButtonGroupOutside={false}
+                  renderDotsOutside
+                  responsive={{
+                    desktop: {
+                      breakpoint: { max: 3000, min: 1024 },
+                      items: 1,
+                    },
+                  }}
+                  rewind={false}
+                  rewindWithAnimation={false}
+                  rtl={false}
+                  shouldResetAutoplay
+                  showDots
+                  sliderClass="-mb-10"
+                  slidesToSlide={1}
+                  dotListClass="!bottom-[4%]"
+                  swipeable
+                >
+                  Imágenes del carrusel
+                  {[
+                    `${
+                      environment.baseUrlStorage +
+                      "/Multimedia/Imagen/Ccd/Banners/BannerPrincipal-01.jpg"
+                    }`,
+                    `${
+                      environment.baseUrlStorage +
+                      "/Multimedia/Imagen/Ccd/Banners/BannerPrincipal-02.jpg"
+                    }`,
+                    `${
+                      environment.baseUrlStorage +
+                      "/Multimedia/Imagen/Ccd/Banners/BannerPrincipal-03.jpg"
+                    }`,
+                    `${
+                      environment.baseUrlStorage +
+                      "/Multimedia/Imagen/Ccd/Banners/BannerPrincipal-04.jpg"
+                    }`,
+                  ].map((src, index) => (
+                    <img
+                      key={index}
+                      src={src}
+                      alt={`Carousel item ${index + 1}`}
+                      className="block w-full h-[90%]"
+                    />
+                  ))}
+                </Carousel>
+              </div>
+              <div></div>
+            </div> */}

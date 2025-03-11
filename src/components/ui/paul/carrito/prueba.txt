@@ -1,0 +1,72 @@
+{
+  "json_build_object": {
+      "Productos": [
+          {
+              "TipoModalidad": "Asincrónico",
+              "IdProducto": 45,
+              "Precio": 399,
+              "FechaInicio": null,
+              "Horario": null
+          }
+      ],
+      "Descripcion": "¡Conviértete en el arquitecto de tu propio éxito con nuestro curso \"Maestro de Obra en Edificaciones\"! Diseñado para aquellos apasionados por la construcción, este programa te llevará de la mano a través de todos los aspectos esenciales de la planificación, supervisión y control de proyectos de edificación.",
+      "Calificacion": "64",
+      "Seguidores": "85",
+      "Nivel": "2",
+      "MarcasRespaldo": "1",
+      "ExamenParcial": 1,
+      "ExamenFinal": 1,
+      "Profesores": "4,5,6",
+      "Frecuencia": "1,3,5",
+      "HorasAcademicas": "120",
+      "Estado_id": "1",
+      "UltimaFechMod": "2025-01-09T21:22:19.159109",
+      "NumeroWhatsapp": "https://wa.link/l3f8fi",
+      "Escuela": "Ingeniería",
+      "Especializacion": "Civil",
+      "IdCurso": 45,
+      "Curso": "Maestro de Obra en Edificaciones",
+      "TipoCurso": "Curso",
+      "RutaImagen": [
+          "/Multimedia/Imagen/Cursos/PortadaFinal/45_MOE.png",
+          "/Documentos/Pdf/Cursos/BrochureCursos/45_MOE.pdf"
+      ],
+      "CantidadModulos": 11
+  }
+}
+{
+  "json_build_object": {
+      "Productos": [
+          {
+              "TipoModalidad": "En Vivo",
+              "IdProducto": 118,
+              "Precio": 1876,
+              "FechaInicio": "17 de Enero",
+              "Horario": "7:00 pm - 9:00 pm"
+          }
+      ],
+      "Descripcion": "¡Conviértete en el arquitecto de tu propio éxito con nuestro curso \"Maestro de Obra en Edificaciones\"! Diseñado para aquellos apasionados por la construcción, este programa te llevará de la mano a través de todos los aspectos esenciales de la planificación, supervisión y control de proyectos de edificación.",
+      "Calificacion": "64",
+      "Seguidores": "85",
+      "Nivel": "2",
+      "MarcasRespaldo": "1",
+      "ExamenParcial": 1,
+      "ExamenFinal": 1,
+      "Profesores": "4,5,6",
+      "Frecuencia": "1,3,5",
+      "HorasAcademicas": "120",
+      "Estado_id": "1",
+      "UltimaFechMod": "2025-01-09T21:22:19.159109",
+      "NumeroWhatsapp": "https://wa.link/l3f8fi",
+      "Escuela": "Ingeniería",
+      "Especializacion": "Civil",
+      "IdCurso": 45,
+      "Curso": "Maestro de Obra en Edificaciones",
+      "TipoCurso": "Curso",
+      "RutaImagen": [
+          "/Multimedia/Imagen/Cursos/PortadaFinal/45_MOE.png",
+          "/Documentos/Pdf/Cursos/BrochureCursos/45_MOE.pdf"
+      ],
+      "CantidadModulos": 11
+  }
+},
