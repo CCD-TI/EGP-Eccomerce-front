@@ -279,7 +279,7 @@ const Navbar = () => {
       {showTopBar && (
         <div
           className={
-            "group w-full bg-gradient-to-r from-colors-cyan-ccd to-colors-dark-blue-ccd md:bg-custom-gradient text-white flex items-center justify-center px-6 py-2 z-20 transition-all fixed top-0 shadow-md duration-1000"
+            "group w-full bg-gradient-to-r from-colors-egp-gold to-colors-egp-black md:bg-custom-gradient text-white flex items-center justify-center px-6 py-2 z-20 transition-all fixed top-0 shadow-md duration-1000"
           }
         >
           <div
@@ -295,7 +295,7 @@ const Navbar = () => {
               </button>
             </div> */}
             {/* Texto */}
-            <div className="flex justify-between items-center mb-3 md:mb-0 text-center md:text-left">
+            <div className="flex justify-between items-center mb-3 md:mb-0 text-center md:text-left text-colors-egp-gold">
               <div>
                 <p>APROVECHA NUESTROS CURSOS AL 80% DSCTO.</p>
               </div>
@@ -317,7 +317,7 @@ const Navbar = () => {
 
               {/* Botón de suscribirse */}
               <div className="flex justify-center">
-                <ModalPromo css="px-2 border-2 hover:text-colors-dark-blue-ccd bg-transparent border-colors-cyan-ccd text-colors-cyan-ccd text-sm lg:text-base font-bold py-1 rounded-2xl shadow-lg hover:bg-[#00d3c5] hover:shadow-[0_0_25px_5px_rgba(0,234,223,0.7)] transition-all duration-300" />
+                <ModalPromo css="px-2 border-2 text-colors-egp-gold hover:text-white bg-transparent border-colors-egp-gold  text-sm lg:text-base font-bold py-1 rounded-2xl shadow-lg hover:bg-colors-egp-gold hover:shadow-[0_0_25px_5px_rgba(168,123,4,0.7)] transition-all duration-300" />
               </div>
             </div>
 
@@ -338,12 +338,12 @@ const Navbar = () => {
 
       <nav
         className={`${
-          showTopBar ? "mt-20 md:mt-[3rem] z-20" : ""
+          showTopBar ? "mt-20 md:mt-[3.29rem] z-20" : ""
         } w-full   text-white`}
       >
         <div
           className={`mx-auto grid grid-cols-7 grid-rows-1 gap-4 px-6 lg:px-14 py-6 fixed w-full z-50 transition-all duration-300 ${
-            isScrolled ? " bg-colors-dark-blue-ccd " : "-mt-[10px]"
+            isScrolled ? " bg-black " : "-mt-[10px]"
           }`}
         >
           {/* Logo */}
@@ -376,10 +376,10 @@ const Navbar = () => {
             <li>
               <Link
                 href="/"
-                className="relative group md:text-xs xl:text-base text-white transition-all duration-300"
+                className="relative group md:text-xs xl:text-base hover:text-colors-egp-gold text-white transition-all duration-300"
               >
                 INICIO
-                <span className="absolute left-0 bottom-[-4px] w-0 h-[3px] bg-gradient-to-r from-transparent via-cyan-500 to-cyan-600 transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-[-4px] w-0 h-[3px] bg-gradient-to-r from-transparent via-colors-egp-gold to-colors-egp-gold transition-all duration-300 group-hover:w-full"></span>
               </Link>
             </li>
             <li>
@@ -388,12 +388,12 @@ const Navbar = () => {
                 onMouseEnter={() => handleMouseEnter("escuelas")}
                 onMouseLeave={handleMouseLeave}
               >
-                <button className="py-2 -mb-[1px] md:text-xs xl:text-base flex items-center gap-2 hover:text-cyan-400">
-                  ESCUELAS
+                <button className="py-2 -mb-[1px] md:text-xs xl:text-base flex items-center gap-2 hover:text-colors-egp-gold">
+                  ESPECIALIZACIONES
                   <MdKeyboardArrowDown className="text-2xl transition-transform duration-300 ease-in-out group-hover:rotate-180" />
                 </button>
                 {activeCategory === "escuelas" && (
-                  <div className="absolute top-full left-0 bg-colors-night-blue-ccd2 bg-opacity-60 rounded-2xl py-4 shadow-lg backdrop-blur-md">
+                  <div className="absolute top-full left-0 bg-colors-egp-black bg-opacity-60 rounded-2xl py-4 shadow-lg backdrop-blur-md">
                     {/* Subcategorías */}
                     <ul className="flex flex-col gap-2 ">
                       <li
@@ -401,24 +401,8 @@ const Navbar = () => {
                         onMouseEnter={() => handleSubMouseEnter("gestion", 2)} // Cambia "2" por el ID real de la escuela
                         onMouseLeave={handleSubMouseLeave}
                       >
-                        <div className="px-4">
-                          <Link
-                            href="/gestion"
-                            className="p-4 w-44 hover:border-colors-sky-ccd border-transparent border-[1px] rounded-xl flex items-center gap-3"
-                          >
-                            <div className="bg-gradient-to-t from-[rgba(40,58,137,1)] to-[rgba(0,0,0,1)] flex items-center justify-center w-10 h-10 rounded-full outline outline-[1.5px] outline-red-500">
-                              <img
-                                src={images.gestion}
-                                alt="Icono Gestión"
-                                className="text-white text-[2px] p-[5px] -translate-y-[2.5px]"
-                              />
-                            </div>
-                            Gestión
-                          </Link>
-                        </div>
-                        {activeSubCategory === "gestion" && (
-                          <ul className="flex flex-col gap-3 absolute w-80 top-0 left-full bg-colors-night-blue-ccd2 bg-opacity-60 p-4 rounded-2xl shadow-lg backdrop-blur-md">
-                            {especializaciones[2]?.map(
+                        <div className="px-4 w-[300px] h-full flex flex-col gap-4 ">
+                        {especializaciones[2]?.map(
                               (
                                 especializacion,
                                 idx // Aquí usamos el schoolId 2 como ejemplo
@@ -443,203 +427,19 @@ const Navbar = () => {
                                 </li>
                               )
                             )}
-                          </ul>
-                        )}
+                        </div>
+                     
+                         
+                        
                       </li>
 
-                      <li
-                        className="relative group"
-                        onMouseEnter={() =>
-                          handleSubMouseEnter("ingenieria", 1)
-                        }
-                        onMouseLeave={handleSubMouseLeave}
-                      >
-                        <div className="px-4">
-                          <Link
-                            href="/ingenieria"
-                            className="p-4 w-44 hover:border-colors-sky-ccd border-transparent border-[1px] rounded-xl flex items-center gap-3"
-                          >
-                            <div className="bg-gradient-to-t from-[rgba(40,58,137,1)] to-[rgba(0,0,0,1)] flex items-center justify-center w-10 h-10 rounded-full outline outline-[1.5px] outline-blue-500">
-                              <img
-                                src={images.ingenieria}
-                                alt="Icono Ingeniería"
-                                className="text-white text-[2px] p-[5px]"
-                              />
-                            </div>
-                            Ingeniería
-                          </Link>
-                        </div>
-                        {activeSubCategory === "ingenieria" && (
-                          <ul className="flex flex-col gap-3 absolute w-80 top-0 left-full bg-colors-night-blue-ccd2 bg-opacity-60 p-4 rounded-2xl shadow-lg backdrop-blur-md">
-                            {especializaciones[1]?.map(
-                              (
-                                especializacion,
-                                idx // Aquí usamos el schoolId 2 como ejemplo
-                              ) => (
-                                <li
-                                  key={idx}
-                                  className="flex items-start gap-2"
-                                >
-                                  <BiSolidRightArrow className="text-colors-cyan-ccd w-5 h-5 flex-shrink-0" />
-                                  <Link
-                                    href={{
-                                      pathname: "/ingenieria", // La ruta donde quieres que se apliquen los filtros
-                                      query: {
-                                        especializacion:
-                                          especializacion.IdEspecializacion,
-                                      }, // Pasar el nombre de la especialización como parámetro en la URL
-                                    }}
-                                    passHref
-                                  >
-                                    {especializacion.Especializacion}
-                                  </Link>
-                                </li> // Mostrar cada especialización en una lista
-                              )
-                            )}
-                          </ul>
-                        )}
-                      </li>
-
-                      <li
-                        className="relative group"
-                        onMouseEnter={() => handleSubMouseEnter("mineria", 3)}
-                        onMouseLeave={handleSubMouseLeave}
-                      >
-                        <div className="px-4">
-                          <Link
-                            href="/mineria"
-                            className="p-4 w-44 hover:border-colors-sky-ccd border-transparent border-[1px] rounded-xl flex items-center gap-3"
-                          >
-                            <div className="bg-gradient-to-t from-[rgba(40,58,137,1)] to-[rgba(0,0,0,1)] flex items-center justify-center w-10 h-10 rounded-full outline outline-[1.5px] outline-orange-500">
-                              <img
-                                src={images.mineria}
-                                alt="Icono Minería"
-                                className="text-white text-[2px] p-[5px]"
-                              />
-                            </div>
-                            Minería
-                          </Link>
-                        </div>
-                        {activeSubCategory === "mineria" && (
-                          <ul className="flex flex-col gap-2 absolute w-80 top-0 left-full bg-colors-night-blue-ccd2 bg-opacity-60 p-4 rounded-2xl shadow-lg backdrop-blur-md">
-                            {especializaciones[3]?.map(
-                              (
-                                especializacion,
-                                idx // Aquí usamos el schoolId 2 como ejemplo
-                              ) => (
-                                <li
-                                  key={idx}
-                                  className="flex items-start gap-2"
-                                >
-                                  <BiSolidRightArrow className="text-colors-cyan-ccd w-5 h-5 flex-shrink-0" />
-                                  <Link
-                                    href={{
-                                      pathname: "/mineria", // La ruta donde quieres que se apliquen los filtros
-                                      query: {
-                                        especializacion:
-                                          especializacion.IdEspecializacion,
-                                      }, // Pasar el nombre de la especialización como parámetro en la URL
-                                    }}
-                                    passHref
-                                  >
-                                    {especializacion.Especializacion}
-                                  </Link>
-                                </li> // Mostrar cada especialización en una lista
-                              )
-                            )}
-                          </ul>
-                        )}
-                      </li>
-                      {/* Linea Separadora */}
-                      <hr className="border-t-2 border-blue-500 w-full p-0 m-0" />
-                      {/* Rutas */}
-                      <li
-                        className="relative group"
-                        // onMouseEnter={() => handleSubMouseEnter("rutas")}
-                        onMouseLeave={handleSubMouseLeave}
-                      >
-                        <div className="px-4">
-                          <Link
-                            href="/"
-                            className="p-4 w-44 hover:border-colors-sky-ccd border-transparent border-1  rounded-xl bor flex items-center gap-3"
-                          >
-                            <div className="bg-gradient-to-t from-[rgba(40,58,137,1)] to-[rgba(0,0,0,1)] flex items-center justify-center w-10 h-10 rounded-full outline outline-[1.5px] outline-blue-500">
-                              <img
-                                src={images.rutas}
-                                className="text-white text-[2px] p-[5px]"
-                              />{" "}
-                              {/* Tamaño del ícono ajustado */}
-                            </div>
-                            Rutas
-                            {/* <MdKeyboardArrowRight /> */}
-                          </Link>
-                        </div>
-                        {/* {activeSubCategory === "rutas" && (
-                        <ul className="flex flex-col gap-2 absolute w-80 top-0 left-full bg-colors-night-blue-ccd2 bg-opacity-60 p-4 rounded-2xl shadow-lg backdrop-blur-md">
-                          <li className="flex items-start gap-2">
-                            <BiSolidRightArrow className="text-colors-cyan-ccd w-5 h-5 flex-shrink-0" />
-                            <Link
-                              href="/"
-                              className="block hover:text-cyan-400"
-                            >
-                              Contrataciones y Compras Públicas
-                            </Link>
-                          </li>
-                          <li className="flex items-start gap-2">
-                            <BiSolidRightArrow className="text-colors-cyan-ccd w-5 h-5 flex-shrink-0" />
-                            <Link
-                              href="/"
-                              className="block hover:text-cyan-400"
-                            >
-                              Planeamiento Estratégico y Gestión de Desarrollo
-                            </Link>
-                          </li>
-                          <li className="flex items-start gap-2">
-                            <BiSolidRightArrow className="text-colors-cyan-ccd w-5 h-5 flex-shrink-0" />
-                            <Link
-                              href="/"
-                              className="block hover:text-cyan-400"
-                            >
-                              Gestión Financiera y Administrativa
-                            </Link>
-                          </li>
-                          <li className="flex items-start gap-2">
-                            <BiSolidRightArrow className="text-colors-cyan-ccd w-5 h-5 flex-shrink-0" />
-                            <Link
-                              href="/"
-                              className="block hover:text-cyan-400"
-                            >
-                              Administración Documentaría y Atención al
-                              Ciudadano
-                            </Link>
-                          </li>
-                          <li className="flex items-start gap-2">
-                            <BiSolidRightArrow className="text-colors-cyan-ccd w-5 h-5 flex-shrink-0" />
-                            <Link
-                              href="/"
-                              className="block hover:text-cyan-400"
-                            >
-                              Gestión de Recursos Humanos en el Sector Público
-                            </Link>
-                          </li>
-                          <li className="flex items-start gap-2">
-                            <BiSolidRightArrow className="text-colors-cyan-ccd w-5 h-5 flex-shrink-0" />
-                            <Link
-                              href="/"
-                              className="block hover:text-cyan-400"
-                            >
-                              Tecnología en el Sector Público
-                            </Link>
-                          </li>
-                        </ul>
-                      )} */}
-                      </li>
+                    
                     </ul>
                   </div>
                 )}
               </div>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="/nosotros"
                 className="relative group md:text-xs xl:text-base text-white transition-all duration-300"
@@ -647,42 +447,42 @@ const Navbar = () => {
                 NOSOTROS
                 <span className="absolute left-0 bottom-[-4px] w-0 h-[3px] bg-gradient-to-r from-transparent via-cyan-500 to-cyan-600 transition-all duration-300 group-hover:w-full"></span>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 href="/corporativo"
-                className="relative group md:text-xs xl:text-base text-white transition-all duration-300"
+                className="relative group md:text-xs xl:text-base text-white transition-all hover:text-colors-egp-gold duration-300"
               >
-                CORPORATIVO
-                <span className="absolute left-0 bottom-[-4px] w-0 h-[3px] bg-gradient-to-r from-transparent via-cyan-500 to-cyan-600 transition-all duration-300 group-hover:w-full"></span>
+                EMPRESAS
+                <span className="absolute left-0 bottom-[-4px] w-0 h-[3px] bg-gradient-to-r from-transparent via-colors-egp-gold to-colors-egp-gold transition-all duration-300 group-hover:w-full"></span>
               </Link>
             </li>
             <li>
               <Link
                 href="/promociones"
-                className="relative group md:text-xs xl:text-base text-cyan-400 font-bold hover:text-colors-cyan-ccd transition-all duration-300 flex items-center"
+                className="relative group md:text-xs xl:text-base text-colors-egp-gold font-bold hover:text-colors-colors-egp-gold transition-all duration-300 flex items-center"
               >
                 PROMOCIONES
-                <span className="absolute left-0 bottom-[-4px] w-0 h-[3px] bg-gradient-to-r from-transparent via-cyan-500 to-cyan-600 transition-all duration-300 group-hover:w-full"></span>
-                <FaRegStar className="text-colors-cyan-ccd text-xl -mt-1 ml-1" />
+                <span className="absolute left-0 bottom-[-4px] w-0 h-[3px] bg-gradient-to-r from-transparent via-colors-egp-gold to-colors-egp-gold  transition-all duration-300 group-hover:w-full"></span>
+                <FaRegStar className="text-colors-egp-gold text-xl -mt-1 ml-1" />
               </Link>
             </li>
             <li>
               <Link
                 // href="https://campus.ccdcapacitacion.edu.pe/mod/customcert/verify_certificate.php"
                 href="/validar"
-                className="relative group md:text-xs xl:text-base text-white transition-all duration-300"
+                className="relative group md:text-xs xl:text-base text-white transition-all duration-300 hover:text-colors-egp-gold "
               >
                 VALIDAR
-                <span className="absolute left-0 bottom-[-4px] w-0 h-[3px] bg-gradient-to-r from-transparent via-cyan-500 to-cyan-600 transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-[-4px] w-0 h-[3px] bg-gradient-to-r from-transparent via-colors-egp-gold to-colors-egp-gold transition-all duration-300 group-hover:w-full"></span>
               </Link>
             </li>
             {/* <li>
               <ModalFormJobCCD/>
             </li> */}
-            <li>
+            {/* <li>
               <ModalRuleta />
-            </li>
+            </li> */}
           </ul>
 
           {/* Acciones */}
@@ -690,7 +490,7 @@ const Navbar = () => {
             <Link
               href="https://campus.ccdcapacitacion.edu.pe/login/index.php"
               target="_blank"
-              className="relative group md:text-xs xl:text-base md:px-2 xl:px-4 py-2 max-lg:hidden bg-white text-blue-800 font-bold hover:bg-blue-800 hover:text-white border-2 border-transparent hover:border-white transition-all duration-300 rounded-full"
+              className="relative group md:text-xs xl:text-base md:px-2 xl:px-4 py-2 max-lg:hidden bg-white text-colors-egp-gold font-bold hover:bg-colors-egp-gold hover:text-white border-2 border-transparent hover:border-white transition-all duration-300 rounded-full"
             >
               AULA VIRTUAL
             </Link>

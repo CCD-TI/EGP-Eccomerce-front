@@ -18,11 +18,13 @@ const TeachersSection = () => {
   };
 
   return (
-    <div className=" max-w-[100rem]  mx-auto max-lg:bg-none bg-landing-video max-lg:py-10 ">
+    <div className="bg-landing-video">
+
+    <div className=" max-w-[100rem]  mx-auto max-lg:bg-none  max-lg:py-10 ">
       <div className="w-full  grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ">
         {/* Columna Izquierda */}
         <div className="w-full p-4 text-left">
-          <h2 className="text-colors-cyan-ccd text-center text-3xl md:text-6xl font-extrabold">
+          <h2 className="text-colors-egp-gold text-center text-3xl md:text-6xl font-extrabold">
             Docentes de
             <br />
             <span className="text-7xl max-sm:text-4xl text-center text-colors-dark-blue-ccd font-extrabold tracking-wide neon-white">
@@ -63,6 +65,7 @@ const TeachersSection = () => {
           </motion.div>
         </section>
       </div>
+    </div>
     </div>
   );
 };

@@ -119,7 +119,7 @@ const PacksSection = ({ bg }: Background) => {
           <div className="text-center">
             <h1 className=" md:text-4xl font-extrabold text-white">
               <span className="text-5xl mr-2">VERANO</span>
-              <span className="text-3xl md:text-5xl font-extrabold text-colors-cyan-ccd">
+              <span className="text-3xl md:text-5xl font-extrabold text-colors-egp-gold">
                 FEST
               </span>
               <span className="text-3xl md:text-5xl font-extrabold pl-2 text-white">
@@ -135,10 +135,10 @@ const PacksSection = ({ bg }: Background) => {
               {/* Texto central */}
               <div>
                 <h1
-                  className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-colors-dark-blue-ccd font-extrabold tracking-wide neon-white-cyan text-center"
+                  className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-colors-dark-blue-ccd font-extrabold tracking-wide neon-gold text-center"
                   style={{
                     WebkitTextStrokeWidth: "1px", // Ancho del trazo
-                    WebkitTextStrokeColor: "#00eadf", // Color neon
+                    WebkitTextStrokeColor: "#A87B04", // Color neon
                   }}
                 >
                   PROMOCIÓN
@@ -151,7 +151,7 @@ const PacksSection = ({ bg }: Background) => {
               </div>
             </div>
 
-            <p className="text-4xl p-4 px-12 neon-white font-bold  text-white mt-4 mb-4 border-2 border-colors-cyan-ccd rounded-xl  inline-block shadow-[0_0_15px_7px_rgba(0,234,223,0.2)]">
+            <p className="text-4xl p-4 px-12 neon-white font-bold  text-white mt-4 mb-4 border-2 border-colors-egp-gold rounded-xl  inline-block shadow-[0_0_20px_7px_rgba(168,123,4,0.2)]">
               HASTA UN 50% DSCTO
             </p>
           </div>
@@ -164,26 +164,26 @@ const PacksSection = ({ bg }: Background) => {
                 className={`
                 ${
                   item.IdPlan == 1
-                    ? "from-colors-sky-ccd hover:shadow-[0_0_15px_7px_rgba(49,133,247,0.4)] "
+                    ? "bg-colors-egp-black hover:shadow-[0_0_15px_7px_rgba(49,133,247,0.4)] "
                     : ""
                 }
                 ${
                   item.IdPlan == 2
-                    ? "from-colors-cyan-ccd hover:shadow-[0_0_15px_7px_rgba(0,234,223,0.4)]"
+                    ? "bg-gradient-to-t from-amber-600 to-gray-900 hover:shadow-[0_0_20px_10px_rgba(255,215,0,0.6)]"
                     : ""
                 }
                 ${
                   item.IdPlan == 3
-                    ? "from-colors-violet-ccd2 hover:shadow-[0_0_15px_7px_rgba(98,50,250,0.4)]"
+                    ? "bg-colors-egp-silver  hover:shadow-[0_0_15px_7px_rgba(150,150,150,0.4)]"
                     : ""
-                } group bg-gradient-to-t  to-colors-dark-blue-ccd shadow-lg p-6 w-[300px] rounded-2xl border-2 border-white  transition duration-300 hover:scale-105`}
+                }  shadow-xl p-6 w-[300px] rounded-2xl border-2 border-white  transition duration-300 hover:scale-105`}
               >
                 <h3 className="text-3xl text-center text-white">Plan</h3>
                 <h2
                   className={`text-4xl font-extrabold text-center ${
                     item.IdPlan == 1 ? "text-colors-sky-ccd" : ""
-                  } ${item.IdPlan == 2 ? "text-colors-cyan-ccd" : ""} ${
-                    item.IdPlan == 3 ? "text-colors-violet-ccd2" : ""
+                  } ${item.IdPlan == 2 ? "text-colors-egp-gold" : ""} ${
+                    item.IdPlan == 3 ? "text-slate-700" : ""
                   }`}
                 >
                   {item.Plan.toUpperCase()}
@@ -192,7 +192,7 @@ const PacksSection = ({ bg }: Background) => {
                   className={`${item.IdPlan == 1 ? "bg-colors-sky-ccd" : ""}
                 ${item.IdPlan == 2 ? "bg-white " : ""}
                 ${
-                  item.IdPlan == 3 ? "bg-colors-cyan-ccd" : ""
+                  item.IdPlan == 3 ? "bg-slate-600" : ""
                 } w-8 h-[4px] mx-auto   mt-2`}
                 ></div>
                 <ul className="mt-4 space-y-2 text-white">
@@ -234,15 +234,15 @@ const PacksSection = ({ bg }: Background) => {
                     <>
                       {" "}
                       <li className="flex items-center text-lg">
-                        <FaCircleCheck className="mr-2 text-colors-violet-ccd2" />
+                        <FaCircleCheck className="mr-2 text-slate-500" />
                         2 Cursos en vivo
                       </li>
                       <li className="flex items-center text-lg">
-                        <FaCircleCheck className="mr-2 text-colors-violet-ccd2" />
+                        <FaCircleCheck className="mr-2 text-slate-500" />
                         2 Cursos asincrónicos
                       </li>
                       <li className="flex items-center text-lg">
-                        <FaCircleCheck className="mr-2 text-colors-violet-ccd2" />
+                        <FaCircleCheck className="mr-2 text-slate-500" />
                         4 Certificados PMI
                       </li>
                     </>
@@ -340,19 +340,19 @@ const PacksSection = ({ bg }: Background) => {
           {/* Texto final */}
           <p className="text-center my-5">
             <span
-              className="text-5xl text-colors-cyan-ccd inline-block mr-2 neon-cyan"
+              className="text-5xl text-colors-egp-gold inline-block mr-2 neon-gold"
               style={{
                 WebkitTextStrokeWidth: "1px",
-                WebkitTextStrokeColor: "#00eadf",
+                WebkitTextStrokeColor: "#A87B04",
               }}
             >
               ¡Obtén acceso total
             </span>
             <span
-              className="text-5xl font-extrabold text-colors-violet-ccd2 inline-block neon-white-cyan"
+              className="text-5xl font-extrabold text-colors-egp-gold inline-block neon-gold"
               style={{
                 WebkitTextStrokeWidth: "1px",
-                WebkitTextStrokeColor: "#00eadf",
+                WebkitTextStrokeColor: "#A87B04",
               }}
             >
               a nuestros cursos!
@@ -360,7 +360,7 @@ const PacksSection = ({ bg }: Background) => {
           </p>
 
           {/* Temporizador */}
-          <div className="flex items-center justify-center flex-wrap gap-4">
+          {/* <div className="flex items-center justify-center flex-wrap gap-4">
             <div className="flex-1 max-sm:hidden">
               <Image
                 src="/Multimedia/Imagen/ccdcorp/newccdCorp/promociones/VERANO FEST/FLECHAS/Group 449.png"
@@ -386,7 +386,7 @@ const PacksSection = ({ bg }: Background) => {
                 className="object-contain"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="">

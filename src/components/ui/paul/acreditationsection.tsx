@@ -25,7 +25,7 @@ const AccreditationsSection = () => {
         <h2 className="text-white text-3xl md:text-4xl lg:text-6xl font-extrabold neon-white">
           ACREDITACIONES
         </h2>
-        <h3 className="text-colors-cyan-ccd text-xl md:text-5xl font-bold mt-4">
+        <h3 className="text-colors-egp-gold text-xl md:text-5xl font-bold mt-4">
           Internacionales
         </h3>
 
@@ -38,8 +38,8 @@ const AccreditationsSection = () => {
                 alt="Centro de Capacitación y Desarrollo"
                 className="w-[17rem] transform transition-transform duration-300 group-hover:scale-110"
               />
-              <div className="md:block w-16 h-[4px] rounded-full bg-colors-sky-ccd my-8 group-hover:w-[80%] transition-all duration-300"></div>
-              <p className="text-colors-cyan-ccd text-sm md:text-xl font-medium">
+              <div className="md:block w-16 h-[4px] rounded-full bg-colors-egp-silver  my-8 group-hover:w-[80%] transition-all duration-300"></div>
+              <p className="text-colors-egp-gold text-sm md:text-xl font-medium">
                 Centro de Capacitación <br /> y Desarrollo
               </p>
             </div>
@@ -51,8 +51,8 @@ const AccreditationsSection = () => {
                 alt="Project Management Institute"
                 className="w-[12rem] transform transition-transform duration-300 group-hover:scale-110"
               />
-              <div className="md:block w-16 h-[4px] rounded-full bg-colors-sky-ccd my-8 group-hover:w-[80%] transition-all duration-300"></div>
-              <p className="text-colors-cyan-ccd text-sm md:text-xl font-medium">
+              <div className="md:block w-16 h-[4px] rounded-full bg-colors-egp-silver  my-8 group-hover:w-[80%] transition-all duration-300"></div>
+              <p className="text-colors-egp-gold text-sm md:text-xl font-medium">
                 Project Management <br /> Institute
               </p>
             </div>
@@ -64,8 +64,8 @@ const AccreditationsSection = () => {
                 alt="Colegio de Ingenieros del Perú"
                 className="w-[13rem] transform transition-transform duration-300 group-hover:scale-110"
               />
-              <div className="md:block w-16 h-[4px] rounded-full bg-colors-sky-ccd my-8 group-hover:w-[80%] transition-all duration-300"></div>
-              <p className="text-colors-cyan-ccd text-sm md:text-xl font-medium">
+              <div className="md:block w-16 h-[4px] rounded-full bg-colors-egp-silver my-8 group-hover:w-[80%] transition-all duration-300"></div>
+              <p className="text-colors-egp-gold text-sm md:text-xl font-medium">
                 Colegio de Ingenieros <br /> del Perú
               </p>
             </div>

@@ -27,7 +27,7 @@ const SectionCTA = () => {
           conseguir con educación! Es el momento de lograr lo que siempre has
           querido.
         </p>
-        <h2 className="text-colors-cyan-ccd text-2xl md:text-3xl lg:text-4xl mt-6 font-medium neon-cyan">
+        <h2 className="text-colors-egp-gold text-2xl md:text-3xl lg:text-4xl mt-6 font-medium neon-gold-puro">
           ¡El tiempo se acaba!
         </h2>
 
@@ -39,14 +39,14 @@ const SectionCTA = () => {
         {/* Botón */}
         <div className="mt-8">
           <div>
-            <h4 className="text-colors-cyan-ccd text-xl md:text-2xl font-medium mb-5">
+            <h4 className="text-colors-egp-gold text-xl md:text-2xl font-medium mb-5 ">
               ¿Estás listo?
             </h4>
           </div>
           {/* Botón */}
-          <ModalPromo css=" border-3 hover:text-colors-dark-blue-ccd bg-transparent border-colors-cyan-ccd text-colors-cyan-ccd 
+          <ModalPromo css=" border-3 hover:text-white bg-transparent border-colors-egp-gold text-colors-egp-gold 
           text-[30px] font-bold rounded-2xl 
-          shadow-lg hover:bg-[#00d3c5] hover:shadow-[0_0_25px_5px_rgba(0,234,223,0.7)] transition-all duration-300 p-4 px-10" />
+          shadow-lg hover:bg-colors-egp-gold hover:shadow-[0_0_25px_5px_rgba(168,123,4,0.7)] transition-all duration-300 p-4 px-10" />
           </div>
         </div>
   

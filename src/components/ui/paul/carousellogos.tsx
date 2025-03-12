@@ -50,7 +50,7 @@ const CarouselComponent = () => {
   };
 
   return (
-    <div className="carousel-container w-full overflow-hidden bg-[#0b1026]">
+    <div className="carousel-container w-full overflow-hidden bg-black">
         <Slider {...settings}>
           {images.map((image, index) => (
             <div key={index} className="flex justify-center items-center px-2">

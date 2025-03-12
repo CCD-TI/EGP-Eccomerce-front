@@ -30,6 +30,12 @@ const config: Config = {
           "sky-ccd": "#3185f7", // RGB(49,133,247)
           "dark-blue-ccd": "#162e54", // RGB(22,46,84)
 
+          // PALETA OFICIAL DE EGP
+          "egp-gold": "#ba9328", // DORADO
+          "egp-silver": "#B1B3B0", // PLATEADO
+          "egp-black": "#000000", // NEGRO
+
+
           // COLORES DE APOYO
           "night-blue-ccd2": "#131939", // RGB(19,25,57)
           "violet-ccd2": "#6232fa", // RGB(98,50,250)

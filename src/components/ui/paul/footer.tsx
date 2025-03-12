@@ -27,7 +27,7 @@ const Footer = ({ environment }: { environment: any }) => {
     <>
       <div ref={footerRef}></div>
       <span className="w-full h-1 bg-white"></span>
-      <footer className="bg-[#0a0e27] text-white py-12 border-t-2 border-white">
+      <footer className="bg-[#151517] text-white py-12 border-t-2 border-white">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-6 lg:px-14">
         {/* Columna 1: Logo e Información de contacto */}
         <div className="">

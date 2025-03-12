@@ -6,6 +6,7 @@ import axios from "axios";
 import { environment } from "@/environments/environment";
 import { IoSearch } from "react-icons/io5";
 import CourseCardFront from "@/components/ui/paul/coursecardfront";
+import Image from "next/image";
 
 type Especializacion = {
   IdEspecializacion: number;
@@ -60,10 +61,15 @@ const CollegeCourseSectionFront: React.FC<{
     []
   );
 
-  const [cursoDetalleGestion, setCursoDetalleGestion] = useState<CursoDetalleTP[]>([]);
-  const [cursoDetalleIngenieria, setCursoDetalleIngenieria] = useState<CursoDetalleTP[]>([]);
-  const [cursoDetalleMineria, setCursoDetalleMineria] = useState<CursoDetalleTP[]>([]);
-
+  const [cursoDetalleGestion, setCursoDetalleGestion] = useState<
+    CursoDetalleTP[]
+  >([]);
+  const [cursoDetalleIngenieria, setCursoDetalleIngenieria] = useState<
+    CursoDetalleTP[]
+  >([]);
+  const [cursoDetalleMineria, setCursoDetalleMineria] = useState<
+    CursoDetalleTP[]
+  >([]);
 
   // const [cursoDetalleGestion, setCursoDetalleGestion] = React.useState<
   //   CursoDetalleTP[]
@@ -74,7 +80,6 @@ const CollegeCourseSectionFront: React.FC<{
   // const [cursoDetalleMineria, setCursoDetalleMineria] = React.useState<
   //   CursoDetalleTP[]
   // >([]);
-
 
   const [cursosCompletos, setcursosCompletos] = React.useState<
     CursoDetalleTP[]
@@ -98,25 +103,25 @@ const CollegeCourseSectionFront: React.FC<{
     setSelectedTipoCurso((prev) => (prev === tipoCurso ? null : tipoCurso));
   };
 
-    // Ingeniería
-    useEffect(() => {
-      const fetchCursos = async () => {
+  // Ingeniería
+  useEffect(() => {
+    const fetchCursos = async () => {
       try {
         setIsLoading(true);
-    
+
         // Caso 1: Búsqueda por palabra
         if (searchTerm.trim() !== "") {
-        const response = await api.post("/inicio/buscarcursosporpalabra", {
-          Palabra: searchTerm,
-          Escuela: "Ingeniería",
-          T1: t1,
-          T2: t2,
-          T4: t4,
-        });
-        setCursoDetalleIngenieria(response.data.cursos.slice(0, 4) || []);
-        return;
+          const response = await api.post("/inicio/buscarcursosporpalabra", {
+            Palabra: searchTerm,
+            Escuela: "Ingeniería",
+            T1: t1,
+            T2: t2,
+            T4: t4,
+          });
+          setCursoDetalleIngenieria(response.data.cursos.slice(0, 4) || []);
+          return;
         }
-    
+
         // Caso 2: Filtro por especialización
         // if (selectedEspecializaciones.length > 0) {
         //   const promises = selectedEspecializaciones.map(async (id) => {
@@ -133,16 +138,16 @@ const CollegeCourseSectionFront: React.FC<{
         //   setCursosCompletos(results.flat().slice(0, 4));
         //   return;
         // }
-    
+
         // Caso 3: Obtener todos los cursos
         const response = await api.post(
-        "/inicio/vercursosespecializacionescuela",
-        {
-          Escuela: "Ingeniería",
-          T1: t1,
-          T2: t2,
-          T4: t4,
-        }
+          "/inicio/vercursosespecializacionescuela",
+          {
+            Escuela: "Ingeniería",
+            T1: t1,
+            T2: t2,
+            T4: t4,
+          }
         );
         setCursoDetalleIngenieria(response.data.data[0].slice(0, 4));
       } catch (error) {
@@ -151,29 +156,29 @@ const CollegeCourseSectionFront: React.FC<{
         setIsLoading(false);
         setCurrentPage(1); // Reinicia la paginación
       }
-      };    
-      fetchCursos();
-    }, [selectedEspecializaciones, searchTerm, "Ingeniería"]);
+    };
+    fetchCursos();
+  }, [selectedEspecializaciones, searchTerm, "Ingeniería"]);
 
   // Gestión
-    useEffect(() => {
-      const fetchCursos = async () => {
+  useEffect(() => {
+    const fetchCursos = async () => {
       try {
         setIsLoading(true);
-    
+
         // Caso 1: Búsqueda por palabra
         if (searchTerm.trim() !== "") {
-        const response = await api.post("/inicio/buscarcursosporpalabra", {
-          Palabra: searchTerm,
-          Escuela: "Gestión",
-          T1: t1,
-          T2: t2,
-          T4: t4,
-        });
-        setCursoDetalleGestion(response.data.cursos.slice(0, 4) || []);
-        return;
+          const response = await api.post("/inicio/buscarcursosporpalabra", {
+            Palabra: searchTerm,
+            Escuela: "Gestión",
+            T1: t1,
+            T2: t2,
+            T4: t4,
+          });
+          setCursoDetalleGestion(response.data.cursos.slice(0, 4) || []);
+          return;
         }
-    
+
         // Caso 2: Filtro por especialización
         // if (selectedEspecializaciones.length > 0) {
         //   const promises = selectedEspecializaciones.map(async (id) => {
@@ -190,45 +195,45 @@ const CollegeCourseSectionFront: React.FC<{
         //   setCursosCompletos(results.flat().slice(0, 4));
         //   return;
         // }
-    
+
         // Caso 3: Obtener todos los cursos
         const response = await api.post(
-        "/inicio/vercursosespecializacionescuela",
-        {
-          Escuela: "Gestión",
-          T1: t1,
-          T2: t2,
-          T4: t4,
-        }
+          "/inicio/vercursosespecializacionescuela",
+          {
+            Escuela: "Gestión",
+            T1: t1,
+            T2: t2,
+            T4: t4,
+          }
         );
-        setCursoDetalleGestion(response.data.data[0].slice(0, 4));
+        setCursoDetalleGestion(response.data.data[0].slice(0, 12));
       } catch (error) {
         console.error("Error fetching cursos:", error);
       } finally {
         setIsLoading(false);
         setCurrentPage(1); // Reinicia la paginación
       }
-      };    
-      fetchCursos();
-    }, [selectedEspecializaciones, searchTerm, "Gestión"]);
+    };
+    fetchCursos();
+  }, [selectedEspecializaciones, searchTerm, "Gestión"]);
 
-     // Minería
-     useEffect(() => {
-      const fetchCursos = async () => {
+  // Minería
+  useEffect(() => {
+    const fetchCursos = async () => {
       try {
         setIsLoading(true);
-    
+
         // Caso 1: Búsqueda por palabra
         if (searchTerm.trim() !== "") {
-        const response = await api.post("/inicio/buscarcursosporpalabra", {
-          Palabra: searchTerm,
-          Escuela: "Minería",
-          T1: t1,
-          T2: t2,
-          T4: t4,
-        });
-        setCursoDetalleMineria(response.data.cursos.slice(0, 4) || []);
-        return;
+          const response = await api.post("/inicio/buscarcursosporpalabra", {
+            Palabra: searchTerm,
+            Escuela: "Minería",
+            T1: t1,
+            T2: t2,
+            T4: t4,
+          });
+          setCursoDetalleMineria(response.data.cursos.slice(0, 4) || []);
+          return;
         }
         // Caso 2: Filtro por especialización
         // if (selectedEspecializaciones.length > 0) {
@@ -246,16 +251,16 @@ const CollegeCourseSectionFront: React.FC<{
         //   setCursosCompletos(results.flat().slice(0, 4));
         //   return;
         // }
-    
+
         // Caso 3: Obtener todos los cursos
         const response = await api.post(
-        "/inicio/vercursosespecializacionescuela",
-        {
-          Escuela: "Minería",
-          T1: t1,
-          T2: t2,
-          T4: t4,
-        }
+          "/inicio/vercursosespecializacionescuela",
+          {
+            Escuela: "Minería",
+            T1: t1,
+            T2: t2,
+            T4: t4,
+          }
         );
         setCursoDetalleMineria(response.data.data[0].slice(0, 4));
       } catch (error) {
@@ -264,12 +269,11 @@ const CollegeCourseSectionFront: React.FC<{
         setIsLoading(false);
         setCurrentPage(1); // Reinicia la paginación
       }
-      };    
-      fetchCursos();
-    }, [selectedEspecializaciones, searchTerm, "Minería"]);
+    };
+    fetchCursos();
+  }, [selectedEspecializaciones, searchTerm, "Minería"]);
 
-
-// INICIO ###########################################################################################
+  // INICIO ###########################################################################################
   // Fetch Especializaciones
   // useEffect(() => {
   //   const fetchData = async () => {
@@ -335,10 +339,6 @@ const CollegeCourseSectionFront: React.FC<{
   //   fetchData();
   // }, []);
 
-  
-
-
-
   // FIN ###########################################################################################
 
   // Manejar búsqueda
@@ -359,66 +359,86 @@ const CollegeCourseSectionFront: React.FC<{
 
   return (
     <>
-      {/* Search Bar */}
       <div
-        className="group relative w-full mt-8 mb-8 flex justify-center items-center"
-        data-aos="fade-up"
+        style={{
+          position: "relative",
+          width: "100%",
+          height: "100%",
+          overflow: "hidden",
+        }}
       >
-        <div className="relative w-[80%] max-w-2xl">
-          <input
-            type="text"
-            placeholder="Encuentra tu curso o diploma"
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && handleSearch()} // Buscar al presionar Enter
-            className="w-full px-6 py-3 text-white bg-[#0a0e27] border border-cyan-500 text-xl rounded-full text-center placeholder:text-white focus:placeholder-transparent focus:outline-none focus:ring-2 focus:ring-cyan-300 group-hover:outline-none group-hover:ring-2 group-hover:ring-cyan-300 transition duration-300"
-          />
-          <button
-            className="absolute right-3 top-[50%] p-2 -translate-y-[50%] rounded-full transition duration-500"
-            onClick={handleSearch}
+        {/* Imagen de fondo */}
+        <Image
+          src="https://pub-3d37c601c64a44ff8ec0a62bc03016eb.r2.dev/Ejemplos/bg-4.png"
+          alt="Fondo azul CCD"
+          fill
+          style={{ objectFit: "cover" }}
+          quality={100}
+          priority
+        />
+        {/* Search Bar */}
+        <div>
+          <div
+            className="group relative w-full mt-8 mb-8 flex justify-center items-center  "
+            data-aos="fade-up"
           >
-            <IoSearch className="w-5 h-5 text-cyan-500 group-hover:cyan-300 group-hover:scale-[1.20] transition duration-500" />
-          </button>
-        </div>
-      </div>
-      <div className=" max-w-[100rem]  mx-auto grid grid-cols-4  max-2xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 max-2xl:w-fit gap-6 justify-center bg-[#131939] py-10 px-4">
-        {cursoDetalleIngenieria.map(
-          (producto: CursoDetalleTP, index: number) => (
-            <div key={index}>
-              <CourseCardFront
-                array={producto}
-                pid={producto.IdCurso}
-                ruta={producto.Curso.replace(/\//g,"-").toLowerCase()}
-                openSideSheet={() => {}}
+            <div className="relative w-[80%] max-w-2xl">
+              <input
+                type="text"
+                placeholder="Encuentra tu curso o diploma"
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                onKeyDown={(e) => e.key === "Enter" && handleSearch()} // Buscar al presionar Enter
+                className="w-full px-6 py-3 text-white bg-[#0a0e27] border-2 border-colors-egp-gold text-xl rounded-full text-center placeholder:text-white focus:placeholder-transparent focus:outline-none focus:ring-2 focus:ring-colors-egp-gold group-hover:outline-none group-hover:ring-2 group-hover:ring-colors-egp-gold transition duration-300"
               />
+              <button
+                className="absolute right-3 top-[50%] p-2 -translate-y-[50%] rounded-full transition duration-500"
+                onClick={handleSearch}
+              >
+                <IoSearch className="w-5 h-5 text-colors-egp-gold group-hover:cyan-300 group-hover:scale-[1.20] transition duration-500" />
+              </button>
             </div>
-          )
-        )}
-        {cursoDetalleGestion.map(
-          (producto: CursoDetalleTP, index: number) => (
-            // console.log("PRODUCTO ", producto.IdCurso),
-            (
-              <div key={index}>
-                <CourseCardFront
-                  array={producto}
-                  pid={producto.IdCurso}
-                  ruta={producto.Curso.replace(/\//g,"-").toLowerCase()}
-                  openSideSheet={() => {}}
-                />
-              </div>
-            )
-          )
-        )}
-        {cursoDetalleMineria.map((producto: CursoDetalleTP, index: number) => (
-          <div key={index}>
-            <CourseCardFront
-              array={producto}
-              pid={producto.IdCurso}
-              ruta={producto.Curso.replace(/\//g,"-").toLowerCase()}
-              openSideSheet={() => {}}
-            />
           </div>
-        ))}
+          <div className=" max-w-[100rem]  mx-auto grid grid-cols-4  max-2xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 max-2xl:w-fit gap-6 justify-center  py-10 px-4">
+            {/* {cursoDetalleIngenieria.map(
+              (producto: CursoDetalleTP, index: number) => (
+                <div key={index}>
+                  <CourseCardFront
+                    array={producto}
+                    pid={producto.IdCurso}
+                    ruta={producto.Curso.replace(/\//g, "-").toLowerCase()}
+                    openSideSheet={() => {}}
+                  />
+                </div>
+              )
+            )} */}
+            {cursoDetalleGestion.map(
+              (producto: CursoDetalleTP, index: number) => (
+                // console.log("PRODUCTO ", producto.IdCurso),
+                <div key={index}>
+                  <CourseCardFront
+                    array={producto}
+                    pid={producto.IdCurso}
+                    ruta={producto.Curso.replace(/\//g, "-").toLowerCase()}
+                    openSideSheet={() => {}}
+                  />
+                </div>
+              )
+            )}
+            {/* {cursoDetalleMineria.map(
+              (producto: CursoDetalleTP, index: number) => (
+                <div key={index}>
+                  <CourseCardFront
+                    array={producto}
+                    pid={producto.IdCurso}
+                    ruta={producto.Curso.replace(/\//g, "-").toLowerCase()}
+                    openSideSheet={() => {}}
+                  />
+                </div>
+              )
+            )} */}
+          </div>
+        </div>
       </div>
     </>
   );

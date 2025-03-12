@@ -8,7 +8,7 @@ const CertificateModel = () => {
     c2: `${storageUrl}/Multimedia/Imagen/Ccd/Certificados/certificado-02.png`,
   };
   return (
-    <div className="relative bg-landing-certi w-full pt-12 pb-32 px-6 lg:px-24 h-[650px] max-lg:h-auto">
+    <div className="relative bg-[#151517] w-full pt-12 pb-32 px-6 lg:px-24 h-[650px] max-lg:h-auto">
       {/* Contenedor Principal */}
       <div className="max-w-7xl h-full mx-auto flex flex-col justify-center lg:flex-row items-center sm:gap-32 lg:gap-56">
         {/* Imágenes del Certificado */}
@@ -30,7 +30,7 @@ const CertificateModel = () => {
         {/* Información del Certificado */}
         <div className="mt-32 xl:mt-14  max-sm:p-6 p-8 
         rounded-3xl  shadow-lg flex flex-col gap-6  ">
-          <h2 className="text-colors-cyan-ccd text-center text-3xl md:text-5xl font-bold">
+          <h2 className="text-colors-egp-gold text-center text-3xl md:text-5xl font-bold">
             Modelo de
             <br/>
             <span
@@ -47,19 +47,19 @@ const CertificateModel = () => {
           {/* Lista de Puntos */}
           <ul className="text-white text-sm md:text-base space-y-2 pl-6">
             <li className="flex items-center gap-2">
-              <FaCircleCheck className="mr-2 text-colors-cyan-ccd" />
+              <FaCircleCheck className="mr-2 text-colors-egp-gold" />
               Certificado con código único.
             </li>
             <li className="flex items-center gap-2">
-              <FaCircleCheck className="mr-2 text-colors-cyan-ccd" />
+              <FaCircleCheck className="mr-2 text-colors-egp-gold" />
               Nota mínima aprobatoria de 14.
             </li>
             <li className="flex items-center gap-2">
-              <FaCircleCheck className="mr-2 text-colors-cyan-ccd" />
+              <FaCircleCheck className="mr-2 text-colors-egp-gold" />
               Contenido del curso.
             </li>
             <li className="flex items-center gap-2">
-              <FaCircleCheck className="mr-2 text-colors-cyan-ccd" />
+              <FaCircleCheck className="mr-2 text-colors-egp-gold" />
               Firmas de los representantes con grados académicos.
             </li>
           </ul>

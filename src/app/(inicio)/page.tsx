@@ -93,7 +93,7 @@ export default function Home() {
             </div>
 
             {/* Sección Descubre */}
-            <SchoolsSection/>
+            {/* <SchoolsSection/> */}
             
             {/* Cursos */}
             <CollegeCourseSectionFront t1="Multimedia" t2="Imagen" t4="PortadaFinal"/>
@@ -111,7 +111,7 @@ export default function Home() {
             <TeachersSection/>
 
             {/* Testimonios */}
-            <TestimonialsSection/>
+            {/* <TestimonialsSection/> */}
 
             {/* Sección CTA */}
             <SectionCTA/>  

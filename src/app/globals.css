@@ -122,24 +122,30 @@ body {
   background-position: center;
 }
 .bg-sectors-PromoForm2 {
-  background-image: url('/Multimedia/Imagen/ccdcorp/FONDO-PROMO.png');
+  background-image: url('https://pub-3d37c601c64a44ff8ec0a62bc03016eb.r2.dev/Ejemplos/bg-2.jpg');
+  background-size: cover;
+  background-position: center;
+  
+}
+.bg-Cursos {
+  background-image: url('https://pub-3d37c601c64a44ff8ec0a62bc03016eb.r2.dev/Ejemplos/bg-4.png');
   background-size: cover;
   background-position: center;
   
 }
 .bg-landing-acre{
-  background-image: url('https://pub-9d2abfa175714e64aed33b90722a9fd5.r2.dev/Multimedia/Imagen/Ccd/Pruebas/FONDO-ACREDITACIONES.png') !important;
+  background-image: url('https://pub-3d37c601c64a44ff8ec0a62bc03016eb.r2.dev/Ejemplos/bg-3-Derecha.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
 }
 
 .bg-landing-video {
-  background-image: url('https://pub-9d2abfa175714e64aed33b90722a9fd5.r2.dev/Multimedia/Imagen/Ccd/Pruebas/prop-vid-doc-web.png') ;
+  background-image: url('https://pub-3d37c601c64a44ff8ec0a62bc03016eb.r2.dev/Ejemplos/bg-3.jpg') ;
   background-size: cover ;
   background-position: center ;
 }
 .bg-landing-end {
-  background-image: url('https://pub-9d2abfa175714e64aed33b90722a9fd5.r2.dev/Multimedia/Imagen/Ccd/Pruebas/BANNER-FINAL00.png') !important;
+  background-image: url('https://pub-3d37c601c64a44ff8ec0a62bc03016eb.r2.dev/Ejemplos/bg-5.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
 }
@@ -445,11 +451,11 @@ h2{
   .bg-custom-gradient {
     background: linear-gradient(
       to right,
-      #00FFFF, /* Cian */
-      #001F3F, /* Azul oscuro */
-      #007BFF, /* Azul cielo */
-      #001F3F, /* Azul oscuro */
-      #00FFFF  /* Cian */
+      #A87B04, /* Cian */
+      #000000fc, /* Azul oscuro */
+      #000000, /* Azul cielo */
+      #000000, /* Azul oscuro */
+      #A87B04  /* Cian */
     );
   }
 }
@@ -1240,6 +1246,31 @@ body {
   .neon-gestion:hover {
     background: radial-gradient(circle, rgba(255, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 70%);
   }
+
+  .neon-gold {
+    /* Efecto de borde */
+    color: #fff; /* Relleno del texto */
+    /* -webkit-text-stroke: 1px #fff; Borde del texto */
+
+    /* Efecto de neón */
+    text-shadow: 
+        0 0 1.5px rgba(168, 123, 4, 0.8), /* Más opacidad */
+        0 0 3px rgba(168, 123, 4, 0.8),
+        0 0 6px rgba(168, 123, 4, 0.8),
+        0 0 12px rgba(168, 123, 4, 0.8);
+}
+  .neon-gold-puro {
+    /* Efecto de borde */
+    color: #A87B04; /* Relleno del texto */
+    /* -webkit-text-stroke: 1px #fff; Borde del texto */
+
+    /* Efecto de neón */
+    text-shadow: 
+        0 0 1.5px rgba(168, 123, 4, 0.8), /* Más opacidad */
+        0 0 3px rgba(168, 123, 4, 0.8),
+        0 0 6px rgba(168, 123, 4, 0.8),
+        0 0 12px rgba(168, 123, 4, 0.8);
+}
 }
 
 @layer utilities {

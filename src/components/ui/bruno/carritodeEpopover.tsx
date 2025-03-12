@@ -72,7 +72,7 @@ const parsePrice = (price: any) => {
     <Popover placement="bottom" showArrow offset={10} classNames={{ content: "bg-[#FFFFFF]" }}>
       <PopoverTrigger>
         <button className="text-white p-1 rounded-full flex justify-center items-center">
-          <Badge content={totalItemsInCart} shape="circle" className="bg-[#006FEE] text-white border-0">
+          <Badge content={totalItemsInCart} shape="circle" className="bg-colors-egp-gold text-white border-0">
             <FaCartShopping className="w-6 h-6 cursor-pointer hover:text-cyan-400 transition-all" />
           </Badge>
         </button>

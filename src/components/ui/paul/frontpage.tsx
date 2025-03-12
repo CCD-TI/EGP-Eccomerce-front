@@ -37,7 +37,7 @@ const FrontPage = () => {
     >
       {/* Imagen de fondo */}
       <Image
-        src="https://pub-9d2abfa175714e64aed33b90722a9fd5.r2.dev/Multimedia/Imagen/Ccd/landing/bg-comprimidito.jpg"
+        src="https://pub-3d37c601c64a44ff8ec0a62bc03016eb.r2.dev/Ejemplos/bg-1.jpg"
         alt="Fondo azul CCD"
         fill
         style={{ objectFit: "cover" }}
@@ -91,15 +91,8 @@ const FrontPage = () => {
             </div>
 
             {/* Columna derecha: Títulos, iconos y botón */}
-            <div className="flex flex-col items-center lg:w-[45%] text-center lg:text-left max-lg:pt-0 pt-0 ">
-              <Image
-                alt="img"
-                src="https://pub-9d2abfa175714e64aed33b90722a9fd5.r2.dev/Multimedia/Imagen/Ccd/landing/CAMPA%C3%91A_POTENCIA%20TU%20CV_ccd.png"
-                className="size-[90%] max-2xl:size-full"
-                width={900}
-                height={900}
-                priority
-              />
+            <div className="flex flex-col items-center lg:w-[45%] text-center lg:text-left max-lg:pt-0 pt-0 relative">
+            
               <h1 className="w-full max-w-md font-extrabold mb-6 leading-tight tracking-wider hidden">
                 <span
                   className="text-4xl md:text-5xl lg:text-6xl text-transparent mr-2"
@@ -138,96 +131,52 @@ const FrontPage = () => {
               </p>
 
               {/* Iconos */}
-              <div className="flex justify-center gap-4 ">
+              <div className="flex justify-center gap-4 size-fit">
                 <Link href="/gestion">
-                  <div className="relative max-sm:w-[110px] w-[130px] h-[150px] flex flex-col items-center justify-center transition-transform duration-300 ease-in-out hover:scale-110">
-                    {/* Contenedor con imagen de fondo e ícono */}
-                    <div className="relative w-full h-full flex flex-col items-center justify-center">
-                      {/* Imagen de fondo */}
-                      <img
-                        src="/Multimedia/Imagen/ccdcorp/iconoshome/DEGRADADO ROJO.png"
-                        alt="Imagen de fondo"
-                        className="absolute w-full h-full object-cover rounded-lg z-0"
-                      />
-
-                      {/* Icono */}
-                      <img
-                        src="/Multimedia/Imagen/ccdcorp/iconoshome/ICONOS-25.svg"
-                        alt="Icono"
-                        className="absolute top-1/2 left-1/2 w-[60px] h-[60px] object-contain transform -translate-x-1/2 -translate-y-1/2 z-10"
-                      />
-                    </div>
-
-                    {/* Texto debajo del contenedor */}
-                    <div className="mt-2 absolute bottom-2 ">
-                      <p className="text-white font-semibold text-center text-xl">
-                        Gestión
-                      </p>
-                    </div>
-                  </div>
-                </Link>
-                <Link href="/ingenieria">
-                  <div className="relative max-sm:w-[110px] w-[130px] h-[150px] flex flex-col items-center justify-center transition-transform duration-300 ease-in-out hover:scale-110">
-                    {/* Contenedor con imagen de fondo e ícono */}
-                    <div className="relative w-full h-full flex flex-col items-center justify-center">
-                      {/* Imagen de fondo */}
-                      <img
-                        src="/Multimedia/Imagen/ccdcorp/iconoshome/DEGRADADO AZUL.png"
-                        alt="Imagen de fondo"
-                        className="absolute w-full h-full object-cover rounded-lg z-0"
-                      />
-
-                      {/* Icono */}
-                      <img
-                        src="/Multimedia/Imagen/ccdcorp/iconoshome/ICONOS-19.svg"
-                        alt="Icono"
-                        className="absolute top-1/2 left-1/2 w-[60px] h-[60px] object-contain transform -translate-x-1/2 -translate-y-1/2 z-10"
-                      />
-                    </div>
-
-                    {/* Texto debajo del contenedor */}
-                    <div className="mt-2 absolute bottom-2 ">
-                      <p className="text-white font-semibold text-center text-xl">
-                        Ingeniería
-                      </p>
-                    </div>
-                  </div>
-                </Link>
-                <Link href="/mineria">
-                  <div className="relative max-sm:w-[110px] w-[130px] h-[150px] flex flex-col items-center justify-center transition-transform duration-300 ease-in-out hover:scale-110">
+                  <div className="relative max-sm:w-[110px] w-[300px] h-[160px] flex flex-col items-center justify-center transition-transform duration-300 ease-in-out hover:scale-110">
                     {/* Contenedor con imagen de fondo e ícono */}
                     <div className="relative w-full h-full flex flex-col items-center justify-center">
                       {/* Imagen de fondo */}
                       <img
                         src="/Multimedia/Imagen/ccdcorp/iconoshome/DEGRADADO NARANJA.png"
                         alt="Imagen de fondo"
-                        className="absolute w-full h-full object-cover rounded-lg z-0"
+                        className="absolute w-[300px] h-[300px] object-cover rounded-lg z-0"
                       />
 
                       {/* Icono */}
                       <img
-                        src="/Multimedia/Imagen/ccdcorp/iconoshome/ICONOS-23.svg"
+                        src="/Multimedia/Imagen/ccdcorp/iconoshome/ICONOS-25.svg"
                         alt="Icono"
-                        className="absolute top-1/2 left-1/2 w-[60px] h-[60px] object-contain transform -translate-x-1/2 -translate-y-1/2 z-10"
+                        className="absolute top-1/2 left-1/2 w-[250px] h-[130px] object-contain transform -translate-x-1/2 -translate-y-1/2 z-10"
                       />
                     </div>
 
                     {/* Texto debajo del contenedor */}
-                    <div className="mt-2 absolute bottom-2 ">
-                      <p className="text-white font-semibold text-center text-xl">
-                        Minería
+                    {/* <div className="mt-2 absolute bottom-2 ">
+                      <p className="text-white font-semibold text-center text-5xl">
+                        Gestión
                       </p>
-                    </div>
+                    </div> */}
                   </div>
                 </Link>
+           
               </div>
-
+              <Image
+                alt="img"
+                src="https://pub-9d2abfa175714e64aed33b90722a9fd5.r2.dev/Multimedia/Imagen/Ccd/landing/CAMPA%C3%91A_POTENCIA%20TU%20CV_ccd.png"
+                className="size-[70%] max-2xl:size-full object-cover"
+                width={900}
+                height={900}
+                priority
+              />
               {/* Botón */}
               <ModalPromo
-                css=" max-sm:w-fit border-3 mt-2 hover:text-colors-dark-blue-ccd bg-transparent border-colors-cyan-ccd text-colors-cyan-ccd 
+                css=" max-sm:w-fit border-3 mt-2 hover:text-white bg-transparent border-colors-egp-gold text-colors-egp-gold
             text-[30px] max-sm:text-2xl font-bold p-4  rounded-2xl 
-            shadow-lg hover:bg-[#00d3c5] hover:shadow-[0_0_25px_5px_rgba(0,234,223,0.7)] transition-all duration-300"
+            shadow-lg hover:bg-colors-egp-gold hover:shadow-[0_0_25px_5px_rgba(168,123,4,0.7)] transition-all duration-300"
               />
+
+              
             </div>
           </div>
         </div>

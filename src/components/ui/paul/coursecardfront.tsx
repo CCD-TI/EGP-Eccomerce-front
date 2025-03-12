@@ -42,13 +42,13 @@ const CourseCardFront: React.FC<any> = ({
       >
         {/* Icono en la esquina superior izquierda */}
         <div
-          className={`flex justify-center items-center z-10 w-16 h-16 absolute -top-8 left-5 bg-gradient-to-t from-[rgba(40,58,137,1)] to-[rgba(0,0,0,1)] rounded-full p-3 shadow-md ${
+          className={`flex justify-center items-center z-10 w-16 h-16 absolute -top-8 left-5 bg-gradient-to-t from-black to-colors-egp-gold rounded-full p-3 shadow-md ${
             array.Escuela === "Gestión"
-              ? "border-red-500 border-[2px]"
+              ? "border-colors-egp-silver border-[2px]"
               : array.Escuela === "Ingeniería"
               ? "border-blue-500 border-[2px]"
               : "border-orange-500 border-[2px]"
-          }`}
+        }`}
         >
           <img
             src={
@@ -86,7 +86,7 @@ const CourseCardFront: React.FC<any> = ({
         <div
           className={`p-4 text-white rounded-b-2xl rounded-t-none -mt-4 pt-7 h-[150px] ${
             array.Escuela === "Gestión"
-              ? "bg-gradient-to-br from-[rgba(255,0,0,0.4)] via-[rgba(22,46,84,0.5)] to-[rgba(255,0,0,0.4)] border-2 border-[rgba(22,46,84,0.4)]"
+              ? "bg-gradient-to-br from-[rgba(205,191,88,0.85)] via-transparent to-[rgba(205,191,88,0.85)] border-2 border-[rgba(22,46,84,0.4)]"
               : array.Escuela === "Ingeniería"
               ? "bg-gradient-to-br from-[rgba(0,96,254,0.4)] via-[rgba(22,46,84,0.5)] to-[rgba(0,96,254,0.4)] border-2 border-[rgba(22,46,84,0.4)]"
               : "bg-gradient-to-br from-[rgba(249,115,22,0.6)] via-[rgba(22,46,84,0.5)] to-[rgba(255,115,22,0.5)] border-2 border-[rgba(22,46,84,0.4)]"
@@ -135,8 +135,8 @@ const CourseCardFront: React.FC<any> = ({
               <div className="pt-2">
                 <button
                   onClick={handleMoreInfoClick}
-                   className="w-full text-xl py-1   bg-colors-cyan-ccd text-color 
-          text-colors-dark-blue-ccd rounded-[8px] cursor-pointer group-hover:shadow-[0_0_25px_5px_rgba(0,234,223,0.7)]"
+                   className="w-full text-xl py-1  font-bold  bg-colors-egp-silver  
+          text-colors-egp-gold rounded-[8px] cursor-pointer border-2 border-colors-egp-silver group-hover:shadow-[0_0_25px_5px_rgba(168,123,4,0.7)] group-hover:border-colors-egp-gold"
                 >
                   Más información
                 </button>
