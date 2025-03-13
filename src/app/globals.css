@@ -144,6 +144,11 @@ body {
   background-size: cover ;
   background-position: center ;
 }
+.bg-Gestion-Cursos {
+  background-image: url('https://pub-3d37c601c64a44ff8ec0a62bc03016eb.r2.dev/Ejemplos/bg-6.jpg') ;
+  background-size: cover ;
+  background-position: center ;
+}
 .bg-landing-end {
   background-image: url('https://pub-3d37c601c64a44ff8ec0a62bc03016eb.r2.dev/Ejemplos/bg-5.jpg') !important;
   background-size: cover !important;

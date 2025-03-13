@@ -194,7 +194,9 @@ const CollegeCourseSection: React.FC<{
   }, [cursosCompletos, especializaciones]);
 
   return (
-    <div className="w-[95%] mx-auto ">
+   
+
+    <div className="w-[95%] mx-auto  ">
       {/* Search Bar */}
       <div
         className=" relative w-full mt-8 mb-8 flex gap-8 justify-center items-center max-sm:px-8"
@@ -432,7 +434,7 @@ const CollegeCourseSection: React.FC<{
             <p className="text-white text-center">Cargando cursos...</p>
           ) : filteredCursos.length > 0 ? (
             <>
-              <div className="flex flex-wrap gap-6 px-0 mx-0 justify-center bg-[#0B1026] py-10">
+              <div className="flex flex-wrap gap-6 px-0 mx-0 justify-center  py-10">
                 {currentCourses.map((curso) => (
                   <CourseCard
                     key={curso.IdCurso}
@@ -487,6 +489,7 @@ const CollegeCourseSection: React.FC<{
         </main>
       </div>
     </div>
+    
   );
 };
 

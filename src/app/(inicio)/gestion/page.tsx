@@ -19,9 +19,9 @@ export default function Home() {
   }, []);
   return (
     <>
-      <div className="bg-[#0B1026]">
+      <div className="bg-[#151517] ">
         <BannerCarouselCollege escuela="Gestión" tipomodalidad="En Vivo" />
-        <CollegeSections />
+        {/* <CollegeSections /> */}
         <CollegeCourseSection
           t1="Multimedia"
           t2="Imagen"

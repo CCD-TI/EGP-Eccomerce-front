@@ -393,7 +393,7 @@ const Navbar = () => {
                   <MdKeyboardArrowDown className="text-2xl transition-transform duration-300 ease-in-out group-hover:rotate-180" />
                 </button>
                 {activeCategory === "escuelas" && (
-                  <div className="absolute top-full left-0 bg-colors-egp-black bg-opacity-60 rounded-2xl py-4 shadow-lg backdrop-blur-md">
+                  <div className="absolute top-full left-0 bg-colors-night-blue-ccd2 bg-opacity-60 rounded-2xl py-4 shadow-lg backdrop-blur-md">
                     {/* Subcategorías */}
                     <ul className="flex flex-col gap-2 ">
                       <li
@@ -401,8 +401,24 @@ const Navbar = () => {
                         onMouseEnter={() => handleSubMouseEnter("gestion", 2)} // Cambia "2" por el ID real de la escuela
                         onMouseLeave={handleSubMouseLeave}
                       >
-                        <div className="px-4 w-[300px] h-full flex flex-col gap-4 ">
-                        {especializaciones[2]?.map(
+                        <div className="px-4">
+                          <Link
+                            href="/gestion"
+                            className="p-4 w-44 hover:border-colors-sky-ccd border-transparent border-[1px] rounded-xl flex items-center gap-3"
+                          >
+                            <div className="bg-gradient-to-t from-[rgba(40,58,137,1)] to-[rgba(0,0,0,1)] flex items-center justify-center w-10 h-10 rounded-full outline outline-[1.5px] outline-red-500">
+                              <img
+                                src={images.gestion}
+                                alt="Icono Gestión"
+                                className="text-white text-[2px] p-[5px] -translate-y-[2.5px]"
+                              />
+                            </div>
+                            Gestión
+                          </Link>
+                        </div>
+                        {activeSubCategory === "gestion" && (
+                          <ul className="flex flex-col gap-3 absolute w-80 top-0 left-full bg-colors-night-blue-ccd2 bg-opacity-60 p-4 rounded-2xl shadow-lg backdrop-blur-md">
+                            {especializaciones[2]?.map(
                               (
                                 especializacion,
                                 idx // Aquí usamos el schoolId 2 como ejemplo
@@ -427,10 +443,8 @@ const Navbar = () => {
                                 </li>
                               )
                             )}
-                        </div>
-                     
-                         
-                        
+                          </ul>
+                        )}
                       </li>
 
                     
